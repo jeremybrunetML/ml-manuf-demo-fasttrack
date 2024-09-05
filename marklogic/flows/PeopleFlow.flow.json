@@ -1,0 +1,13 @@
+{
+  "name": "PeopleFlow",
+  "steps": {
+    "1": {
+      "stepId": "PeopleIngestion-ingestion"
+    },
+    "2": {
+      "stepId": "PeopleMapping-mapping"
+    }
+  },
+  "description": "People Flow",
+  "lastUpdated": "2022-11-11T09:10:13.679221+01:00"
+}

@@ -1,0 +1,1456 @@
+2024-03-15 10:15:31.416 Notice: Starting MarkLogic Server 11.1.0 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
+2024-03-15 10:15:31.417 Info: MarkLogic Converters not installed
+2024-03-15 10:15:31.424 Info: Host 4261937dbf60 with 32GB memory running Linux 5.15.146.1-microsoft-standard-WSL2 (CentOS Linux release 7.9.2009 (Core)) on Docker
+2024-03-15 10:15:31.425 Info: MarkLogic Server is running in docker environment
+2024-03-15 10:15:31.425 Info:+Swap space= 8388608KB and Huge pages=0
+2024-03-15 10:15:31.425 Warning: Linux swap is underprovisioned; need=32GB have=8GB
+2024-03-15 10:15:31.617 Info: License key languages: en
+2024-03-15 10:15:31.673 Info: Using icu tokenization: ta ro tr da fi hu
+2024-03-15 10:15:31.673 Info: Using bitext stemming: en en-uc
+2024-03-15 10:15:31.673 Info: Using snowball stemming: ta ro tr da fi hu
+2024-03-15 10:15:32.216 Info: Loaded schemas, rule sets, and templates
+2024-03-15 10:15:32.282 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off, auditLogEncryption=off}
+2024-03-15 10:15:32.291 Info: Native plugin cache manifest initialized
+2024-03-15 10:15:32.294 Info: TempDir: MARKLOGIC_TEMP_DIR not set. So not considered as temp-dir.
+2024-03-15 10:15:32.294 Info: TempDir: TempDir=/var/opt/MarkLogic/Temp because group config or MARKLOGIC_TEMP_DIR not set/invalid.
+2024-03-15 10:15:32.304 Info: Forest Security state changed from unmounted to mounted
+2024-03-15 10:15:32.304 Info: Forest Last-Login state changed from unmounted to mounted
+2024-03-15 10:15:32.304 Info: Forest App-Services state changed from unmounted to mounted
+2024-03-15 10:15:32.304 Info: Forest Schemas state changed from unmounted to mounted
+2024-03-15 10:15:32.304 Info: Forest Triggers state changed from unmounted to mounted
+2024-03-15 10:15:32.304 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.304 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.304 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.304 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.304 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.312 Info: Forest data-hub-JOBS-4 state changed from unmounted to mounted
+2024-03-15 10:15:32.312 Notice: Mounted forest data-hub-JOBS-4 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-4 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.312 Info: Forest Schemas state changed from mounted to recovering
+2024-03-15 10:15:32.313 Info: Forest Schemas state changed from recovering to open
+2024-03-15 10:15:32.313 Info: Forest Meters state changed from unmounted to mounted
+2024-03-15 10:15:32.315 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.315 Info: Forest Triggers state changed from mounted to recovering
+2024-03-15 10:15:32.316 Info: Forest Last-Login state changed from mounted to recovering
+2024-03-15 10:15:32.316 Info: Forest Triggers state changed from recovering to open
+2024-03-15 10:15:32.317 Info: Forest Last-Login state changed from recovering to open
+2024-03-15 10:15:32.319 Info: Forest data-hub-JOBS-3 state changed from unmounted to mounted
+2024-03-15 10:15:32.320 Notice: Mounted forest data-hub-JOBS-3 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-3 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.320 Info: Forest data-hub-staging-SCHEMAS-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.321 Info: Forest data-hub-JOBS-2 state changed from unmounted to mounted
+2024-03-15 10:15:32.321 Notice: Mounted forest data-hub-staging-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.321 Info: Forest data-hub-JOBS-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.321 Notice: Mounted forest data-hub-JOBS-2 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-2 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.321 Notice: Mounted forest data-hub-JOBS-1 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.324 Info: Forest App-Services state changed from mounted to recovering
+2024-03-15 10:15:32.329 Info: Forest data-hub-STAGING-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.331 Info: Forest App-Services state changed from recovering to open
+2024-03-15 10:15:32.331 Info: Forest data-hub-STAGING-2 state changed from unmounted to mounted
+2024-03-15 10:15:32.331 Info: Forest data-hub-STAGING-3 state changed from unmounted to mounted
+2024-03-15 10:15:32.331 Notice: Mounted forest data-hub-STAGING-1 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.332 Info: Forest data-hub-JOBS-4 state changed from mounted to recovering
+2024-03-15 10:15:32.334 Info: Forest Security state changed from mounted to recovering
+2024-03-15 10:15:32.335 Notice: Mounted forest data-hub-STAGING-3 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-3 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.335 Notice: Mounted forest data-hub-STAGING-2 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-2 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.337 Info: Forest data-hub-JOBS-1 state changed from mounted to recovering
+2024-03-15 10:15:32.338 Info: Forest data-hub-FINAL-3 state changed from unmounted to mounted
+2024-03-15 10:15:32.338 Notice: Mounted forest data-hub-FINAL-3 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-3 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.340 Info: Forest data-hub-JOBS-2 state changed from mounted to recovering
+2024-03-15 10:15:32.340 Info: Forest data-hub-JOBS-4 state changed from recovering to open
+2024-03-15 10:15:32.340 Info: Forest data-hub-final-TRIGGERS-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.341 Info: Forest Modules state changed from unmounted to mounted
+2024-03-15 10:15:32.342 Info: Forest data-hub-staging-SCHEMAS-1 state changed from mounted to recovering
+2024-03-15 10:15:32.343 Info: Forest data-hub-JOBS-1 state changed from recovering to open
+2024-03-15 10:15:32.344 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.345 Info: Forest data-hub-FINAL-2 state changed from unmounted to mounted
+2024-03-15 10:15:32.345 Notice: Mounted forest data-hub-final-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.348 Info: Forest data-hub-MODULES-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.349 Info: Forest Security state changed from recovering to open
+2024-03-15 10:15:32.349 Info: Forest data-hub-JOBS-2 state changed from recovering to open
+2024-03-15 10:15:32.349 Info: Deleted 2 MB at 605 MB/sec /var/opt/MarkLogic/Forests/Meters/00000054
+2024-03-15 10:15:32.351 Notice: Mounted forest data-hub-FINAL-2 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-2 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.351 Info: Forest Fab state changed from unmounted to mounted
+2024-03-15 10:15:32.351 Info: Forest data-hub-FINAL-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.351 Info: Forest data-hub-staging-SCHEMAS-1 state changed from recovering to open
+2024-03-15 10:15:32.351 Notice: Mounted forest data-hub-MODULES-1 locally on /var/opt/MarkLogic/Forests/data-hub-MODULES-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.351 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.352 Notice: Mounted forest data-hub-FINAL-1 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.352 Info: Forest Modules state changed from mounted to recovering
+2024-03-15 10:15:32.354 Info: Forest data-hub-STAGING-3 state changed from mounted to recovering
+2024-03-15 10:15:32.354 Info: Forest Meters state changed from mounted to recovering
+2024-03-15 10:15:32.354 Info: Forest Modules state changed from recovering to open
+2024-03-15 10:15:32.354 Info: Forest data-hub-final-SCHEMAS-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.354 Info: Forest data-hub-staging-TRIGGERS-1 state changed from unmounted to mounted
+2024-03-15 10:15:32.357 Info: Forest Fab state changed from mounted to recovering
+2024-03-15 10:15:32.359 Info: Forest data-hub-final-TRIGGERS-1 state changed from mounted to recovering
+2024-03-15 10:15:32.359 Info: Forest data-hub-final-TRIGGERS-1 state changed from recovering to open
+2024-03-15 10:15:32.379 Info: Forest data-hub-JOBS-3 state changed from mounted to recovering
+2024-03-15 10:15:32.379 Info: Forest data-hub-JOBS-3 state changed from recovering to open
+2024-03-15 10:15:32.409 Notice: Mounted forest data-hub-final-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.409 Warning: Linux Transparent Huge Pages are enabled, diminishing performance; recommend disabling
+2024-03-15 10:15:32.409 Info: Database Security is online with 1 forest
+2024-03-15 10:15:32.410 Info: Database Triggers is online with 1 forest
+2024-03-15 10:15:32.412 Info: Database Schemas is online with 1 forest
+2024-03-15 10:15:32.412 Info: Forest Documents state changed from unmounted to mounted
+2024-03-15 10:15:32.413 Info: Database Modules is online with 1 forest
+2024-03-15 10:15:32.414 Info: Database App-Services is online with 1 forest
+2024-03-15 10:15:32.415 Info: Forest Extensions state changed from unmounted to mounted
+2024-03-15 10:15:32.415 Info: Database data-hub-final-TRIGGERS is online with 1 forest
+2024-03-15 10:15:32.416 Info: Database data-hub-staging-SCHEMAS is online with 1 forest
+2024-03-15 10:15:32.417 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.417 Info: Database Last-Login is online with 1 forest
+2024-03-15 10:15:32.419 Info: Forest Fab state changed from recovering to open
+2024-03-15 10:15:32.422 Notice: Mounted forest data-hub-staging-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1 read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.425 Info: Forest Extensions state changed from mounted to recovering
+2024-03-15 10:15:32.425 Info: Forest data-hub-STAGING-2 state changed from mounted to recovering
+2024-03-15 10:15:32.425 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write (sdf ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-03-15 10:15:32.427 Info: Forest Extensions state changed from recovering to open
+2024-03-15 10:15:32.429 Info: Forest data-hub-STAGING-3 state changed from recovering to open
+2024-03-15 10:15:32.430 Info: Forest data-hub-FINAL-3 state changed from mounted to recovering
+2024-03-15 10:15:32.430 Info: Forest Documents state changed from mounted to recovering
+2024-03-15 10:15:32.430 Info: Forest Documents state changed from recovering to open
+2024-03-15 10:15:32.431 Info: Forest data-hub-STAGING-2 state changed from recovering to open
+2024-03-15 10:15:32.431 Info: Forest data-hub-FINAL-2 state changed from mounted to recovering
+2024-03-15 10:15:32.432 Info: Forest data-hub-STAGING-1 state changed from mounted to recovering
+2024-03-15 10:15:32.433 Info: Forest data-hub-MODULES-1 state changed from mounted to recovering
+2024-03-15 10:15:32.433 Info: Forest data-hub-FINAL-3 state changed from recovering to open
+2024-03-15 10:15:32.434 Info: Forest data-hub-FINAL-2 state changed from recovering to open
+2024-03-15 10:15:32.435 Info: Forest data-hub-final-SCHEMAS-1 state changed from mounted to recovering
+2024-03-15 10:15:32.435 Info: Forest data-hub-MODULES-1 state changed from recovering to open
+2024-03-15 10:15:32.436 Info: Forest data-hub-staging-TRIGGERS-1 state changed from mounted to recovering
+2024-03-15 10:15:32.436 Info: Forest data-hub-final-SCHEMAS-1 state changed from recovering to open
+2024-03-15 10:15:32.436 Info: Forest data-hub-STAGING-1 state changed from recovering to open
+2024-03-15 10:15:32.437 Info: Forest data-hub-staging-TRIGGERS-1 state changed from recovering to open
+2024-03-15 10:15:32.443 Info: Forest data-hub-FINAL-1 state changed from mounted to recovering
+2024-03-15 10:15:32.444 Info: Forest data-hub-FINAL-1 state changed from recovering to open
+2024-03-15 10:15:33.059 Info: Database data-hub-final-SCHEMAS is online with 1 forest
+2024-03-15 10:15:33.060 Info: Database data-hub-JOBS is online with 4 forests
+2024-03-15 10:15:33.061 Info: Database Extensions is online with 1 forest
+2024-03-15 10:15:33.062 Info: Database data-hub-STAGING is online with 3 forests
+2024-03-15 10:15:33.063 Info: Database data-hub-staging-TRIGGERS is online with 1 forest
+2024-03-15 10:15:33.065 Info: Database data-hub-MODULES is online with 1 forest
+2024-03-15 10:15:33.066 Info: Database Documents is online with 1 forest
+2024-03-15 10:15:33.067 Info: Database data-hub-FINAL is online with 3 forests
+2024-03-15 10:15:33.068 Info: Database Fab is online with 1 forest
+2024-03-15 10:15:35.776 Info: Forest Meters state changed from recovering to open
+2024-03-15 10:15:36.072 Info: Linux Huge Pages: detected 0, recommend 5120 to 9056
+2024-03-15 10:15:36.072 Info: Database Meters is online with 1 forest
+2024-03-15 10:20:00.262 Info: Memory 1% phys=31928 size=1148(3%) rss=601(1%) anon=797(2%) file=9(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 10:21:59.086 Info: Uploaded 1 records, 1 MB of Usage Data to Telemetry in 1 sec
+2024-03-15 10:47:36.063 Warning: Hung 642 sec
+2024-03-15 10:47:36.561 Warning: Canary thread sleep was 642014 ms
+2024-03-15 10:50:00.084 Info: Memory 2% phys=31928 size=1559(4%) rss=784(2%) anon=1206(3%) file=9(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:00:11.631 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000017
+2024-03-15 11:00:11.681 Info: Saved 8 MB at 159 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000017
+2024-03-15 11:00:11.685 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000017 and /var/opt/MarkLogic/Forests/App-Services/00000016 to /var/opt/MarkLogic/Forests/App-Services/00000018, timestamp=17104962011950690
+2024-03-15 11:00:11.725 Info: Merged 1 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000018
+2024-03-15 11:00:15.188 Info: Deleted 1 MB at 85 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000016
+2024-03-15 11:00:15.193 Info: Deleted 8 MB at 1619 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000017
+2024-03-15 11:01:00.067 Info: Memory 14% phys=31928 size=7974(24%) rss=4550(14%) anon=7554(23%) file=77(0%) forest=3634(11%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:02:16.496 Info: Reindexed range-indexes 22 fragments at 464 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:02:16.503 Info: Reindexed range-indexes 24 fragments at 450 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:02:16.504 Info: Reindexed range-indexes 33 fragments at 615 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:02:16.564 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000013 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000015, timestamp=17104969312940940
+2024-03-15 11:02:16.578 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000013 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000015, timestamp=17104969312940940
+2024-03-15 11:02:16.578 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000013 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000015, timestamp=17104969312940940
+2024-03-15 11:02:16.720 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000015
+2024-03-15 11:02:16.728 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000015
+2024-03-15 11:02:16.731 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000015
+2024-03-15 11:02:16.738 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000015 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000016, timestamp=17104969312940940
+2024-03-15 11:02:16.829 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000016
+2024-03-15 11:02:20.112 Info: Deleted 1 MB at 92 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000013
+2024-03-15 11:02:20.115 Info: Deleted 1 MB at 358 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000013
+2024-03-15 11:02:20.118 Info: Deleted 1 MB at 336 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000013
+2024-03-15 11:02:20.121 Info: Deleted 1 MB at 328 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000015
+2024-03-15 11:02:28.640 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000016
+2024-03-15 11:02:28.656 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000016
+2024-03-15 11:02:28.660 Info: Saving /var/opt/MarkLogic/Forests/Security/0000000f
+2024-03-15 11:02:28.712 Info: Saved 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/Security/0000000f
+2024-03-15 11:02:28.717 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/0000000e and /var/opt/MarkLogic/Forests/Security/0000000f to /var/opt/MarkLogic/Forests/Security/00000010, timestamp=17104963407638070
+2024-03-15 11:02:28.717 Info: Saved 8 MB at 104 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000016
+2024-03-15 11:02:28.723 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000016 and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000015 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000017, timestamp=17104963407638070
+2024-03-15 11:02:28.732 Info: Saved 8 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000016
+2024-03-15 11:02:28.738 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000016 and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000015 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000017, timestamp=17104963407638070
+2024-03-15 11:02:28.792 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000017
+2024-03-15 11:02:28.800 Info: Merged 2 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/Security/00000010
+2024-03-15 11:02:28.810 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000017
+2024-03-15 11:02:32.140 Info: Deleted 1 MB at 379 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000015
+2024-03-15 11:02:32.143 Info: Deleted 8 MB at 2593 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000016
+2024-03-15 11:02:32.145 Info: Deleted 1 MB at 431 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000015
+2024-03-15 11:02:32.149 Info: Deleted 8 MB at 2681 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000016
+2024-03-15 11:02:32.151 Info: Deleted 1 MB at 359 MB/sec /var/opt/MarkLogic/Forests/Security/0000000f
+2024-03-15 11:02:32.154 Info: Deleted 2 MB at 993 MB/sec /var/opt/MarkLogic/Forests/Security/0000000e
+2024-03-15 11:02:33.703 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000014
+2024-03-15 11:02:33.708 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000014
+2024-03-15 11:02:33.721 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000014
+2024-03-15 11:02:33.726 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000014
+2024-03-15 11:02:33.801 Info: Saved 8 MB at 82 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000014
+2024-03-15 11:02:33.808 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000014 and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000013 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000015, timestamp=17104963515892220
+2024-03-15 11:02:33.832 Info: Saved 8 MB at 75 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000014
+2024-03-15 11:02:33.838 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000014 and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000013 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000015, timestamp=17104963515892220
+2024-03-15 11:02:33.840 Info: Saved 8 MB at 68 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000014
+2024-03-15 11:02:33.846 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000014 and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000013 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000015, timestamp=17104963515892220
+2024-03-15 11:02:33.925 Info: Saved 19 MB at 88 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000014
+2024-03-15 11:02:33.930 Info: Merging 29 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000014 and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000013 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000015, timestamp=17104963515892220
+2024-03-15 11:02:33.952 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000015
+2024-03-15 11:02:33.980 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000015
+2024-03-15 11:02:33.990 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000015
+2024-03-15 11:02:34.111 Info: Merged 17 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000015
+2024-03-15 11:02:36.592 Info: Refragmented new fields 7 fragments at 262 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:02:36.610 Info: Refragmented new fields 14 fragments at 317 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:02:36.631 Info: Refragmented new fields 23 fragments at 353 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:02:37.139 Info: Deleted 1 MB at 91 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000013
+2024-03-15 11:02:37.146 Info: Deleted 8 MB at 1162 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000014
+2024-03-15 11:02:37.149 Info: Deleted 11 MB at 3283 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000013
+2024-03-15 11:02:37.154 Info: Deleted 19 MB at 4522 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000014
+2024-03-15 11:02:37.159 Info: Deleted 1 MB at 209 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000013
+2024-03-15 11:02:37.163 Info: Deleted 8 MB at 1889 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000014
+2024-03-15 11:02:37.169 Info: Deleted 1 MB at 176 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000013
+2024-03-15 11:02:37.172 Info: Deleted 8 MB at 2307 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000014
+2024-03-15 11:03:00.210 Info: Memory 19% phys=31928 size=10225(32%) rss=6178(19%) anon=9782(30%) file=100(0%) forest=4684(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:04:00.158 Info: Memory 16% phys=31928 size=8708(27%) rss=5196(16%) anon=8265(25%) file=100(0%) forest=4684(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:04:20.688 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000004
+2024-03-15 11:04:20.696 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000019
+2024-03-15 11:04:20.709 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000004
+2024-03-15 11:04:20.790 Info: Saved 8 MB at 79 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000004
+2024-03-15 11:04:20.794 Info: Saved 8 MB at 82 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000019
+2024-03-15 11:04:20.794 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000004 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000003 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000005, timestamp=17104964401953160
+2024-03-15 11:04:20.796 Info: Saved 8 MB at 91 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000004
+2024-03-15 11:04:20.799 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000019 and /var/opt/MarkLogic/Forests/App-Services/00000018 to /var/opt/MarkLogic/Forests/App-Services/0000001a, timestamp=17104964401953160
+2024-03-15 11:04:20.802 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000004 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000003 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000005, timestamp=17104964401953160
+2024-03-15 11:04:20.863 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000005
+2024-03-15 11:04:20.865 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001a
+2024-03-15 11:04:20.873 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000005
+2024-03-15 11:04:22.506 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000018
+2024-03-15 11:04:22.522 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000018
+2024-03-15 11:04:22.609 Info: Saved 8 MB at 77 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000018
+2024-03-15 11:04:22.611 Info: Saved 8 MB at 90 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000018
+2024-03-15 11:04:22.615 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000018 and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000019, timestamp=17104964401953160
+2024-03-15 11:04:22.615 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000018 and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000019, timestamp=17104964401953160
+2024-03-15 11:04:22.682 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000019
+2024-03-15 11:04:22.684 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000019
+2024-03-15 11:04:24.039 Info: Deleted 1 MB at 253 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000003
+2024-03-15 11:04:24.044 Info: Deleted 8 MB at 1505 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000004
+2024-03-15 11:04:24.047 Info: Deleted 1 MB at 310 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000018
+2024-03-15 11:04:24.051 Info: Deleted 8 MB at 1995 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000019
+2024-03-15 11:04:24.054 Info: Deleted 1 MB at 346 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000003
+2024-03-15 11:04:24.058 Info: Deleted 8 MB at 2117 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000004
+2024-03-15 11:04:24.061 Info: Deleted 1 MB at 332 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000017
+2024-03-15 11:04:24.065 Info: Deleted 8 MB at 2078 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000018
+2024-03-15 11:04:24.068 Info: Deleted 1 MB at 371 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000017
+2024-03-15 11:04:24.072 Info: Deleted 8 MB at 2152 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000018
+2024-03-15 11:04:26.695 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000016
+2024-03-15 11:04:26.701 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000016
+2024-03-15 11:04:26.708 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000014
+2024-03-15 11:04:26.719 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000016
+2024-03-15 11:04:26.723 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000014
+2024-03-15 11:04:26.725 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000016
+2024-03-15 11:04:26.728 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000014
+2024-03-15 11:04:26.855 Info: Saved 8 MB at 50 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000016
+2024-03-15 11:04:26.863 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000016 and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000015 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000017, timestamp=17104964401953160
+2024-03-15 11:04:26.867 Info: Saved 8 MB at 57 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000016
+2024-03-15 11:04:26.867 Info: Saved 8 MB at 54 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000016
+2024-03-15 11:04:26.875 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000016 and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000015 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000017, timestamp=17104964401953160
+2024-03-15 11:04:26.875 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000016 and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000015 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000017, timestamp=17104964401953160
+2024-03-15 11:04:26.970 Info: Saved 8 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000014
+2024-03-15 11:04:26.977 Info: Saved 8 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000014
+2024-03-15 11:04:26.978 Info: Merging 5 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000014 and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000015 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000016, timestamp=17104969565994950
+2024-03-15 11:04:26.982 Info: Saved 8 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000014
+2024-03-15 11:04:26.984 Info: Merging 5 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000014 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000015 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000016, timestamp=17104969566258541
+2024-03-15 11:04:26.988 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000014 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000016 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000017, timestamp=17104969565878960
+2024-03-15 11:04:26.993 Info: Saved 19 MB at 65 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000016
+2024-03-15 11:04:27.000 Info: Merging 36 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000016 and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000015 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000017, timestamp=17104964401953160
+2024-03-15 11:04:27.034 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000017
+2024-03-15 11:04:27.053 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000017
+2024-03-15 11:04:27.054 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000017
+2024-03-15 11:04:27.191 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000016
+2024-03-15 11:04:27.204 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000016
+2024-03-15 11:04:27.204 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000017
+2024-03-15 11:04:27.263 Info: Merged 21 MB at 80 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000017
+2024-03-15 11:04:30.085 Info: Deleted 1 MB at 156 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000015
+2024-03-15 11:04:30.090 Info: Deleted 8 MB at 1639 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000016
+2024-03-15 11:04:30.094 Info: Deleted 17 MB at 5194 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000015
+2024-03-15 11:04:30.099 Info: Deleted 19 MB at 3729 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000016
+2024-03-15 11:04:30.104 Info: Deleted 1 MB at 199 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000015
+2024-03-15 11:04:30.110 Info: Deleted 8 MB at 1279 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000014
+2024-03-15 11:04:30.114 Info: Deleted 1 MB at 259 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000015
+2024-03-15 11:04:30.119 Info: Deleted 8 MB at 1775 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000016
+2024-03-15 11:04:30.123 Info: Deleted 1 MB at 227 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000015
+2024-03-15 11:04:30.130 Info: Deleted 8 MB at 1288 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000014
+2024-03-15 11:04:30.134 Info: Deleted 1 MB at 244 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000015
+2024-03-15 11:04:30.139 Info: Deleted 8 MB at 1670 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000016
+2024-03-15 11:04:30.143 Info: Deleted 1 MB at 248 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000016
+2024-03-15 11:04:30.148 Info: Deleted 8 MB at 1639 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000014
+2024-03-15 11:08:00.112 Info: Memory 11% phys=31928 size=6190(19%) rss=3705(11%) anon=5837(18%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:10:01.762 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000001a to /var/opt/MarkLogic/Forests/App-Services/0000001b, timestamp=17104968002993320
+2024-03-15 11:10:01.811 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001b
+2024-03-15 11:10:05.172 Info: Deleted 1 MB at 76 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001a
+2024-03-15 11:11:00.193 Info: Memory 6% phys=31928 size=3128(9%) rss=2030(6%) anon=2775(8%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:11:01.676 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000019 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001a, timestamp=17104968603163060
+2024-03-15 11:11:01.677 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000018, timestamp=17104968603163060
+2024-03-15 11:11:01.685 Info: Merging 14 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000018, timestamp=17104968603163060
+2024-03-15 11:11:01.697 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000019 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001a, timestamp=17104968603163060
+2024-03-15 11:11:01.702 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000017 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000018, timestamp=17104968603163060
+2024-03-15 11:11:01.708 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000017 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000018, timestamp=17104968603163060
+2024-03-15 11:11:01.836 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001a
+2024-03-15 11:11:01.857 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001a
+2024-03-15 11:11:01.948 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000018
+2024-03-15 11:11:01.958 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000018
+2024-03-15 11:11:01.961 Info: Merged 17 MB at 62 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000018
+2024-03-15 11:11:01.961 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000018
+2024-03-15 11:11:05.041 Info: Deleted 1 MB at 222 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000019
+2024-03-15 11:11:05.046 Info: Deleted 1 MB at 217 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000017
+2024-03-15 11:11:05.050 Info: Deleted 21 MB at 5666 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000017
+2024-03-15 11:11:05.053 Info: Deleted 1 MB at 268 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000019
+2024-03-15 11:11:05.058 Info: Deleted 1 MB at 219 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000017
+2024-03-15 11:11:05.063 Info: Deleted 1 MB at 236 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000017
+2024-03-15 11:13:01.657 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001a to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001b, timestamp=17104969803386890
+2024-03-15 11:13:01.660 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000018 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000019, timestamp=17104969803386890
+2024-03-15 11:13:01.668 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000018 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000019, timestamp=17104969803386890
+2024-03-15 11:13:01.670 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000005 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000006, timestamp=17104969803386890
+2024-03-15 11:13:01.681 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000001b to /var/opt/MarkLogic/Forests/App-Services/0000001c, timestamp=17104969803386890
+2024-03-15 11:13:01.682 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001a to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001b, timestamp=17104969803386890
+2024-03-15 11:13:01.688 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000018 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000019, timestamp=17104969803386890
+2024-03-15 11:13:01.690 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000010 to /var/opt/MarkLogic/Forests/Security/00000011, timestamp=17104969803386890
+2024-03-15 11:13:01.699 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000018 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000019, timestamp=17104969803386890
+2024-03-15 11:13:01.703 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000005 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000006, timestamp=17104969803386890
+2024-03-15 11:13:01.880 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001c
+2024-03-15 11:13:01.889 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001b
+2024-03-15 11:13:01.894 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000006
+2024-03-15 11:13:01.901 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001b
+2024-03-15 11:13:01.902 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000006
+2024-03-15 11:13:01.908 Info: Merged 2 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/Security/00000011
+2024-03-15 11:13:01.945 Info: Merged 11 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000019
+2024-03-15 11:13:01.977 Info: Merged 1 MB at 3 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000019
+2024-03-15 11:13:01.983 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000019
+2024-03-15 11:13:01.984 Info: Merged 1 MB at 3 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000019
+2024-03-15 11:13:05.036 Info: Deleted 1 MB at 103 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001a
+2024-03-15 11:13:05.039 Info: Deleted 1 MB at 338 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000018
+2024-03-15 11:13:05.041 Info: Deleted 17 MB at 7268 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000018
+2024-03-15 11:13:05.043 Info: Deleted 1 MB at 442 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000005
+2024-03-15 11:13:05.045 Info: Deleted 1 MB at 515 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001b
+2024-03-15 11:13:05.048 Info: Deleted 1 MB at 483 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001a
+2024-03-15 11:13:05.050 Info: Deleted 2 MB at 779 MB/sec /var/opt/MarkLogic/Forests/Security/00000010
+2024-03-15 11:13:05.053 Info: Deleted 1 MB at 327 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000018
+2024-03-15 11:13:05.056 Info: Deleted 1 MB at 344 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000018
+2024-03-15 11:13:05.059 Info: Deleted 1 MB at 435 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000005
+2024-03-15 11:13:46.751 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000016 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000017, timestamp=17104970260225440
+2024-03-15 11:13:46.766 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000016 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000017, timestamp=17104970260225440
+2024-03-15 11:13:46.769 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000017 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000018, timestamp=17104970260225440
+2024-03-15 11:13:46.949 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000017
+2024-03-15 11:13:46.961 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000017
+2024-03-15 11:13:46.964 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000018
+2024-03-15 11:13:50.170 Info: Deleted 1 MB at 95 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000016
+2024-03-15 11:13:50.174 Info: Deleted 1 MB at 246 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000016
+2024-03-15 11:13:50.178 Info: Deleted 1 MB at 301 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000017
+2024-03-15 11:14:46.469 Info: Reindexed range-indexes 24 fragments at 296 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:14:46.482 Info: Reindexed range-indexes 22 fragments at 231 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:14:46.490 Info: Reindexed range-indexes 33 fragments at 321 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:14:52.569 Info: Saving /var/opt/MarkLogic/Forests/Security/00000012
+2024-03-15 11:14:52.605 Info: Saved 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/Security/00000012
+2024-03-15 11:14:52.609 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000011 and /var/opt/MarkLogic/Forests/Security/00000012 to /var/opt/MarkLogic/Forests/Security/00000013, timestamp=17104970864888681
+2024-03-15 11:14:52.693 Info: Merged 2 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/Security/00000013
+2024-03-15 11:14:57.075 Info: Deleted 1 MB at 425 MB/sec /var/opt/MarkLogic/Forests/Security/00000012
+2024-03-15 11:14:57.077 Info: Deleted 2 MB at 792 MB/sec /var/opt/MarkLogic/Forests/Security/00000011
+2024-03-15 11:15:15.485 Info: Refragmented new fields 7 fragments at 253 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:15:15.495 Info: Refragmented new fields 14 fragments at 373 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:15:15.520 Info: Refragmented new fields 23 fragments at 353 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:16:00.091 Info: Memory 16% phys=31928 size=8055(25%) rss=5377(16%) anon=7612(23%) file=99(0%) forest=4690(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:16:09.698 Info: Saving /var/opt/MarkLogic/Forests/Security/00000014
+2024-03-15 11:16:09.732 Info: Saved 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/00000014
+2024-03-15 11:16:09.736 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000013 and /var/opt/MarkLogic/Forests/Security/00000014 to /var/opt/MarkLogic/Forests/Security/00000015, timestamp=17104971601264620
+2024-03-15 11:16:09.817 Info: Merged 2 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/Security/00000015
+2024-03-15 11:16:13.156 Info: Deleted 2 MB at 407 MB/sec /var/opt/MarkLogic/Forests/Security/00000013
+2024-03-15 11:16:13.158 Info: Deleted 1 MB at 454 MB/sec /var/opt/MarkLogic/Forests/Security/00000014
+2024-03-15 11:17:01.714 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000007
+2024-03-15 11:17:01.734 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000007
+2024-03-15 11:17:01.782 Info: Saved 8 MB at 118 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000007
+2024-03-15 11:17:01.786 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000007 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000006 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000008, timestamp=17104972203092820
+2024-03-15 11:17:01.794 Info: Saved 8 MB at 134 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000007
+2024-03-15 11:17:01.800 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000007 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000006 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000008, timestamp=17104972203092820
+2024-03-15 11:17:01.845 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000008
+2024-03-15 11:17:01.861 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000008
+2024-03-15 11:17:05.086 Info: Deleted 1 MB at 163 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000006
+2024-03-15 11:17:05.092 Info: Deleted 8 MB at 1481 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000007
+2024-03-15 11:17:05.095 Info: Deleted 1 MB at 279 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000006
+2024-03-15 11:17:05.100 Info: Deleted 8 MB at 1675 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000007
+2024-03-15 11:17:07.616 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001a
+2024-03-15 11:17:07.636 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001a
+2024-03-15 11:17:07.638 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000018
+2024-03-15 11:17:07.640 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001a
+2024-03-15 11:17:07.642 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000019
+2024-03-15 11:17:07.751 Info: Saved 8 MB at 59 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001a
+2024-03-15 11:17:07.758 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001a and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000019 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001b, timestamp=17104972203092820
+2024-03-15 11:17:07.769 Info: Saved 8 MB at 62 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001a
+2024-03-15 11:17:07.770 Info: Saved 8 MB at 59 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001a
+2024-03-15 11:17:07.777 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001a and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000019 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001b, timestamp=17104972203092820
+2024-03-15 11:17:07.777 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001a and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000019 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001b, timestamp=17104972203092820
+2024-03-15 11:17:07.861 Info: Saved 8 MB at 36 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000018
+2024-03-15 11:17:07.863 Info: Saved 8 MB at 36 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000019
+2024-03-15 11:17:07.867 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000018 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000019, timestamp=17104977155184511
+2024-03-15 11:17:07.868 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000019 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000018 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001a, timestamp=17104977154828761
+2024-03-15 11:17:07.906 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001b
+2024-03-15 11:17:07.920 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001b
+2024-03-15 11:17:07.922 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001b
+2024-03-15 11:17:08.026 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000019
+2024-03-15 11:17:08.028 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001a
+2024-03-15 11:17:08.623 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001c
+2024-03-15 11:17:08.630 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001a
+2024-03-15 11:17:08.639 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001c
+2024-03-15 11:17:08.715 Info: Saved 8 MB at 87 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001c
+2024-03-15 11:17:08.723 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001c and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001b to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001d, timestamp=17104972203092820
+2024-03-15 11:17:08.735 Info: Saved 8 MB at 84 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001c
+2024-03-15 11:17:08.741 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001c and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001b to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001d, timestamp=17104972203092820
+2024-03-15 11:17:08.802 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001d
+2024-03-15 11:17:08.824 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001d
+2024-03-15 11:17:08.866 Info: Saved 19 MB at 81 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001a
+2024-03-15 11:17:08.870 Info: Merging 30 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001a and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000019 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001b, timestamp=17104972203092820
+2024-03-15 11:17:09.027 Info: Merged 17 MB at 109 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001b
+2024-03-15 11:17:11.041 Info: Deleted 1 MB at 79 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000019
+2024-03-15 11:17:11.046 Info: Deleted 8 MB at 1483 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001a
+2024-03-15 11:17:11.051 Info: Deleted 1 MB at 222 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000019
+2024-03-15 11:17:11.055 Info: Deleted 8 MB at 1727 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001a
+2024-03-15 11:17:11.061 Info: Deleted 1 MB at 204 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000017
+2024-03-15 11:17:11.067 Info: Deleted 8 MB at 1263 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000018
+2024-03-15 11:17:11.071 Info: Deleted 1 MB at 250 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000019
+2024-03-15 11:17:11.077 Info: Deleted 8 MB at 1448 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001a
+2024-03-15 11:17:11.082 Info: Deleted 1 MB at 182 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000018
+2024-03-15 11:17:11.089 Info: Deleted 8 MB at 1192 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000019
+2024-03-15 11:17:11.093 Info: Deleted 1 MB at 286 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001b
+2024-03-15 11:17:11.097 Info: Deleted 8 MB at 1731 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001c
+2024-03-15 11:17:11.102 Info: Deleted 11 MB at 2736 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000019
+2024-03-15 11:17:11.107 Info: Deleted 19 MB at 3903 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001a
+2024-03-15 11:17:11.110 Info: Deleted 1 MB at 293 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001b
+2024-03-15 11:17:11.114 Info: Deleted 8 MB at 1912 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001c
+2024-03-15 11:18:27.690 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000018
+2024-03-15 11:18:27.807 Info: Saved 8 MB at 68 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000018
+2024-03-15 11:18:27.811 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000018 and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000017 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000019, timestamp=17104977154922201
+2024-03-15 11:18:27.931 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000019
+2024-03-15 11:18:31.197 Info: Deleted 1 MB at 167 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000017
+2024-03-15 11:18:31.203 Info: Deleted 8 MB at 1335 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000018
+2024-03-15 11:20:51.768 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000001d
+2024-03-15 11:20:51.820 Info: Saved 8 MB at 154 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001d
+2024-03-15 11:20:51.824 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000001d and /var/opt/MarkLogic/Forests/App-Services/0000001c to /var/opt/MarkLogic/Forests/App-Services/0000001e, timestamp=17104974002997490
+2024-03-15 11:20:51.862 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001e
+2024-03-15 11:20:55.100 Info: Deleted 1 MB at 170 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001c
+2024-03-15 11:20:55.104 Info: Deleted 8 MB at 1745 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001d
+2024-03-15 11:21:00.073 Info: Memory 8% phys=31928 size=4396(13%) rss=2775(8%) anon=4043(12%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:22:23.846 Info: Deadlock detected locking App-Services /workspaces/11419248721277587774.xml
+2024-03-15 11:23:49.577 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000001e to /var/opt/MarkLogic/Forests/App-Services/00000020, timestamp=17104976289974120
+2024-03-15 11:23:49.618 Info: Merged 1 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000020
+2024-03-15 11:23:53.196 Info: Deleted 1 MB at 494 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001e
+2024-03-15 11:24:44.392 Info: Reindexed range-indexes 25 fragments at 358 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:24:44.410 Info: Reindexed range-indexes 24 fragments at 285 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:24:44.426 Info: Reindexed range-indexes 34 fragments at 342 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:24:44.690 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000019 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001b, timestamp=17104982791460490
+2024-03-15 11:24:44.705 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000019 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001b, timestamp=17104982791460490
+2024-03-15 11:24:44.707 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001a to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001c, timestamp=17104982791460490
+2024-03-15 11:24:44.899 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001b
+2024-03-15 11:24:44.916 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001b
+2024-03-15 11:24:44.918 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001c
+2024-03-15 11:24:48.007 Info: Deleted 1 MB at 264 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000019
+2024-03-15 11:24:48.010 Info: Deleted 1 MB at 330 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000019
+2024-03-15 11:24:48.013 Info: Deleted 1 MB at 334 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001a
+2024-03-15 11:24:51.685 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000020 to /var/opt/MarkLogic/Forests/App-Services/00000021, timestamp=17104976909871650
+2024-03-15 11:24:51.689 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000015 to /var/opt/MarkLogic/Forests/Security/00000017, timestamp=17104976909871650
+2024-03-15 11:24:51.736 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000021
+2024-03-15 11:24:51.756 Info: Merged 2 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/00000017
+2024-03-15 11:24:55.054 Info: Deleted 1 MB at 505 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000020
+2024-03-15 11:24:55.710 Info: Saving /var/opt/MarkLogic/Forests/Security/00000016
+2024-03-15 11:24:55.754 Info: Saved 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/Security/00000016
+2024-03-15 11:24:55.757 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000017 and /var/opt/MarkLogic/Forests/Security/00000016 to /var/opt/MarkLogic/Forests/Security/00000018, timestamp=17104976911138120
+2024-03-15 11:24:55.808 Info: Merged 2 MB at 39 MB/sec to /var/opt/MarkLogic/Forests/Security/00000018
+2024-03-15 11:24:59.225 Info: Deleted 2 MB at 832 MB/sec /var/opt/MarkLogic/Forests/Security/00000017
+2024-03-15 11:25:02.205 Info: Deleted 1 MB at 259 MB/sec /var/opt/MarkLogic/Forests/Security/00000016
+2024-03-15 11:25:02.208 Info: Deleted 2 MB at 883 MB/sec /var/opt/MarkLogic/Forests/Security/00000015
+2024-03-15 11:25:04.372 Info: Refragmented new fields 7 fragments at 464 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:25:04.397 Info: Refragmented new fields 14 fragments at 346 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:25:04.401 Info: Refragmented new fields 23 fragments at 517 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:25:57.566 Info: Saving /var/opt/MarkLogic/Forests/Security/00000019
+2024-03-15 11:25:57.603 Info: Saved 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/Security/00000019
+2024-03-15 11:25:57.606 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000018 and /var/opt/MarkLogic/Forests/Security/00000019 to /var/opt/MarkLogic/Forests/Security/0000001a, timestamp=17104977266829950
+2024-03-15 11:25:57.669 Info: Merged 2 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001a
+2024-03-15 11:26:00.260 Info: Memory 18% phys=31928 size=8711(27%) rss=5784(18%) anon=8268(25%) file=100(0%) forest=4684(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:26:01.047 Info: Deleted 2 MB at 158 MB/sec /var/opt/MarkLogic/Forests/Security/00000018
+2024-03-15 11:26:01.051 Info: Deleted 1 MB at 264 MB/sec /var/opt/MarkLogic/Forests/Security/00000019
+2024-03-15 11:26:01.595 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001d to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001f, timestamp=17104977603243340
+2024-03-15 11:26:01.596 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001b to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001d, timestamp=17104977603243340
+2024-03-15 11:26:01.601 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001b to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001d, timestamp=17104977603243340
+2024-03-15 11:26:01.605 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000008 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000a, timestamp=17104977603243340
+2024-03-15 11:26:01.614 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000021 to /var/opt/MarkLogic/Forests/App-Services/00000022, timestamp=17104977603243340
+2024-03-15 11:26:01.615 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001d to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001f, timestamp=17104977603243340
+2024-03-15 11:26:01.621 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001b to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001d, timestamp=17104977603243340
+2024-03-15 11:26:01.626 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001b to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001d, timestamp=17104977603243340
+2024-03-15 11:26:01.629 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000008 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000a, timestamp=17104977603243340
+2024-03-15 11:26:01.698 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001f
+2024-03-15 11:26:01.699 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000022
+2024-03-15 11:26:01.700 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000a
+2024-03-15 11:26:01.706 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001f
+2024-03-15 11:26:01.719 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000a
+2024-03-15 11:26:01.756 Info: Merged 11 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001d
+2024-03-15 11:26:01.770 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001d
+2024-03-15 11:26:01.777 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001d
+2024-03-15 11:26:01.780 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001d
+2024-03-15 11:26:05.193 Info: Deleted 1 MB at 415 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001d
+2024-03-15 11:26:05.196 Info: Deleted 1 MB at 347 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001b
+2024-03-15 11:26:05.198 Info: Deleted 17 MB at 8379 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001b
+2024-03-15 11:26:05.200 Info: Deleted 1 MB at 462 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000008
+2024-03-15 11:26:05.203 Info: Deleted 1 MB at 446 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000021
+2024-03-15 11:26:05.205 Info: Deleted 1 MB at 416 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001d
+2024-03-15 11:26:05.209 Info: Deleted 1 MB at 253 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001b
+2024-03-15 11:26:05.213 Info: Deleted 1 MB at 257 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001b
+2024-03-15 11:26:05.216 Info: Deleted 1 MB at 345 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000008
+2024-03-15 11:26:48.607 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000009
+2024-03-15 11:26:48.696 Info: Saved 8 MB at 90 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000009
+2024-03-15 11:26:48.700 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000009 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000a to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000b, timestamp=17104977603243340
+2024-03-15 11:26:48.757 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000b
+2024-03-15 11:26:49.618 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000009
+2024-03-15 11:26:49.713 Info: Saved 8 MB at 84 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000009
+2024-03-15 11:26:49.718 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000009 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000a to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000b, timestamp=17104977603243340
+2024-03-15 11:26:49.779 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000b
+2024-03-15 11:26:52.058 Info: Deleted 1 MB at 155 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000a
+2024-03-15 11:26:52.063 Info: Deleted 8 MB at 1581 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000009
+2024-03-15 11:26:52.068 Info: Deleted 1 MB at 230 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000a
+2024-03-15 11:26:52.076 Info: Deleted 8 MB at 988 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000009
+2024-03-15 11:26:55.650 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001c
+2024-03-15 11:26:55.660 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001a
+2024-03-15 11:26:55.670 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001c
+2024-03-15 11:26:55.673 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001a
+2024-03-15 11:26:55.675 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001c
+2024-03-15 11:26:55.676 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001b
+2024-03-15 11:26:55.890 Info: Saved 8 MB at 33 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001c
+2024-03-15 11:26:55.899 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001c and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001d to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001e, timestamp=17104977603243340
+2024-03-15 11:26:55.903 Info: Saved 8 MB at 35 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001c
+2024-03-15 11:26:55.904 Info: Saved 8 MB at 34 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001c
+2024-03-15 11:26:55.913 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001c and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001d to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001e, timestamp=17104977603243340
+2024-03-15 11:26:55.914 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001c and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001d to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001e, timestamp=17104977603243340
+2024-03-15 11:26:55.971 Info: Saved 8 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001a
+2024-03-15 11:26:55.978 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001a and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001b to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001c, timestamp=17104983043953441
+2024-03-15 11:26:55.984 Info: Saved 8 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001a
+2024-03-15 11:26:55.986 Info: Saved 8 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001b
+2024-03-15 11:26:55.991 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001a and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001b to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001c, timestamp=17104983043991031
+2024-03-15 11:26:55.993 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001b and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001c to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001d, timestamp=17104983043718070
+2024-03-15 11:26:56.047 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001e
+2024-03-15 11:26:56.057 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001e
+2024-03-15 11:26:56.058 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001e
+2024-03-15 11:26:56.144 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001c
+2024-03-15 11:26:56.154 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001c
+2024-03-15 11:26:56.158 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001d
+2024-03-15 11:26:56.589 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001e
+2024-03-15 11:26:56.597 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001c
+2024-03-15 11:26:56.609 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000001f
+2024-03-15 11:26:56.610 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001e
+2024-03-15 11:26:56.735 Info: Saved 8 MB at 54 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001e
+2024-03-15 11:26:56.738 Info: Saved 8 MB at 62 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000001f
+2024-03-15 11:26:56.743 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001e and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001f to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000020, timestamp=17104977603243340
+2024-03-15 11:26:56.746 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000001f and /var/opt/MarkLogic/Forests/App-Services/00000022 to /var/opt/MarkLogic/Forests/App-Services/00000023, timestamp=17104977603243340
+2024-03-15 11:26:56.752 Info: Saved 8 MB at 57 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001e
+2024-03-15 11:26:56.760 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001e and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001f to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000020, timestamp=17104977603243340
+2024-03-15 11:26:56.820 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000023
+2024-03-15 11:26:56.823 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000020
+2024-03-15 11:26:56.837 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000020
+2024-03-15 11:26:56.880 Info: Saved 19 MB at 67 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001c
+2024-03-15 11:26:56.883 Info: Merging 30 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001c and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001d to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001e, timestamp=17104977603243340
+2024-03-15 11:26:57.035 Info: Merged 17 MB at 112 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001e
+2024-03-15 11:26:59.012 Info: Deleted 1 MB at 101 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001d
+2024-03-15 11:26:59.018 Info: Deleted 8 MB at 1444 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001c
+2024-03-15 11:26:59.022 Info: Deleted 1 MB at 221 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001b
+2024-03-15 11:26:59.029 Info: Deleted 8 MB at 1210 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001a
+2024-03-15 11:26:59.034 Info: Deleted 1 MB at 228 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001d
+2024-03-15 11:26:59.039 Info: Deleted 8 MB at 1676 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001c
+2024-03-15 11:26:59.043 Info: Deleted 1 MB at 261 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001b
+2024-03-15 11:26:59.048 Info: Deleted 8 MB at 1511 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001a
+2024-03-15 11:26:59.051 Info: Deleted 1 MB at 298 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001d
+2024-03-15 11:26:59.055 Info: Deleted 8 MB at 1975 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001c
+2024-03-15 11:26:59.059 Info: Deleted 1 MB at 278 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001c
+2024-03-15 11:26:59.064 Info: Deleted 8 MB at 1633 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001b
+2024-03-15 11:26:59.067 Info: Deleted 1 MB at 340 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001f
+2024-03-15 11:26:59.071 Info: Deleted 8 MB at 2247 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000001e
+2024-03-15 11:26:59.074 Info: Deleted 11 MB at 3603 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001d
+2024-03-15 11:26:59.078 Info: Deleted 19 MB at 4455 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001c
+2024-03-15 11:26:59.081 Info: Deleted 1 MB at 411 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000022
+2024-03-15 11:26:59.084 Info: Deleted 8 MB at 2298 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000001f
+2024-03-15 11:26:59.087 Info: Deleted 1 MB at 422 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001f
+2024-03-15 11:26:59.090 Info: Deleted 8 MB at 2681 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000001e
+2024-03-15 11:27:01.621 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/0000001a to /var/opt/MarkLogic/Forests/Security/0000001b, timestamp=17104978201973540
+2024-03-15 11:27:01.688 Info: Merged 2 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001b
+2024-03-15 11:27:05.044 Info: Deleted 2 MB at 505 MB/sec /var/opt/MarkLogic/Forests/Security/0000001a
+2024-03-15 11:27:18.749 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000023 to /var/opt/MarkLogic/Forests/App-Services/00000025, timestamp=17104978372294450
+2024-03-15 11:27:18.805 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000025
+2024-03-15 11:27:22.216 Info: Deleted 1 MB at 99 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000023
+2024-03-15 11:28:40.748 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000025 to /var/opt/MarkLogic/Forests/App-Services/00000026, timestamp=17104979199066570
+2024-03-15 11:28:40.815 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000026
+2024-03-15 11:28:44.026 Info: Deleted 1 MB at 403 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000025
+2024-03-15 11:28:48.744 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000024
+2024-03-15 11:28:48.817 Info: Saved 8 MB at 110 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000024
+2024-03-15 11:28:48.821 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000024 and /var/opt/MarkLogic/Forests/App-Services/00000026 to /var/opt/MarkLogic/Forests/App-Services/00000027, timestamp=17104979279674400
+2024-03-15 11:28:48.856 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000027
+2024-03-15 11:28:52.042 Info: Deleted 1 MB at 193 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000026
+2024-03-15 11:28:52.046 Info: Deleted 8 MB at 1986 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000024
+2024-03-15 11:29:00.212 Info: Memory 21% phys=31928 size=9705(30%) rss=6979(21%) anon=9285(29%) file=77(0%) forest=3634(11%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:30:00.266 Info: Memory 17% phys=31928 size=7655(23%) rss=5627(17%) anon=7227(22%) file=85(0%) forest=3984(12%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:30:01.603 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000027 to /var/opt/MarkLogic/Forests/App-Services/00000029, timestamp=17104980003244110
+2024-03-15 11:30:01.642 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000029
+2024-03-15 11:30:05.035 Info: Deleted 1 MB at 93 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000027
+2024-03-15 11:30:18.691 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000021
+2024-03-15 11:30:18.706 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000021
+2024-03-15 11:30:18.760 Info: Saved 8 MB at 116 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000021
+2024-03-15 11:30:18.764 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000021 and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000020 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000022, timestamp=17104980003244110
+2024-03-15 11:30:18.766 Info: Saved 8 MB at 132 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000021
+2024-03-15 11:30:18.772 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000021 and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000020 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000022, timestamp=17104980003244110
+2024-03-15 11:30:18.819 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000022
+2024-03-15 11:30:18.826 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000022
+2024-03-15 11:30:22.053 Info: Deleted 1 MB at 106 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000020
+2024-03-15 11:30:22.056 Info: Deleted 8 MB at 2741 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000021
+2024-03-15 11:30:22.058 Info: Deleted 1 MB at 481 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000020
+2024-03-15 11:30:22.061 Info: Deleted 8 MB at 2950 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000021
+2024-03-15 11:30:22.538 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001f
+2024-03-15 11:30:22.548 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001d
+2024-03-15 11:30:22.558 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001f
+2024-03-15 11:30:22.560 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001d
+2024-03-15 11:30:22.563 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001f
+2024-03-15 11:30:22.564 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001e
+2024-03-15 11:30:22.728 Info: Saved 8 MB at 42 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001f
+2024-03-15 11:30:22.730 Info: Saved 8 MB at 44 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001d
+2024-03-15 11:30:22.735 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001d and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001c to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001e, timestamp=17104983043953441
+2024-03-15 11:30:22.736 Info: Saved 8 MB at 46 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001f
+2024-03-15 11:30:22.736 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001f and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001e to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000020, timestamp=17104980003244110
+2024-03-15 11:30:22.742 Info: Saved 8 MB at 44 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001d
+2024-03-15 11:30:22.742 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001f and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001e to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000020, timestamp=17104980003244110
+2024-03-15 11:30:22.742 Info: Saved 8 MB at 45 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001e
+2024-03-15 11:30:22.743 Info: Saved 8 MB at 43 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001f
+2024-03-15 11:30:22.747 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001d and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001c to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001e, timestamp=17104983043991031
+2024-03-15 11:30:22.747 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001e and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001d to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001f, timestamp=17104983043718070
+2024-03-15 11:30:22.749 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001f and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001e to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000020, timestamp=17104980003244110
+2024-03-15 11:30:22.865 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000020
+2024-03-15 11:30:22.869 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000020
+2024-03-15 11:30:22.875 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000020
+2024-03-15 11:30:22.900 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001e
+2024-03-15 11:30:22.911 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001e
+2024-03-15 11:30:22.911 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001f
+2024-03-15 11:30:26.151 Info: Deleted 1 MB at 88 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001e
+2024-03-15 11:30:26.156 Info: Deleted 8 MB at 1658 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000001f
+2024-03-15 11:30:26.159 Info: Deleted 1 MB at 292 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001c
+2024-03-15 11:30:26.163 Info: Deleted 8 MB at 2413 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001d
+2024-03-15 11:30:26.166 Info: Deleted 1 MB at 296 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001e
+2024-03-15 11:30:26.170 Info: Deleted 8 MB at 2334 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000001f
+2024-03-15 11:30:26.173 Info: Deleted 1 MB at 285 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001c
+2024-03-15 11:30:26.177 Info: Deleted 8 MB at 2120 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001d
+2024-03-15 11:30:26.180 Info: Deleted 1 MB at 337 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001e
+2024-03-15 11:30:26.184 Info: Deleted 8 MB at 2212 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000001f
+2024-03-15 11:30:26.187 Info: Deleted 1 MB at 306 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001d
+2024-03-15 11:30:26.192 Info: Deleted 8 MB at 1667 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001e
+2024-03-15 11:31:10.726 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001f
+2024-03-15 11:31:10.933 Info: Saved 19 MB at 92 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001f
+2024-03-15 11:31:10.937 Info: Merging 36 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001f and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001e to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000020, timestamp=17104980698014530
+2024-03-15 11:31:11.134 Info: Merged 21 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000020
+2024-03-15 11:31:14.017 Info: Deleted 17 MB at 5984 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001e
+2024-03-15 11:31:14.021 Info: Deleted 19 MB at 5436 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000001f
+2024-03-15 11:31:26.133 Info: Reindexed range-indexes 23 fragments at 242 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:31:26.147 Info: Reindexed range-indexes 25 fragments at 243 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:31:26.147 Info: Reindexed range-indexes 34 fragments at 301 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:31:26.528 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001e to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000020, timestamp=17104986808580520
+2024-03-15 11:31:26.538 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001e to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000020, timestamp=17104986808580520
+2024-03-15 11:31:26.544 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001f to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000021, timestamp=17104986808580520
+2024-03-15 11:31:26.731 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000020
+2024-03-15 11:31:26.738 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000020
+2024-03-15 11:31:26.741 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000021
+2024-03-15 11:31:30.046 Info: Deleted 1 MB at 90 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001e
+2024-03-15 11:31:30.049 Info: Deleted 1 MB at 308 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001e
+2024-03-15 11:31:30.054 Info: Deleted 1 MB at 249 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000001f
+2024-03-15 11:31:37.713 Info: Saving /var/opt/MarkLogic/Forests/Security/0000001c
+2024-03-15 11:31:37.744 Info: Saved 1 MB at 33 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001c
+2024-03-15 11:31:37.748 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/0000001b and /var/opt/MarkLogic/Forests/Security/0000001c to /var/opt/MarkLogic/Forests/Security/0000001d, timestamp=17104980953283180
+2024-03-15 11:31:37.812 Info: Merged 2 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001d
+2024-03-15 11:31:54.126 Info: Deleted 1 MB at 86 MB/sec /var/opt/MarkLogic/Forests/Security/0000001c
+2024-03-15 11:31:54.129 Info: Deleted 2 MB at 646 MB/sec /var/opt/MarkLogic/Forests/Security/0000001b
+2024-03-15 11:31:56.128 Info: Refragmented new fields 7 fragments at 320 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:31:56.144 Info: Refragmented new fields 14 fragments at 373 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:31:56.157 Info: Refragmented new fields 23 fragments at 453 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:32:56.717 Info: Saving /var/opt/MarkLogic/Forests/Security/0000001e
+2024-03-15 11:32:56.743 Info: Saved 1 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001e
+2024-03-15 11:32:56.747 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/0000001d and /var/opt/MarkLogic/Forests/Security/0000001e to /var/opt/MarkLogic/Forests/Security/0000001f, timestamp=17104981566960920
+2024-03-15 11:32:56.825 Info: Merged 2 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/Security/0000001f
+2024-03-15 11:33:00.224 Info: Deleted 2 MB at 431 MB/sec /var/opt/MarkLogic/Forests/Security/0000001d
+2024-03-15 11:33:00.227 Info: Deleted 1 MB at 329 MB/sec /var/opt/MarkLogic/Forests/Security/0000001e
+2024-03-15 11:33:05.578 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000029 to /var/opt/MarkLogic/Forests/App-Services/0000002a, timestamp=17104981851183590
+2024-03-15 11:33:05.613 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002a
+2024-03-15 11:33:09.169 Info: Deleted 1 MB at 104 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000029
+2024-03-15 11:33:45.738 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000c
+2024-03-15 11:33:45.814 Info: Saved 8 MB at 105 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000c
+2024-03-15 11:33:45.818 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000c and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000b to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000d, timestamp=17104982184383670
+2024-03-15 11:33:45.852 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000d
+2024-03-15 11:33:46.543 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000c
+2024-03-15 11:33:46.599 Info: Saved 8 MB at 144 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000c
+2024-03-15 11:33:46.602 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000c and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000b to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000d, timestamp=17104982184383670
+2024-03-15 11:33:46.640 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000d
+2024-03-15 11:33:49.083 Info: Deleted 1 MB at 90 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000b
+2024-03-15 11:33:49.086 Info: Deleted 8 MB at 2129 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000c
+2024-03-15 11:33:49.089 Info: Deleted 1 MB at 464 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000b
+2024-03-15 11:33:49.091 Info: Deleted 8 MB at 3118 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000c
+2024-03-15 11:33:53.638 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000021
+2024-03-15 11:33:53.647 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001f
+2024-03-15 11:33:53.657 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000021
+2024-03-15 11:33:53.662 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000021
+2024-03-15 11:33:53.663 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000020
+2024-03-15 11:33:53.759 Info: Saved 8 MB at 66 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000021
+2024-03-15 11:33:53.766 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000021 and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000020 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000022, timestamp=17104982184383670
+2024-03-15 11:33:53.775 Info: Saved 8 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000021
+2024-03-15 11:33:53.775 Info: Saved 8 MB at 67 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000021
+2024-03-15 11:33:53.781 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000021 and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000020 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000022, timestamp=17104982184383670
+2024-03-15 11:33:53.782 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000021 and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000020 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000022, timestamp=17104982184383670
+2024-03-15 11:33:53.843 Info: Saved 8 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001f
+2024-03-15 11:33:53.849 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001f and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000020 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000021, timestamp=17104987161427801
+2024-03-15 11:33:53.856 Info: Saved 8 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000020
+2024-03-15 11:33:53.865 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000020 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000021 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000022, timestamp=17104987161263811
+2024-03-15 11:33:53.916 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000022
+2024-03-15 11:33:53.933 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000022
+2024-03-15 11:33:53.934 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000022
+2024-03-15 11:33:54.028 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000021
+2024-03-15 11:33:54.038 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000022
+2024-03-15 11:33:55.706 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000023
+2024-03-15 11:33:55.721 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000023
+2024-03-15 11:33:55.789 Info: Saved 8 MB at 96 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000023
+2024-03-15 11:33:55.793 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000023 and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000022 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000024, timestamp=17104982184383670
+2024-03-15 11:33:55.795 Info: Saved 8 MB at 108 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000023
+2024-03-15 11:33:55.801 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000023 and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000022 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000024, timestamp=17104982184383670
+2024-03-15 11:33:55.850 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000024
+2024-03-15 11:33:55.860 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000024
+2024-03-15 11:33:57.243 Info: Deleted 1 MB at 79 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000020
+2024-03-15 11:33:57.248 Info: Deleted 8 MB at 1530 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000021
+2024-03-15 11:33:57.254 Info: Deleted 1 MB at 185 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000020
+2024-03-15 11:33:57.261 Info: Deleted 8 MB at 1120 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000001f
+2024-03-15 11:33:57.265 Info: Deleted 1 MB at 283 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000020
+2024-03-15 11:33:57.270 Info: Deleted 8 MB at 1677 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000021
+2024-03-15 11:33:57.273 Info: Deleted 1 MB at 323 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000020
+2024-03-15 11:33:57.276 Info: Deleted 8 MB at 2418 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000021
+2024-03-15 11:33:57.279 Info: Deleted 1 MB at 361 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000021
+2024-03-15 11:33:57.283 Info: Deleted 8 MB at 2296 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000020
+2024-03-15 11:33:57.285 Info: Deleted 1 MB at 449 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000022
+2024-03-15 11:33:57.291 Info: Deleted 8 MB at 1400 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000023
+2024-03-15 11:33:57.294 Info: Deleted 1 MB at 305 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000022
+2024-03-15 11:33:57.299 Info: Deleted 8 MB at 1661 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000023
+2024-03-15 11:34:06.616 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000021
+2024-03-15 11:34:06.842 Info: Saved 19 MB at 84 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000021
+2024-03-15 11:34:06.848 Info: Merging 40 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000020 and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000021 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000022, timestamp=17104982401465160
+2024-03-15 11:34:07.108 Info: Merged 26 MB at 100 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000022
+2024-03-15 11:34:10.042 Info: Deleted 21 MB at 4256 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000020
+2024-03-15 11:34:10.047 Info: Deleted 19 MB at 3685 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000021
+2024-03-15 11:34:38.604 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001f
+2024-03-15 11:34:38.719 Info: Saved 8 MB at 70 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001f
+2024-03-15 11:34:38.723 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001f and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000020 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000021, timestamp=17104987161552821
+2024-03-15 11:34:38.823 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000021
+2024-03-15 11:34:42.030 Info: Deleted 1 MB at 80 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000020
+2024-03-15 11:34:42.035 Info: Deleted 8 MB at 1935 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000001f
+2024-03-15 11:34:45.551 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000002a to /var/opt/MarkLogic/Forests/App-Services/0000002b, timestamp=17104982847991470
+2024-03-15 11:34:45.555 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/0000001f to /var/opt/MarkLogic/Forests/Security/00000020, timestamp=17104982847991470
+2024-03-15 11:34:45.629 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002b
+2024-03-15 11:34:45.649 Info: Merged 2 MB at 21 MB/sec to /var/opt/MarkLogic/Forests/Security/00000020
+2024-03-15 11:34:49.156 Info: Deleted 1 MB at 119 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002a
+2024-03-15 11:34:49.159 Info: Deleted 2 MB at 640 MB/sec /var/opt/MarkLogic/Forests/Security/0000001f
+2024-03-15 11:36:01.718 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000024 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000025, timestamp=17104983601911560
+2024-03-15 11:36:01.719 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000022 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000023, timestamp=17104983601911560
+2024-03-15 11:36:01.725 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000d to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000e, timestamp=17104983601911560
+2024-03-15 11:36:01.734 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000002b to /var/opt/MarkLogic/Forests/App-Services/0000002c, timestamp=17104983601911560
+2024-03-15 11:36:01.735 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000024 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000025, timestamp=17104983601911560
+2024-03-15 11:36:01.739 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000020 to /var/opt/MarkLogic/Forests/Security/00000022, timestamp=17104983601911560
+2024-03-15 11:36:01.741 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000022 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000023, timestamp=17104983601911560
+2024-03-15 11:36:01.747 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000022 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000023, timestamp=17104983601911560
+2024-03-15 11:36:01.750 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000d to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000e, timestamp=17104983601911560
+2024-03-15 11:36:01.809 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000025
+2024-03-15 11:36:01.814 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000e
+2024-03-15 11:36:01.814 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002c
+2024-03-15 11:36:01.823 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000025
+2024-03-15 11:36:01.828 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000e
+2024-03-15 11:36:01.831 Info: Merged 2 MB at 22 MB/sec to /var/opt/MarkLogic/Forests/Security/00000022
+2024-03-15 11:36:01.875 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000023
+2024-03-15 11:36:01.888 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000023
+2024-03-15 11:36:01.889 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000023
+2024-03-15 11:36:02.574 Info: Saving /var/opt/MarkLogic/Forests/Security/00000021
+2024-03-15 11:36:02.616 Info: Saved 1 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/Security/00000021
+2024-03-15 11:36:02.620 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000022 and /var/opt/MarkLogic/Forests/Security/00000021 to /var/opt/MarkLogic/Forests/Security/00000023, timestamp=17104983601911560
+2024-03-15 11:36:02.672 Info: Merged 2 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/Security/00000023
+2024-03-15 11:36:05.159 Info: Deleted 1 MB at 287 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000024
+2024-03-15 11:36:05.163 Info: Deleted 1 MB at 332 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000022
+2024-03-15 11:36:05.165 Info: Deleted 1 MB at 448 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000d
+2024-03-15 11:36:05.167 Info: Deleted 1 MB at 490 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002b
+2024-03-15 11:36:05.169 Info: Deleted 1 MB at 442 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000024
+2024-03-15 11:36:05.172 Info: Deleted 2 MB at 821 MB/sec /var/opt/MarkLogic/Forests/Security/00000020
+2024-03-15 11:36:05.175 Info: Deleted 1 MB at 304 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000022
+2024-03-15 11:36:05.178 Info: Deleted 1 MB at 367 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000022
+2024-03-15 11:36:05.180 Info: Deleted 1 MB at 454 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000d
+2024-03-15 11:36:05.182 Info: Deleted 2 MB at 861 MB/sec /var/opt/MarkLogic/Forests/Security/00000022
+2024-03-15 11:36:05.185 Info: Deleted 1 MB at 394 MB/sec /var/opt/MarkLogic/Forests/Security/00000021
+2024-03-15 11:37:01.747 Info: Merging 19 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000022 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000023, timestamp=17104984202914980
+2024-03-15 11:37:01.978 Info: Merged 21 MB at 91 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000023
+2024-03-15 11:37:05.238 Info: Deleted 26 MB at 2260 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000022
+2024-03-15 11:37:05.638 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000028
+2024-03-15 11:37:05.646 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000022
+2024-03-15 11:37:05.706 Info: Saved 8 MB at 133 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000022
+2024-03-15 11:37:05.708 Info: Saved 8 MB at 114 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000028
+2024-03-15 11:37:05.711 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000022 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000021 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000023, timestamp=17104987161552821
+2024-03-15 11:37:05.711 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000028 and /var/opt/MarkLogic/Forests/App-Services/0000002c to /var/opt/MarkLogic/Forests/App-Services/0000002d, timestamp=17104984202914980
+2024-03-15 11:37:05.761 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002d
+2024-03-15 11:37:05.830 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000023
+2024-03-15 11:37:09.258 Info: Deleted 1 MB at 91 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002c
+2024-03-15 11:37:09.263 Info: Deleted 8 MB at 1639 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000028
+2024-03-15 11:37:09.268 Info: Deleted 1 MB at 192 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000021
+2024-03-15 11:37:09.273 Info: Deleted 8 MB at 1715 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000022
+2024-03-15 11:38:00.189 Info: Memory 10% phys=31928 size=4725(14%) rss=3194(10%) anon=4372(13%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:38:06.603 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000002d to /var/opt/MarkLogic/Forests/App-Services/0000002f, timestamp=17104984860168720
+2024-03-15 11:38:06.655 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002f
+2024-03-15 11:38:10.107 Info: Deleted 1 MB at 94 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002d
+2024-03-15 11:39:09.592 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000025 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000026, timestamp=17104985487176270
+2024-03-15 11:39:09.594 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000023 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000024, timestamp=17104985487176270
+2024-03-15 11:39:09.599 Info: Merging 13 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000023 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000024, timestamp=17104985487176270
+2024-03-15 11:39:09.608 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000025 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000026, timestamp=17104985487176270
+2024-03-15 11:39:09.609 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000002f to /var/opt/MarkLogic/Forests/App-Services/00000030, timestamp=17104985487176270
+2024-03-15 11:39:09.613 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000023 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000024, timestamp=17104985487176270
+2024-03-15 11:39:09.618 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000023 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000024, timestamp=17104985487176270
+2024-03-15 11:39:09.680 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000026
+2024-03-15 11:39:09.681 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000030
+2024-03-15 11:39:09.688 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000026
+2024-03-15 11:39:09.762 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000024
+2024-03-15 11:39:09.770 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000024
+2024-03-15 11:39:09.774 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000024
+2024-03-15 11:39:09.780 Info: Merged 17 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000024
+2024-03-15 11:39:13.116 Info: Deleted 1 MB at 109 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000025
+2024-03-15 11:39:13.119 Info: Deleted 1 MB at 283 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000023
+2024-03-15 11:39:13.122 Info: Deleted 21 MB at 7991 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000023
+2024-03-15 11:39:13.124 Info: Deleted 1 MB at 520 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002f
+2024-03-15 11:39:13.126 Info: Deleted 1 MB at 507 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000025
+2024-03-15 11:39:13.130 Info: Deleted 1 MB at 254 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000023
+2024-03-15 11:39:13.134 Info: Deleted 1 MB at 266 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000023
+2024-03-15 11:41:01.544 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000030 to /var/opt/MarkLogic/Forests/App-Services/00000031, timestamp=17104986603017340
+2024-03-15 11:41:01.549 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000023 to /var/opt/MarkLogic/Forests/Security/00000024, timestamp=17104986603017340
+2024-03-15 11:41:01.596 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000031
+2024-03-15 11:41:01.616 Info: Merged 2 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/00000024
+2024-03-15 11:41:05.036 Info: Deleted 1 MB at 106 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000030
+2024-03-15 11:41:05.038 Info: Deleted 2 MB at 996 MB/sec /var/opt/MarkLogic/Forests/Security/00000023
+2024-03-15 11:42:35.555 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000026 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000027, timestamp=17104987545296140
+2024-03-15 11:42:35.557 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000024 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000025, timestamp=17104987545296140
+2024-03-15 11:42:35.561 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000024 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000025, timestamp=17104987545296140
+2024-03-15 11:42:35.563 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000e to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000f, timestamp=17104987545296140
+2024-03-15 11:42:35.569 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000031 to /var/opt/MarkLogic/Forests/App-Services/00000032, timestamp=17104987545296140
+2024-03-15 11:42:35.570 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000026 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000027, timestamp=17104987545296140
+2024-03-15 11:42:35.574 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000024 to /var/opt/MarkLogic/Forests/Security/00000025, timestamp=17104987545296140
+2024-03-15 11:42:35.575 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000024 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000025, timestamp=17104987545296140
+2024-03-15 11:42:35.580 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000024 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000025, timestamp=17104987545296140
+2024-03-15 11:42:35.582 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000e to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000f, timestamp=17104987545296140
+2024-03-15 11:42:35.660 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000032
+2024-03-15 11:42:35.662 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000f
+2024-03-15 11:42:35.662 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000027
+2024-03-15 11:42:35.670 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000027
+2024-03-15 11:42:35.679 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000f
+2024-03-15 11:42:35.679 Info: Merged 2 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/Security/00000025
+2024-03-15 11:42:35.727 Info: Merged 11 MB at 66 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000025
+2024-03-15 11:42:35.736 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000025
+2024-03-15 11:42:35.743 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000025
+2024-03-15 11:42:35.747 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000025
+2024-03-15 11:42:39.135 Info: Deleted 1 MB at 167 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000026
+2024-03-15 11:42:39.139 Info: Deleted 1 MB at 243 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000024
+2024-03-15 11:42:39.142 Info: Deleted 17 MB at 5309 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000024
+2024-03-15 11:42:39.147 Info: Deleted 1 MB at 215 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000e
+2024-03-15 11:42:39.151 Info: Deleted 1 MB at 246 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000031
+2024-03-15 11:42:39.154 Info: Deleted 1 MB at 345 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000026
+2024-03-15 11:42:39.157 Info: Deleted 2 MB at 694 MB/sec /var/opt/MarkLogic/Forests/Security/00000024
+2024-03-15 11:42:39.161 Info: Deleted 1 MB at 281 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000024
+2024-03-15 11:42:39.164 Info: Deleted 1 MB at 312 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000024
+2024-03-15 11:42:39.167 Info: Deleted 1 MB at 413 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000e
+2024-03-15 11:43:01.684 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000021 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000022, timestamp=17104987801598930
+2024-03-15 11:43:01.695 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000023 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000024, timestamp=17104987801598930
+2024-03-15 11:43:01.699 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000022 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000023, timestamp=17104987801598930
+2024-03-15 11:43:01.844 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000022
+2024-03-15 11:43:01.857 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000024
+2024-03-15 11:43:01.859 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000023
+2024-03-15 11:43:05.217 Info: Deleted 1 MB at 127 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000021
+2024-03-15 11:43:05.222 Info: Deleted 1 MB at 203 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000023
+2024-03-15 11:43:05.227 Info: Deleted 1 MB at 218 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000022
+2024-03-15 11:43:40.655 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000032 to /var/opt/MarkLogic/Forests/App-Services/00000033, timestamp=17104988198963330
+2024-03-15 11:43:40.709 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000033
+2024-03-15 11:43:44.107 Info: Deleted 1 MB at 139 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000032
+2024-03-15 11:44:00.056 Info: Memory 7% phys=31928 size=3878(12%) rss=2501(7%) anon=3518(11%) file=17(0%) forest=834(2%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:45:26.020 Info: Reindexed range-indexes 35 fragments at 558 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:45:26.027 Info: Reindexed range-indexes 23 fragments at 310 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:45:26.034 Info: Reindexed range-indexes 25 fragments at 305 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:45:26.597 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000024 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000026, timestamp=17104995207918270
+2024-03-15 11:45:26.699 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000026
+2024-03-15 11:45:30.220 Info: Deleted 1 MB at 278 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000024
+2024-03-15 11:45:36.761 Info: Saving /var/opt/MarkLogic/Forests/Security/00000026
+2024-03-15 11:45:36.792 Info: Saved 1 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/Security/00000026
+2024-03-15 11:45:36.796 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000025 and /var/opt/MarkLogic/Forests/Security/00000026 to /var/opt/MarkLogic/Forests/Security/00000027, timestamp=17104989314952410
+2024-03-15 11:45:36.848 Info: Merged 2 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/Security/00000027
+2024-03-15 11:45:44.646 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000033 to /var/opt/MarkLogic/Forests/App-Services/00000034, timestamp=17104989432066420
+2024-03-15 11:45:44.685 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000034
+2024-03-15 11:45:46.089 Info: Deleted 1 MB at 98 MB/sec /var/opt/MarkLogic/Forests/Security/00000026
+2024-03-15 11:45:46.091 Info: Deleted 2 MB at 977 MB/sec /var/opt/MarkLogic/Forests/Security/00000025
+2024-03-15 11:45:46.093 Info: Deleted 1 MB at 523 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000033
+2024-03-15 11:45:48.198 Info: Refragmented new fields 7 fragments at 358 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:45:48.207 Info: Refragmented new fields 14 fragments at 503 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:45:48.222 Info: Refragmented new fields 23 fragments at 528 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:46:00.177 Info: Memory 16% phys=31928 size=7364(23%) rss=5335(16%) anon=6974(21%) file=47(0%) forest=2234(6%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:46:35.670 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000027 to /var/opt/MarkLogic/Forests/Security/00000029, timestamp=17104989950980370
+2024-03-15 11:46:35.720 Info: Merged 2 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/Security/00000029
+2024-03-15 11:46:39.127 Info: Deleted 2 MB at 624 MB/sec /var/opt/MarkLogic/Forests/Security/00000027
+2024-03-15 11:46:40.648 Info: Saving /var/opt/MarkLogic/Forests/Security/00000028
+2024-03-15 11:46:40.741 Info: Saved 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/Security/00000028
+2024-03-15 11:46:40.747 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000029 and /var/opt/MarkLogic/Forests/Security/00000028 to /var/opt/MarkLogic/Forests/Security/0000002a, timestamp=17104989983435080
+2024-03-15 11:46:40.815 Info: Merged 2 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002a
+2024-03-15 11:46:44.158 Info: Deleted 2 MB at 197 MB/sec /var/opt/MarkLogic/Forests/Security/00000029
+2024-03-15 11:46:44.162 Info: Deleted 1 MB at 313 MB/sec /var/opt/MarkLogic/Forests/Security/00000028
+2024-03-15 11:47:00.184 Info: Memory 19% phys=31928 size=8783(27%) rss=6281(19%) anon=8340(26%) file=99(0%) forest=4684(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 11:47:31.621 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000010
+2024-03-15 11:47:31.696 Info: Saved 8 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000010
+2024-03-15 11:47:31.700 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000010 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000f to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000011, timestamp=17104990471185420
+2024-03-15 11:47:31.743 Info: Merged 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000011
+2024-03-15 11:47:32.586 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000010
+2024-03-15 11:47:32.663 Info: Saved 8 MB at 104 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000010
+2024-03-15 11:47:32.667 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000010 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000f to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000011, timestamp=17104990471185420
+2024-03-15 11:47:32.704 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000011
+2024-03-15 11:47:35.225 Info: Deleted 1 MB at 180 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/0000000f
+2024-03-15 11:47:35.231 Info: Deleted 8 MB at 1430 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000010
+2024-03-15 11:47:35.234 Info: Deleted 1 MB at 270 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/0000000f
+2024-03-15 11:47:35.239 Info: Deleted 8 MB at 1829 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000010
+2024-03-15 11:48:52.586 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000028
+2024-03-15 11:48:52.602 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000028
+2024-03-15 11:48:52.678 Info: Saved 8 MB at 87 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000028
+2024-03-15 11:48:52.682 Info: Saved 8 MB at 101 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000028
+2024-03-15 11:48:52.682 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000028 and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000027 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000029, timestamp=17104990802839600
+2024-03-15 11:48:52.687 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000028 and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000027 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000029, timestamp=17104990802839600
+2024-03-15 11:48:52.742 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000029
+2024-03-15 11:48:52.747 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000029
+2024-03-15 11:48:56.068 Info: Deleted 1 MB at 208 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000027
+2024-03-15 11:48:56.073 Info: Deleted 8 MB at 1609 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000028
+2024-03-15 11:48:56.077 Info: Deleted 1 MB at 253 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000027
+2024-03-15 11:48:56.082 Info: Deleted 8 MB at 1649 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000028
+2024-03-15 11:48:57.689 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000026
+2024-03-15 11:48:57.693 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000026
+2024-03-15 11:48:57.708 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000026
+2024-03-15 11:48:57.711 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000025
+2024-03-15 11:48:57.713 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000026
+2024-03-15 11:48:57.714 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000024
+2024-03-15 11:48:57.821 Info: Saved 8 MB at 61 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000026
+2024-03-15 11:48:57.826 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000026 and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000025 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000027, timestamp=17104990802839600
+2024-03-15 11:48:57.828 Info: Saved 8 MB at 67 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000026
+2024-03-15 11:48:57.830 Info: Saved 8 MB at 69 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000026
+2024-03-15 11:48:57.836 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000026 and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000025 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000027, timestamp=17104990802839600
+2024-03-15 11:48:57.839 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000026 and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000025 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000027, timestamp=17104990802839600
+2024-03-15 11:48:57.910 Info: Saved 8 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000025
+2024-03-15 11:48:57.912 Info: Saved 8 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000024
+2024-03-15 11:48:57.916 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000025 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000026 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000027, timestamp=17104995482207061
+2024-03-15 11:48:57.918 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000024 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000023 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000025, timestamp=17104995481960400
+2024-03-15 11:48:57.925 Info: Saved 24 MB at 104 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000026
+2024-03-15 11:48:57.930 Info: Merging 34 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000026 and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000025 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000027, timestamp=17104990802839600
+2024-03-15 11:48:57.976 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000027
+2024-03-15 11:48:57.979 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000027
+2024-03-15 11:48:57.986 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000027
+2024-03-15 11:48:58.107 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000025
+2024-03-15 11:48:58.112 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000027
+2024-03-15 11:48:58.148 Info: Merged 21 MB at 96 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000027
+2024-03-15 11:49:01.229 Info: Deleted 1 MB at 99 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000025
+2024-03-15 11:49:01.232 Info: Deleted 8 MB at 2701 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000026
+2024-03-15 11:49:01.234 Info: Deleted 11 MB at 5867 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000025
+2024-03-15 11:49:01.237 Info: Deleted 24 MB at 8122 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000026
+2024-03-15 11:49:01.239 Info: Deleted 1 MB at 401 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000025
+2024-03-15 11:49:01.242 Info: Deleted 8 MB at 2605 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000026
+2024-03-15 11:49:01.245 Info: Deleted 1 MB at 388 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000026
+2024-03-15 11:49:01.249 Info: Deleted 8 MB at 1947 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000025
+2024-03-15 11:49:01.252 Info: Deleted 1 MB at 360 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000025
+2024-03-15 11:49:01.255 Info: Deleted 8 MB at 2698 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000026
+2024-03-15 11:49:01.258 Info: Deleted 1 MB at 323 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000023
+2024-03-15 11:49:01.262 Info: Deleted 8 MB at 2165 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000024
+2024-03-15 11:49:01.578 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000034 to /var/opt/MarkLogic/Forests/App-Services/00000035, timestamp=17104991402956470
+2024-03-15 11:49:01.615 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000035
+2024-03-15 11:49:05.062 Info: Deleted 1 MB at 86 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000034
+2024-03-15 11:49:08.725 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000023
+2024-03-15 11:49:08.728 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000002e
+2024-03-15 11:49:08.810 Info: Saved 8 MB at 97 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000002e
+2024-03-15 11:49:08.815 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/App-Services/0000002e and /var/opt/MarkLogic/Forests/App-Services/00000035 to /var/opt/MarkLogic/Forests/App-Services/00000036, timestamp=17104991402956470
+2024-03-15 11:49:08.876 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000036
+2024-03-15 11:49:08.904 Info: Saved 8 MB at 45 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000023
+2024-03-15 11:49:08.907 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000023 and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000022 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000024, timestamp=17104995482062340
+2024-03-15 11:49:09.008 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000024
+2024-03-15 11:49:12.192 Info: Deleted 1 MB at 87 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000022
+2024-03-15 11:49:12.196 Info: Deleted 8 MB at 1940 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000023
+2024-03-15 11:49:12.199 Info: Deleted 1 MB at 311 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000035
+2024-03-15 11:49:12.202 Info: Deleted 8 MB at 2727 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000002e
+2024-03-15 11:50:01.677 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000036 to /var/opt/MarkLogic/Forests/App-Services/00000038, timestamp=17104992003642600
+2024-03-15 11:50:01.719 Info: Merged 1 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000038
+2024-03-15 11:50:05.130 Info: Deleted 1 MB at 127 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000036
+2024-03-15 11:50:49.697 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000028
+2024-03-15 11:50:49.750 Info: Saved 8 MB at 151 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000028
+2024-03-15 11:50:49.754 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000028 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000027 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000029, timestamp=17104995482207061
+2024-03-15 11:50:49.851 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000029
+2024-03-15 11:50:53.145 Info: Deleted 1 MB at 186 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000027
+2024-03-15 11:50:53.151 Info: Deleted 8 MB at 1372 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000028
+2024-03-15 11:51:07.564 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000025
+2024-03-15 11:51:07.618 Info: Saved 8 MB at 148 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000025
+2024-03-15 11:51:07.622 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000025 and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000024 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000026, timestamp=17104995482062340
+2024-03-15 11:51:07.722 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000026
+2024-03-15 11:51:10.811 Info: Reindexed range-indexes 25 fragments at 353 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:51:10.827 Info: Reindexed range-indexes 25 fragments at 283 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:51:10.829 Info: Reindexed range-indexes 35 fragments at 385 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:51:11.202 Info: Deleted 1 MB at 93 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000024
+2024-03-15 11:51:11.205 Info: Deleted 8 MB at 2569 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000025
+2024-03-15 11:51:11.719 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000026 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000028, timestamp=17104998655321490
+2024-03-15 11:51:11.730 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000029 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002b, timestamp=17104998655321490
+2024-03-15 11:51:11.735 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000025 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000027, timestamp=17104998655321490
+2024-03-15 11:51:11.878 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000028
+2024-03-15 11:51:11.889 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002b
+2024-03-15 11:51:11.893 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000027
+2024-03-15 11:51:15.074 Info: Deleted 1 MB at 176 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000026
+2024-03-15 11:51:15.077 Info: Deleted 1 MB at 331 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000029
+2024-03-15 11:51:15.081 Info: Deleted 1 MB at 267 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000025
+2024-03-15 11:51:22.550 Info: Saving /var/opt/MarkLogic/Forests/Security/0000002b
+2024-03-15 11:51:22.583 Info: Saved 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002b
+2024-03-15 11:51:22.587 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/0000002a and /var/opt/MarkLogic/Forests/Security/0000002b to /var/opt/MarkLogic/Forests/Security/0000002c, timestamp=17104992755422660
+2024-03-15 11:51:22.640 Info: Merged 2 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002c
+2024-03-15 11:51:29.044 Info: Deleted 1 MB at 463 MB/sec /var/opt/MarkLogic/Forests/Security/0000002b
+2024-03-15 11:51:29.046 Info: Deleted 2 MB at 1002 MB/sec /var/opt/MarkLogic/Forests/Security/0000002a
+2024-03-15 11:51:31.643 Info: Refragmented new fields 7 fragments at 506 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 11:51:31.652 Info: Refragmented new fields 14 fragments at 620 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 11:51:31.665 Info: Refragmented new fields 23 fragments at 647 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 11:52:24.536 Info: Saving /var/opt/MarkLogic/Forests/Security/0000002d
+2024-03-15 11:52:24.579 Info: Saved 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002d
+2024-03-15 11:52:24.585 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/0000002c and /var/opt/MarkLogic/Forests/Security/0000002d to /var/opt/MarkLogic/Forests/Security/0000002e, timestamp=17104993202163960
+2024-03-15 11:52:24.646 Info: Merged 2 MB at 33 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002e
+2024-03-15 11:52:28.035 Info: Deleted 2 MB at 181 MB/sec /var/opt/MarkLogic/Forests/Security/0000002c
+2024-03-15 11:52:28.038 Info: Deleted 1 MB at 274 MB/sec /var/opt/MarkLogic/Forests/Security/0000002d
+2024-03-15 11:52:44.618 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000038 to /var/opt/MarkLogic/Forests/App-Services/00000039, timestamp=17104993638831290
+2024-03-15 11:52:44.653 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000039
+2024-03-15 11:52:48.106 Info: Deleted 1 MB at 103 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000038
+2024-03-15 11:53:09.220 Info: Deadlock detected locking App-Services /workspaces/11419248721277587774.xml
+2024-03-15 11:53:15.695 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000012
+2024-03-15 11:53:15.776 Info: Saved 8 MB at 99 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000012
+2024-03-15 11:53:15.780 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000012 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000011 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000013, timestamp=17104993905609090
+2024-03-15 11:53:15.819 Info: Merged 1 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000013
+2024-03-15 11:53:16.788 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000012
+2024-03-15 11:53:16.847 Info: Saved 8 MB at 135 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000012
+2024-03-15 11:53:16.851 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000012 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000011 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000013, timestamp=17104993905609090
+2024-03-15 11:53:16.888 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000013
+2024-03-15 11:53:19.168 Info: Deleted 1 MB at 220 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000011
+2024-03-15 11:53:19.173 Info: Deleted 8 MB at 1634 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000012
+2024-03-15 11:53:19.177 Info: Deleted 1 MB at 275 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000011
+2024-03-15 11:53:19.181 Info: Deleted 8 MB at 1764 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000012
+2024-03-15 11:53:21.640 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000028
+2024-03-15 11:53:21.668 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000028
+2024-03-15 11:53:21.783 Info: Saved 8 MB at 70 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000028
+2024-03-15 11:53:21.783 Info: Saved 8 MB at 56 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000028
+2024-03-15 11:53:21.788 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000028 and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000027 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000029, timestamp=17104993905609090
+2024-03-15 11:53:21.788 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000028 and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000027 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000029, timestamp=17104993905609090
+2024-03-15 11:53:21.921 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000029
+2024-03-15 11:53:21.924 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000029
+2024-03-15 11:53:22.718 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000028
+2024-03-15 11:53:22.721 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002a
+2024-03-15 11:53:22.728 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000026
+2024-03-15 11:53:22.834 Info: Saved 8 MB at 69 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000028
+2024-03-15 11:53:22.841 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000028 and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000027 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000029, timestamp=17104993905609090
+2024-03-15 11:53:22.903 Info: Saved 8 MB at 44 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002a
+2024-03-15 11:53:22.905 Info: Saved 8 MB at 45 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000026
+2024-03-15 11:53:22.907 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002a and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002b to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002c, timestamp=17104998916630691
+2024-03-15 11:53:22.910 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000026 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000027 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000028, timestamp=17104998916418071
+2024-03-15 11:53:22.950 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000029
+2024-03-15 11:53:23.068 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002c
+2024-03-15 11:53:23.071 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000028
+2024-03-15 11:53:23.667 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002a
+2024-03-15 11:53:23.672 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000028
+2024-03-15 11:53:23.681 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002a
+2024-03-15 11:53:23.806 Info: Saved 8 MB at 64 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002a
+2024-03-15 11:53:23.808 Info: Saved 8 MB at 57 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002a
+2024-03-15 11:53:23.815 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002a and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000029 to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002b, timestamp=17104993905609090
+2024-03-15 11:53:23.816 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002a and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000029 to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002b, timestamp=17104993905609090
+2024-03-15 11:53:23.922 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002b
+2024-03-15 11:53:23.923 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002b
+2024-03-15 11:53:23.964 Info: Saved 19 MB at 65 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000028
+2024-03-15 11:53:23.968 Info: Merging 40 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000027 and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000028 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000029, timestamp=17104993905609090
+2024-03-15 11:53:24.203 Info: Merged 26 MB at 110 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000029
+2024-03-15 11:53:25.237 Info: Deleted 1 MB at 162 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000027
+2024-03-15 11:53:25.243 Info: Deleted 8 MB at 1303 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000028
+2024-03-15 11:53:25.249 Info: Deleted 1 MB at 178 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000027
+2024-03-15 11:53:25.255 Info: Deleted 8 MB at 1358 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000028
+2024-03-15 11:53:25.261 Info: Deleted 1 MB at 190 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000027
+2024-03-15 11:53:25.266 Info: Deleted 8 MB at 1427 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000028
+2024-03-15 11:53:25.270 Info: Deleted 1 MB at 254 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002b
+2024-03-15 11:53:25.275 Info: Deleted 8 MB at 1750 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002a
+2024-03-15 11:53:25.279 Info: Deleted 1 MB at 265 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000027
+2024-03-15 11:53:25.283 Info: Deleted 8 MB at 2014 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000026
+2024-03-15 11:53:25.285 Info: Deleted 1 MB at 409 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000029
+2024-03-15 11:53:25.289 Info: Deleted 8 MB at 2646 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002a
+2024-03-15 11:53:25.291 Info: Deleted 21 MB at 9563 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000027
+2024-03-15 11:53:25.294 Info: Deleted 19 MB at 6321 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000028
+2024-03-15 11:53:25.296 Info: Deleted 1 MB at 505 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000029
+2024-03-15 11:53:25.299 Info: Deleted 8 MB at 3057 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002a
+2024-03-15 11:54:01.718 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000039 to /var/opt/MarkLogic/Forests/App-Services/0000003a, timestamp=17104994402440790
+2024-03-15 11:54:01.765 Info: Merged 1 MB at 21 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003a
+2024-03-15 11:54:05.029 Info: Deleted 1 MB at 106 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000039
+2024-03-15 11:54:13.735 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000027
+2024-03-15 11:54:13.879 Info: Saved 8 MB at 56 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000027
+2024-03-15 11:54:13.883 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000027 and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000028 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000029, timestamp=17104998916503081
+2024-03-15 11:54:13.996 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000029
+2024-03-15 11:54:17.217 Info: Deleted 1 MB at 82 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000028
+2024-03-15 11:54:17.223 Info: Deleted 8 MB at 1437 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000027
+2024-03-15 11:55:01.755 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000003a to /var/opt/MarkLogic/Forests/App-Services/0000003b, timestamp=17104995004737910
+2024-03-15 11:55:01.808 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003b
+2024-03-15 11:55:05.096 Info: Deleted 1 MB at 235 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003a
+2024-03-15 11:56:01.670 Info: Merging 19 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000029 to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002a, timestamp=17104995603409980
+2024-03-15 11:56:01.680 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000037
+2024-03-15 11:56:01.685 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/0000002e to /var/opt/MarkLogic/Forests/Security/0000002f, timestamp=17104995603409980
+2024-03-15 11:56:01.747 Info: Saved 8 MB at 119 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000037
+2024-03-15 11:56:01.753 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000037 and /var/opt/MarkLogic/Forests/App-Services/0000003b to /var/opt/MarkLogic/Forests/App-Services/0000003c, timestamp=17104995603409980
+2024-03-15 11:56:01.755 Info: Merged 2 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/Security/0000002f
+2024-03-15 11:56:01.802 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003c
+2024-03-15 11:56:01.865 Info: Merged 21 MB at 108 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002a
+2024-03-15 11:56:05.021 Info: Deleted 26 MB at 5913 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000029
+2024-03-15 11:56:05.024 Info: Deleted 1 MB at 267 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003b
+2024-03-15 11:56:05.029 Info: Deleted 8 MB at 1601 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000037
+2024-03-15 11:56:05.033 Info: Deleted 2 MB at 569 MB/sec /var/opt/MarkLogic/Forests/Security/0000002e
+2024-03-15 11:57:00.160 Info: Memory 16% phys=31928 size=7431(23%) rss=5264(16%) anon=7078(22%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:57:23.640 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002b to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002c, timestamp=17104996430396190
+2024-03-15 11:57:23.642 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000029 to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002a, timestamp=17104996430396190
+2024-03-15 11:57:23.646 Info: Merging 13 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002a to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002b, timestamp=17104996430396190
+2024-03-15 11:57:23.647 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000013 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000014, timestamp=17104996430396190
+2024-03-15 11:57:23.655 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002b to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002c, timestamp=17104996430396190
+2024-03-15 11:57:23.656 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000003c to /var/opt/MarkLogic/Forests/App-Services/0000003e, timestamp=17104996430396190
+2024-03-15 11:57:23.659 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/0000002f to /var/opt/MarkLogic/Forests/Security/00000030, timestamp=17104996430396190
+2024-03-15 11:57:23.660 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000029 to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002a, timestamp=17104996430396190
+2024-03-15 11:57:23.664 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000029 to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002a, timestamp=17104996430396190
+2024-03-15 11:57:23.666 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000013 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000014, timestamp=17104996430396190
+2024-03-15 11:57:23.725 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002c
+2024-03-15 11:57:23.725 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000014
+2024-03-15 11:57:23.732 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003e
+2024-03-15 11:57:23.735 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002c
+2024-03-15 11:57:23.746 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000014
+2024-03-15 11:57:23.751 Info: Merged 2 MB at 22 MB/sec to /var/opt/MarkLogic/Forests/Security/00000030
+2024-03-15 11:57:23.807 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002a
+2024-03-15 11:57:23.818 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002a
+2024-03-15 11:57:23.822 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002a
+2024-03-15 11:57:23.832 Info: Merged 17 MB at 92 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002b
+2024-03-15 11:57:27.151 Info: Deleted 1 MB at 193 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002b
+2024-03-15 11:57:27.158 Info: Deleted 1 MB at 161 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/00000029
+2024-03-15 11:57:27.162 Info: Deleted 21 MB at 5827 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002a
+2024-03-15 11:57:27.164 Info: Deleted 1 MB at 365 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000013
+2024-03-15 11:57:27.166 Info: Deleted 1 MB at 531 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003c
+2024-03-15 11:57:27.170 Info: Deleted 1 MB at 332 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002b
+2024-03-15 11:57:27.172 Info: Deleted 2 MB at 776 MB/sec /var/opt/MarkLogic/Forests/Security/0000002f
+2024-03-15 11:57:27.176 Info: Deleted 1 MB at 273 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/00000029
+2024-03-15 11:57:27.179 Info: Deleted 1 MB at 309 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/00000029
+2024-03-15 11:57:27.183 Info: Deleted 1 MB at 264 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000013
+2024-03-15 11:58:00.178 Info: Memory 10% phys=31928 size=4743(14%) rss=3227(10%) anon=4383(13%) file=17(0%) forest=834(2%) cache=10240(32%) registry=1(0%)
+2024-03-15 11:58:25.684 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002a to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002b, timestamp=17104997050568050
+2024-03-15 11:58:25.702 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000003e to /var/opt/MarkLogic/Forests/App-Services/0000003f, timestamp=17104997050568050
+2024-03-15 11:58:25.704 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002a to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002b, timestamp=17104997050568050
+2024-03-15 11:58:25.708 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002a to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002b, timestamp=17104997050568050
+2024-03-15 11:58:25.809 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003f
+2024-03-15 11:58:25.902 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002b
+2024-03-15 11:58:25.913 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002b
+2024-03-15 11:58:25.914 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002b
+2024-03-15 11:58:29.084 Info: Deleted 1 MB at 79 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002a
+2024-03-15 11:58:29.087 Info: Deleted 1 MB at 303 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003e
+2024-03-15 11:58:29.092 Info: Deleted 1 MB at 232 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002a
+2024-03-15 11:58:29.096 Info: Deleted 1 MB at 248 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002a
+2024-03-15 11:59:37.682 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000003f to /var/opt/MarkLogic/Forests/App-Services/00000040, timestamp=17104997767860860
+2024-03-15 11:59:37.738 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000040
+2024-03-15 11:59:41.231 Info: Deleted 1 MB at 242 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003f
+2024-03-15 12:00:01.562 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002a
+2024-03-15 12:00:01.619 Info: Saved 8 MB at 140 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002a
+2024-03-15 12:00:01.623 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002a and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000029 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002b, timestamp=17104998916503081
+2024-03-15 12:00:01.726 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002b
+2024-03-15 12:00:05.082 Info: Deleted 1 MB at 73 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000029
+2024-03-15 12:00:05.089 Info: Deleted 8 MB at 1260 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002a
+2024-03-15 12:00:37.637 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000040 to /var/opt/MarkLogic/Forests/App-Services/00000041, timestamp=17104998368353100
+2024-03-15 12:00:37.638 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000030 to /var/opt/MarkLogic/Forests/Security/00000031, timestamp=17104998368353100
+2024-03-15 12:00:37.699 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000041
+2024-03-15 12:00:37.716 Info: Merged 2 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/Security/00000031
+2024-03-15 12:00:41.177 Info: Deleted 1 MB at 291 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000040
+2024-03-15 12:00:45.039 Info: Deleted 2 MB at 190 MB/sec /var/opt/MarkLogic/Forests/Security/00000030
+2024-03-15 12:01:32.135 Info: Reindexed range-indexes 25 fragments at 374 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 12:01:32.149 Info: Reindexed range-indexes 25 fragments at 327 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 12:01:32.158 Info: Reindexed range-indexes 34 fragments at 380 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 12:01:32.535 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002b to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002d, timestamp=17105004869005790
+2024-03-15 12:01:32.545 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002c to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002e, timestamp=17105004869005790
+2024-03-15 12:01:32.548 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000028 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002a, timestamp=17105004869005790
+2024-03-15 12:01:32.688 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002d
+2024-03-15 12:01:32.704 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002e
+2024-03-15 12:01:32.706 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002a
+2024-03-15 12:01:36.046 Info: Deleted 1 MB at 93 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002b
+2024-03-15 12:01:36.050 Info: Deleted 1 MB at 315 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002c
+2024-03-15 12:01:36.053 Info: Deleted 1 MB at 318 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000028
+2024-03-15 12:01:38.605 Info: Merging 10 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002b to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002c, timestamp=17104998976130750
+2024-03-15 12:01:38.613 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000041 to /var/opt/MarkLogic/Forests/App-Services/00000042, timestamp=17104998976130750
+2024-03-15 12:01:38.617 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000031 to /var/opt/MarkLogic/Forests/Security/00000033, timestamp=17104998976130750
+2024-03-15 12:01:38.695 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000042
+2024-03-15 12:01:38.711 Info: Merged 2 MB at 21 MB/sec to /var/opt/MarkLogic/Forests/Security/00000033
+2024-03-15 12:01:38.743 Info: Merged 13 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002c
+2024-03-15 12:01:42.216 Info: Deleted 17 MB at 4224 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002b
+2024-03-15 12:01:42.217 Info: Deleted 1 MB at 541 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000041
+2024-03-15 12:01:42.701 Info: Saving /var/opt/MarkLogic/Forests/Security/00000032
+2024-03-15 12:01:42.728 Info: Saved 1 MB at 37 MB/sec to /var/opt/MarkLogic/Forests/Security/00000032
+2024-03-15 12:01:42.732 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/Security/00000033 and /var/opt/MarkLogic/Forests/Security/00000032 to /var/opt/MarkLogic/Forests/Security/00000034, timestamp=17104998976130750
+2024-03-15 12:01:42.782 Info: Merged 2 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/Security/00000034
+2024-03-15 12:01:46.165 Info: Deleted 2 MB at 672 MB/sec /var/opt/MarkLogic/Forests/Security/00000033
+2024-03-15 12:01:52.230 Info: Deleted 1 MB at 276 MB/sec /var/opt/MarkLogic/Forests/Security/00000032
+2024-03-15 12:01:52.232 Info: Deleted 2 MB at 931 MB/sec /var/opt/MarkLogic/Forests/Security/00000031
+2024-03-15 12:01:54.561 Info: Refragmented new fields 7 fragments at 288 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 12:01:54.578 Info: Refragmented new fields 14 fragments at 339 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 12:01:54.605 Info: Refragmented new fields 23 fragments at 338 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 12:02:21.034 Info: Deadlock detected locking App-Services /workspaces/11419248721277587774.xml
+2024-03-15 12:02:46.733 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002c to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002e, timestamp=17104999650692690
+2024-03-15 12:02:46.734 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002b to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002d, timestamp=17104999650692690
+2024-03-15 12:02:46.740 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002c to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002e, timestamp=17104999650692690
+2024-03-15 12:02:46.741 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000014 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000016, timestamp=17104999650692690
+2024-03-15 12:02:46.748 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000042 to /var/opt/MarkLogic/Forests/App-Services/00000043, timestamp=17104999650692690
+2024-03-15 12:02:46.749 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002c to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002e, timestamp=17104999650692690
+2024-03-15 12:02:46.752 Info: Saving /var/opt/MarkLogic/Forests/Security/00000035
+2024-03-15 12:02:46.754 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002b to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002d, timestamp=17104999650692690
+2024-03-15 12:02:46.758 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002b to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002d, timestamp=17104999650692690
+2024-03-15 12:02:46.762 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000014 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000016, timestamp=17104999650692690
+2024-03-15 12:02:46.812 Info: Saved 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/Security/00000035
+2024-03-15 12:02:46.814 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002e
+2024-03-15 12:02:46.820 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Security/00000034 and /var/opt/MarkLogic/Forests/Security/00000035 to /var/opt/MarkLogic/Forests/Security/00000036, timestamp=17104999650692690
+2024-03-15 12:02:46.820 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000016
+2024-03-15 12:02:46.822 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000043
+2024-03-15 12:02:46.829 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002e
+2024-03-15 12:02:46.845 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000016
+2024-03-15 12:02:46.881 Info: Merged 11 MB at 78 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002e
+2024-03-15 12:02:46.892 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002d
+2024-03-15 12:02:46.902 Info: Merged 2 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/Security/00000036
+2024-03-15 12:02:46.908 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002d
+2024-03-15 12:02:46.911 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002d
+2024-03-15 12:02:50.056 Info: Deleted 1 MB at 188 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002c
+2024-03-15 12:02:50.058 Info: Deleted 1 MB at 372 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002b
+2024-03-15 12:02:50.060 Info: Deleted 13 MB at 6722 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002c
+2024-03-15 12:02:50.063 Info: Deleted 1 MB at 488 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000014
+2024-03-15 12:02:50.065 Info: Deleted 1 MB at 466 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000042
+2024-03-15 12:02:50.067 Info: Deleted 1 MB at 524 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002c
+2024-03-15 12:02:50.069 Info: Deleted 2 MB at 1125 MB/sec /var/opt/MarkLogic/Forests/Security/00000034
+2024-03-15 12:02:50.070 Info: Deleted 1 MB at 570 MB/sec /var/opt/MarkLogic/Forests/Security/00000035
+2024-03-15 12:02:50.073 Info: Deleted 1 MB at 369 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002b
+2024-03-15 12:02:50.076 Info: Deleted 1 MB at 397 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002b
+2024-03-15 12:02:50.078 Info: Deleted 1 MB at 513 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000014
+2024-03-15 12:03:00.280 Info: Memory 20% phys=31928 size=8723(27%) rss=6457(20%) anon=8280(25%) file=99(0%) forest=4684(14%) cache=10242(32%) registry=1(0%)
+2024-03-15 12:03:38.760 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000015
+2024-03-15 12:03:38.782 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000015
+2024-03-15 12:03:38.846 Info: Saved 8 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000015
+2024-03-15 12:03:38.849 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000015 and /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000016 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000017, timestamp=17104999803268430
+2024-03-15 12:03:38.851 Info: Saved 8 MB at 115 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000015
+2024-03-15 12:03:38.856 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000015 and /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000016 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000017, timestamp=17104999803268430
+2024-03-15 12:03:38.906 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000017
+2024-03-15 12:03:38.914 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000017
+2024-03-15 12:03:42.247 Info: Deleted 1 MB at 280 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000016
+2024-03-15 12:03:42.250 Info: Deleted 8 MB at 2530 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000015
+2024-03-15 12:03:42.253 Info: Deleted 1 MB at 387 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000016
+2024-03-15 12:03:42.256 Info: Deleted 8 MB at 2413 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000015
+2024-03-15 12:03:44.663 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002c
+2024-03-15 12:03:44.682 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002c
+2024-03-15 12:03:44.685 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002d
+2024-03-15 12:03:44.687 Info: Saving /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002c
+2024-03-15 12:03:44.689 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000029
+2024-03-15 12:03:44.805 Info: Saved 8 MB at 56 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002c
+2024-03-15 12:03:44.811 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002c and /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002d to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002e, timestamp=17104999803268430
+2024-03-15 12:03:44.812 Info: Saved 8 MB at 64 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002c
+2024-03-15 12:03:44.814 Info: Saved 8 MB at 61 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002c
+2024-03-15 12:03:44.819 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002c and /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002d to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002e, timestamp=17104999803268430
+2024-03-15 12:03:44.819 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002c and /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002d to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002e, timestamp=17104999803268430
+2024-03-15 12:03:44.888 Info: Saved 8 MB at 39 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002d
+2024-03-15 12:03:44.888 Info: Saved 8 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000029
+2024-03-15 12:03:44.894 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000029 and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002a to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002b, timestamp=17105005145584572
+2024-03-15 12:03:44.894 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002d and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002e to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002f, timestamp=17105005146025541
+2024-03-15 12:03:44.940 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002e
+2024-03-15 12:03:44.945 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002e
+2024-03-15 12:03:44.949 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002e
+2024-03-15 12:03:45.058 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002f
+2024-03-15 12:03:45.059 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002b
+2024-03-15 12:03:46.633 Info: Saving /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002d
+2024-03-15 12:03:46.641 Info: Saving /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002d
+2024-03-15 12:03:46.655 Info: Saving /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002d
+2024-03-15 12:03:46.771 Info: Saved 8 MB at 58 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002d
+2024-03-15 12:03:46.773 Info: Saved 8 MB at 68 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002d
+2024-03-15 12:03:46.778 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002d and /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002e to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002f, timestamp=17104999803268430
+2024-03-15 12:03:46.778 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002d and /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002e to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002f, timestamp=17104999803268430
+2024-03-15 12:03:46.842 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002f
+2024-03-15 12:03:46.850 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002f
+2024-03-15 12:03:46.908 Info: Saved 19 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002d
+2024-03-15 12:03:46.912 Info: Merging 30 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002d and /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002e to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002f, timestamp=17104999803268430
+2024-03-15 12:03:47.073 Info: Merged 17 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002f
+2024-03-15 12:03:48.102 Info: Deleted 1 MB at 76 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002d
+2024-03-15 12:03:48.109 Info: Deleted 8 MB at 1266 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002c
+2024-03-15 12:03:48.114 Info: Deleted 1 MB at 215 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002d
+2024-03-15 12:03:48.119 Info: Deleted 8 MB at 1469 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002c
+2024-03-15 12:03:48.124 Info: Deleted 1 MB at 209 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002e
+2024-03-15 12:03:48.131 Info: Deleted 8 MB at 1195 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002d
+2024-03-15 12:03:48.135 Info: Deleted 1 MB at 250 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002d
+2024-03-15 12:03:48.141 Info: Deleted 8 MB at 1498 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002c
+2024-03-15 12:03:48.145 Info: Deleted 1 MB at 217 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002a
+2024-03-15 12:03:48.152 Info: Deleted 8 MB at 1227 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000029
+2024-03-15 12:03:48.156 Info: Deleted 1 MB at 276 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002e
+2024-03-15 12:03:48.160 Info: Deleted 8 MB at 1782 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002d
+2024-03-15 12:03:48.164 Info: Deleted 11 MB at 3474 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002e
+2024-03-15 12:03:48.169 Info: Deleted 19 MB at 3867 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002d
+2024-03-15 12:03:48.172 Info: Deleted 1 MB at 280 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002e
+2024-03-15 12:03:48.176 Info: Deleted 8 MB at 1982 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002d
+2024-03-15 12:04:01.618 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000043 to /var/opt/MarkLogic/Forests/App-Services/00000044, timestamp=17105000402085310
+2024-03-15 12:04:01.670 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000044
+2024-03-15 12:04:05.144 Info: Deleted 1 MB at 327 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000043
+2024-03-15 12:04:15.681 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002c
+2024-03-15 12:04:15.685 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000003d
+2024-03-15 12:04:15.760 Info: Saved 8 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000003d
+2024-03-15 12:04:15.766 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000003d and /var/opt/MarkLogic/Forests/App-Services/00000044 to /var/opt/MarkLogic/Forests/App-Services/00000045, timestamp=17105000402085310
+2024-03-15 12:04:15.821 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000045
+2024-03-15 12:04:15.845 Info: Saved 8 MB at 49 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002c
+2024-03-15 12:04:15.848 Info: Merging 6 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002c and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002d to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002e, timestamp=17105005145759041
+2024-03-15 12:04:15.957 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002e
+2024-03-15 12:04:19.218 Info: Deleted 1 MB at 83 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002d
+2024-03-15 12:04:19.224 Info: Deleted 8 MB at 1595 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002c
+2024-03-15 12:04:19.226 Info: Deleted 1 MB at 421 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000044
+2024-03-15 12:04:19.229 Info: Deleted 8 MB at 2474 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000003d
+2024-03-15 12:04:50.611 Info: Refragmented modified fields 12 fragments at 163 fragments/sec on forest data-hub-FINAL-2
+2024-03-15 12:04:50.627 Info: Refragmented modified fields 16 fragments at 179 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 12:04:50.640 Info: Reindexed fast reverse searches 1 fragment at 358 fragments/sec on forest data-hub-FINAL-3
+2024-03-15 12:04:50.640 Info: Refragmented modified fields 24 fragments at 231 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 12:04:50.655 Info: Reindexed fast reverse searches 1 fragment at 234 fragments/sec on forest data-hub-FINAL-1
+2024-03-15 12:04:51.762 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002e to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000030, timestamp=17105006402085335
+2024-03-15 12:04:51.774 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002f to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000031, timestamp=17105006402085335
+2024-03-15 12:04:51.777 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002b to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002d, timestamp=17105006402085335
+2024-03-15 12:04:51.929 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000030
+2024-03-15 12:04:51.939 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000031
+2024-03-15 12:04:51.940 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002d
+2024-03-15 12:04:55.146 Info: Deleted 1 MB at 212 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002e
+2024-03-15 12:04:55.149 Info: Deleted 1 MB at 335 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/0000002f
+2024-03-15 12:04:55.152 Info: Deleted 1 MB at 333 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002b
+2024-03-15 12:05:01.554 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000045 to /var/opt/MarkLogic/Forests/App-Services/00000047, timestamp=17105001002965280
+2024-03-15 12:05:01.610 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000047
+2024-03-15 12:05:05.211 Info: Deleted 1 MB at 251 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000045
+2024-03-15 12:06:20.733 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002f
+2024-03-15 12:06:20.745 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000030
+2024-03-15 12:06:20.929 Info: Saved 8 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002f
+2024-03-15 12:06:20.933 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002f and /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000030 to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000031, timestamp=17105006906389812
+2024-03-15 12:06:20.938 Info: Saved 8 MB at 42 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000030
+2024-03-15 12:06:20.945 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000030 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000031 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000032, timestamp=17105006906540521
+2024-03-15 12:06:21.111 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000031
+2024-03-15 12:06:21.129 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000032
+2024-03-15 12:06:24.107 Info: Deleted 1 MB at 72 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/00000030
+2024-03-15 12:06:24.113 Info: Deleted 8 MB at 1213 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-3/0000002f
+2024-03-15 12:06:24.119 Info: Deleted 1 MB at 190 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000031
+2024-03-15 12:06:24.127 Info: Deleted 8 MB at 1020 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000030
+2024-03-15 12:06:25.615 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000046
+2024-03-15 12:06:25.627 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002c
+2024-03-15 12:06:25.679 Info: Saved 8 MB at 124 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000046
+2024-03-15 12:06:25.684 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000046 and /var/opt/MarkLogic/Forests/App-Services/00000047 to /var/opt/MarkLogic/Forests/App-Services/00000048, timestamp=17105001604625820
+2024-03-15 12:06:25.733 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000048
+2024-03-15 12:06:25.774 Info: Saved 8 MB at 54 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002c
+2024-03-15 12:06:25.778 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002c and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002d to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002e, timestamp=17105006906096881
+2024-03-15 12:06:25.877 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002e
+2024-03-15 12:06:29.030 Info: Deleted 1 MB at 200 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000047
+2024-03-15 12:06:29.036 Info: Deleted 8 MB at 1528 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000046
+2024-03-15 12:06:29.041 Info: Deleted 1 MB at 186 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002d
+2024-03-15 12:06:29.048 Info: Deleted 8 MB at 1264 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002c
+2024-03-15 12:07:58.555 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000048 to /var/opt/MarkLogic/Forests/App-Services/0000004a, timestamp=17105002777220500
+2024-03-15 12:07:58.594 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004a
+2024-03-15 12:08:00.167 Info: Memory 10% phys=31928 size=5116(16%) rss=3484(10%) anon=4756(14%) file=17(0%) forest=834(2%) cache=10240(32%) registry=1(0%)
+2024-03-15 12:08:02.017 Info: Deleted 1 MB at 207 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000048
+2024-03-15 12:09:00.581 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000004a to /var/opt/MarkLogic/Forests/App-Services/0000004b, timestamp=17105003396710510
+2024-03-15 12:09:00.639 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004b
+2024-03-15 12:09:04.187 Info: Deleted 1 MB at 254 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004a
+2024-03-15 12:10:01.659 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000004b to /var/opt/MarkLogic/Forests/App-Services/0000004c, timestamp=17105004001923510
+2024-03-15 12:10:01.704 Info: Merged 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004c
+2024-03-15 12:10:05.022 Info: Deleted 1 MB at 95 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004b
+2024-03-15 12:10:06.591 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002f
+2024-03-15 12:10:06.645 Info: Saved 8 MB at 147 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002f
+2024-03-15 12:10:06.649 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002f and /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002e to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000030, timestamp=17105006906096881
+2024-03-15 12:10:06.763 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000030
+2024-03-15 12:10:10.136 Info: Deleted 1 MB at 93 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002e
+2024-03-15 12:10:10.139 Info: Deleted 8 MB at 2557 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/0000002f
+2024-03-15 12:10:29.651 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000049
+2024-03-15 12:10:29.720 Info: Saved 8 MB at 115 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000049
+2024-03-15 12:10:29.724 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000049 and /var/opt/MarkLogic/Forests/App-Services/0000004c to /var/opt/MarkLogic/Forests/App-Services/0000004d, timestamp=17105004001923510
+2024-03-15 12:10:29.759 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004d
+2024-03-15 12:10:33.099 Info: Deleted 1 MB at 104 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004c
+2024-03-15 12:10:33.102 Info: Deleted 8 MB at 2628 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000049
+2024-03-15 12:11:09.741 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000004d to /var/opt/MarkLogic/Forests/App-Services/0000004f, timestamp=17105004683903550
+2024-03-15 12:11:09.746 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000036 to /var/opt/MarkLogic/Forests/Security/00000037, timestamp=17105004683903550
+2024-03-15 12:11:09.797 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004f
+2024-03-15 12:11:09.816 Info: Merged 2 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/Security/00000037
+2024-03-15 12:11:13.050 Info: Deleted 1 MB at 101 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004d
+2024-03-15 12:11:13.053 Info: Deleted 2 MB at 756 MB/sec /var/opt/MarkLogic/Forests/Security/00000036
+2024-03-15 12:13:01.525 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002f to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000030, timestamp=17105005802374700
+2024-03-15 12:13:01.527 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002e to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002f, timestamp=17105005802374700
+2024-03-15 12:13:01.534 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002f to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000030, timestamp=17105005802374700
+2024-03-15 12:13:01.535 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000018, timestamp=17105005802374700
+2024-03-15 12:13:01.543 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000004f to /var/opt/MarkLogic/Forests/App-Services/00000050, timestamp=17105005802374700
+2024-03-15 12:13:01.545 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002f to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000030, timestamp=17105005802374700
+2024-03-15 12:13:01.549 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000037 to /var/opt/MarkLogic/Forests/Security/00000038, timestamp=17105005802374700
+2024-03-15 12:13:01.550 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002e to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002f, timestamp=17105005802374700
+2024-03-15 12:13:01.556 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002e to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002f, timestamp=17105005802374700
+2024-03-15 12:13:01.558 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000017 to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000018, timestamp=17105005802374700
+2024-03-15 12:13:01.618 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/00000030
+2024-03-15 12:13:01.623 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000018
+2024-03-15 12:13:01.625 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000050
+2024-03-15 12:13:01.635 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/00000030
+2024-03-15 12:13:01.641 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000018
+2024-03-15 12:13:01.651 Info: Merged 2 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/Security/00000038
+2024-03-15 12:13:01.688 Info: Merged 11 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/data-hub-MODULES-1/00000030
+2024-03-15 12:13:01.696 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002f
+2024-03-15 12:13:01.706 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002f
+2024-03-15 12:13:01.709 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002f
+2024-03-15 12:13:05.140 Info: Deleted 1 MB at 236 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1/0000002f
+2024-03-15 12:13:05.144 Info: Deleted 1 MB at 287 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-1/0000002e
+2024-03-15 12:13:05.146 Info: Deleted 17 MB at 6022 MB/sec /var/opt/MarkLogic/Forests/data-hub-MODULES-1/0000002f
+2024-03-15 12:13:05.149 Info: Deleted 1 MB at 339 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1/00000017
+2024-03-15 12:13:05.153 Info: Deleted 1 MB at 335 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004f
+2024-03-15 12:13:05.155 Info: Deleted 1 MB at 386 MB/sec /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1/0000002f
+2024-03-15 12:13:05.157 Info: Deleted 2 MB at 895 MB/sec /var/opt/MarkLogic/Forests/Security/00000037
+2024-03-15 12:13:05.160 Info: Deleted 1 MB at 394 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-2/0000002e
+2024-03-15 12:13:05.163 Info: Deleted 1 MB at 296 MB/sec /var/opt/MarkLogic/Forests/data-hub-STAGING-3/0000002e
+2024-03-15 12:13:05.165 Info: Deleted 1 MB at 646 MB/sec /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1/00000017
+2024-03-15 12:13:30.736 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000004e
+2024-03-15 12:13:30.841 Info: Saved 8 MB at 77 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000004e
+2024-03-15 12:13:30.849 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000004e and /var/opt/MarkLogic/Forests/App-Services/00000050 to /var/opt/MarkLogic/Forests/App-Services/00000051, timestamp=17105005802374700
+2024-03-15 12:13:30.906 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000051
+2024-03-15 12:13:34.072 Info: Deleted 1 MB at 305 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000050
+2024-03-15 12:13:34.075 Info: Deleted 8 MB at 2642 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000004e
+2024-03-15 12:15:01.671 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000051 to /var/opt/MarkLogic/Forests/App-Services/00000052, timestamp=17105007001048020
+2024-03-15 12:15:01.724 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000052
+2024-03-15 12:15:05.225 Info: Deleted 1 MB at 103 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000051
+2024-03-15 12:17:01.566 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000052 to /var/opt/MarkLogic/Forests/App-Services/00000053, timestamp=17105008203828530
+2024-03-15 12:17:01.626 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000053
+2024-03-15 12:17:05.083 Info: Deleted 1 MB at 218 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000052
+2024-03-15 12:18:00.248 Info: Memory 7% phys=31928 size=4106(12%) rss=2549(7%) anon=3753(11%) file=9(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 12:19:01.535 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000053 to /var/opt/MarkLogic/Forests/App-Services/00000054, timestamp=17105009402083260
+2024-03-15 12:19:01.548 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000030 to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000031, timestamp=17105009402083260
+2024-03-15 12:19:01.606 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000054
+2024-03-15 12:19:01.711 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000031
+2024-03-15 12:19:05.028 Info: Deleted 1 MB at 236 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000053
+2024-03-15 12:19:05.032 Info: Deleted 1 MB at 221 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-2/00000030
+2024-03-15 12:22:01.589 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000054 to /var/opt/MarkLogic/Forests/App-Services/00000055, timestamp=17105011201463640
+2024-03-15 12:22:02.634 Info: Merged 1 MB in 1 sec at 1 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000055
+2024-03-15 12:22:05.067 Info: Deleted 1 MB at 245 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000054
+2024-03-15 12:23:01.615 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000055 to /var/opt/MarkLogic/Forests/App-Services/00000056, timestamp=17105011802791630
+2024-03-15 12:23:01.668 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000056
+2024-03-15 12:23:05.088 Info: Deleted 1 MB at 489 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000055
+2024-03-15 12:32:00.277 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000055
+2024-03-15 12:32:01.223 Info: Saved 26 MB in 1 sec at 27 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000055
+2024-03-15 12:32:01.242 Info: Merging 46 MB from /var/opt/MarkLogic/Forests/Meters/00000052, /var/opt/MarkLogic/Forests/Meters/00000055, and /var/opt/MarkLogic/Forests/Meters/00000053 to /var/opt/MarkLogic/Forests/Meters/00000057, timestamp=17105017202994190
+2024-03-15 12:32:03.049 Info: Merged 44 MB in 2 sec at 24 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000057
+2024-03-15 12:32:06.046 Info: Deleted 27 MB at 2926 MB/sec /var/opt/MarkLogic/Forests/Meters/00000052
+2024-03-15 12:32:06.049 Info: Deleted 1 MB at 405 MB/sec /var/opt/MarkLogic/Forests/Meters/00000053
+2024-03-15 12:32:06.052 Info: Deleted 26 MB at 7600 MB/sec /var/opt/MarkLogic/Forests/Meters/00000055
+2024-03-15 12:33:15.634 Info: Saving /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000033
+2024-03-15 12:33:15.678 Info: Saved 8 MB at 181 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000033
+2024-03-15 12:33:15.681 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000033 and /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000032 to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000034, timestamp=17105017801719190
+2024-03-15 12:33:15.785 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000034
+2024-03-15 12:33:19.237 Info: Deleted 1 MB at 95 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000032
+2024-03-15 12:33:19.240 Info: Deleted 8 MB at 2710 MB/sec /var/opt/MarkLogic/Forests/data-hub-FINAL-1/00000033
+2024-03-15 12:48:00.165 Info: Memory 7% phys=31928 size=3680(11%) rss=2314(7%) anon=3327(10%) file=10(0%) forest=483(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 13:58:48.475 Warning: Hung 2498 sec
+2024-03-15 13:58:48.558 Info: Memory 7% phys=31928 size=4010(12%) rss=2489(7%) anon=3657(11%) file=10(0%) forest=483(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 13:58:48.742 Warning: Canary thread sleep was 2498373 ms
+2024-03-15 14:29:00.141 Info: Memory 9% phys=31928 size=4876(15%) rss=2904(9%) anon=4523(14%) file=10(0%) forest=483(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 14:59:00.073 Info: Memory 9% phys=31928 size=5391(16%) rss=3145(9%) anon=5038(15%) file=10(0%) forest=483(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 15:49:31.777 Warning: Canary thread sleep was 2476537 ms
+2024-03-15 15:49:32.317 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000056
+2024-03-15 15:49:32.560 Warning: Hung 2476 sec
+2024-03-15 15:49:32.601 Info: Memory 9% phys=31928 size=5436(17%) rss=3173(9%) anon=5083(15%) file=10(0%) forest=483(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 15:49:32.635 Info: Saved 14 MB at 44 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000056
+2024-03-15 16:00:55.923 Warning: Canary thread sleep was 680144 ms
+2024-03-15 16:00:56.222 Warning: Hung 680 sec
+2024-03-15 16:20:00.045 Info: Memory 9% phys=31928 size=5201(16%) rss=3048(9%) anon=4847(15%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)
+2024-03-15 16:50:00.220 Info: Memory 9% phys=31928 size=5285(16%) rss=3093(9%) anon=4931(15%) file=10(0%) forest=484(1%) cache=10240(32%) registry=1(0%)

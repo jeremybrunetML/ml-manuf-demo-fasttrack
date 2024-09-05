@@ -1,0 +1,44 @@
+2024-09-05 08:13:57.689 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-05 08:13:57.689 Notice:+in /MarkLogic/rest-api/models/document-model-query-get.xqy, at 62:13,
+2024-09-05 08:13:57.689 Notice:+in docmodqryget:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [1.0-ml]
+2024-09-05 08:13:57.689 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:13:57.689 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:13:57.689 Notice:+  $timestamp = xs:unsignedLong("17255167984973740")
+2024-09-05 08:13:57.689 Notice:+  $isTimestamped = fn:true()
+2024-09-05 08:13:57.689 Notice:+  $isTxn = fn:false()
+2024-09-05 08:13:57.689 Notice:+  $uri = "/api/users/admin.json"
+2024-09-05 08:13:57.689 Notice:+  $doc = ()
+2024-09-05 08:13:57.689 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query-get.xqy, at 48:9 [1.0-ml]
+2024-09-05 08:13:58.024 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-05 08:13:58.024 Notice:+in /MarkLogic/rest-api/models/document-model-query-get.xqy, at 62:13,
+2024-09-05 08:13:58.024 Notice:+in docmodqryget:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [1.0-ml]
+2024-09-05 08:13:58.024 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:13:58.024 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:13:58.024 Notice:+  $timestamp = xs:unsignedLong("17255167984973740")
+2024-09-05 08:13:58.024 Notice:+  $isTimestamped = fn:true()
+2024-09-05 08:13:58.024 Notice:+  $isTxn = fn:false()
+2024-09-05 08:13:58.024 Notice:+  $uri = "/api/users/admin.json"
+2024-09-05 08:13:58.024 Notice:+  $doc = ()
+2024-09-05 08:13:58.024 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query-get.xqy, at 48:9 [1.0-ml]
+2024-09-05 08:18:20.756 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-05 08:18:20.756 Notice:+in /MarkLogic/rest-api/models/document-model-query-get.xqy, at 62:13,
+2024-09-05 08:18:20.756 Notice:+in docmodqryget:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [1.0-ml]
+2024-09-05 08:18:20.756 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:18:20.756 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:18:20.756 Notice:+  $timestamp = xs:unsignedLong("17255170802122280")
+2024-09-05 08:18:20.756 Notice:+  $isTimestamped = fn:true()
+2024-09-05 08:18:20.756 Notice:+  $isTxn = fn:false()
+2024-09-05 08:18:20.756 Notice:+  $uri = "/api/users/admin.json"
+2024-09-05 08:18:20.756 Notice:+  $doc = ()
+2024-09-05 08:18:20.756 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query-get.xqy, at 48:9 [1.0-ml]
+2024-09-05 08:18:21.092 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-05 08:18:21.092 Notice:+in /MarkLogic/rest-api/models/document-model-query-get.xqy, at 62:13,
+2024-09-05 08:18:21.092 Notice:+in docmodqryget:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [1.0-ml]
+2024-09-05 08:18:21.092 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:18:21.092 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-05 08:18:21.092 Notice:+  $timestamp = xs:unsignedLong("17255170802122280")
+2024-09-05 08:18:21.092 Notice:+  $isTimestamped = fn:true()
+2024-09-05 08:18:21.092 Notice:+  $isTxn = fn:false()
+2024-09-05 08:18:21.092 Notice:+  $uri = "/api/users/admin.json"
+2024-09-05 08:18:21.092 Notice:+  $doc = ()
+2024-09-05 08:18:21.092 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query-get.xqy, at 48:9 [1.0-ml]

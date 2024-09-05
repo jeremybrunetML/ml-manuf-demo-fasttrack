@@ -1,0 +1,10 @@
+{
+    "user-name": "dhc-user",
+    "description": "DHC user",
+    "password": "M@rkL0gic2022?.",
+    "role": [
+        "hub-central-developer",
+        "data-hub-developer",
+        "pii-reader"
+    ]
+}

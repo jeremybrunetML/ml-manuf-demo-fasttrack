@@ -1,0 +1,26 @@
+{
+  "lang": "zxx",
+  "path-namespace": [
+    {
+      "prefix": "es",
+      "namespace-uri": "http://marklogic.com/entity-services"
+    }
+  ],
+  "range-path-index": [
+    {
+      "invalid-values": "reject",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/Part/Materiau",
+      "range-value-positions": false,
+      "scalar-type": "string",
+      "collation": "http://marklogic.com/collation/codepoint"
+    },
+    {
+      "invalid-values": "reject",
+      "path-expression": "/(es:envelope|envelope)/(es:instance|instance)/Part/PieceNom",
+      "range-value-positions": false,
+      "scalar-type": "string",
+      "collation": "http://marklogic.com/collation/codepoint"
+    }
+  ],
+  "database-name": "data-hub-STAGING"
+}

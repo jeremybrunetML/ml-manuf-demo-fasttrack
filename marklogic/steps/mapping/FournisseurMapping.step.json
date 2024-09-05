@@ -1,0 +1,78 @@
+{
+  "collections": [
+    "FournisseurMapping",
+    "Fournisseur"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "FournisseurMapping",
+  "targetEntityType": "http://example.org/Fournisseur-1.0.0/Fournisseur",
+  "description": "Fournisseur Mapping",
+  "collection": [
+    "FournisseurIngestion"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['FournisseurIngestion'])",
+  "targetDatabase": "data-hub-FINAL",
+  "headers": { },
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "data-hub-STAGING",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "FournisseurMapping-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2023-01-04T10:51:02.89511+01:00",
+  "uriExpression": "$URI",
+  "properties": {
+    "CompanyCodes": {
+      "sourcedFrom": "CompanyCodes"
+    },
+    "Material": {
+      "sourcedFrom": "Material"
+    },
+    "MaterialGroup": {
+      "sourcedFrom": "MaterialGroup"
+    },
+    "IDPI": {
+      "sourcedFrom": "IDPI"
+    },
+    "Quantity": {
+      "sourcedFrom": "Quantity"
+    },
+    "NetPricePerU": {
+      "sourcedFrom": "NetPricePerU"
+    },
+    "NetPrice": {
+      "sourcedFrom": "NetPrice"
+    },
+    "TransportCost": {
+      "sourcedFrom": "TransportCost"
+    },
+    "Plant": {
+      "sourcedFrom": "Plant"
+    },
+    "PurchasingOrganization": {
+      "sourcedFrom": "PurchasingOrganization"
+    },
+    "Localization": {
+      "sourcedFrom": "Localization"
+    },
+    "latitude": {
+      "sourcedFrom": "lat"
+    },
+    "longitude": {
+      "sourcedFrom": "long"
+    },
+    "delay": {
+      "sourcedFrom": "delay"
+    }
+  },
+  "namespaces": { }
+}

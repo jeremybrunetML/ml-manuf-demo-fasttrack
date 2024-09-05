@@ -1,0 +1,13 @@
+{
+  "name": "MaintenanceFlow",
+  "steps": {
+    "1": {
+      "stepId": "MaintenanceIngestion-ingestion"
+    },
+    "2": {
+      "stepId": "MaintenanceMapping-mapping"
+    }
+  },
+  "description": "Maintenance Flow",
+  "lastUpdated": "2022-11-11T09:10:13.692458+01:00"
+}

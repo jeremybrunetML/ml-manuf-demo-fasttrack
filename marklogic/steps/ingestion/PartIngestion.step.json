@@ -1,0 +1,26 @@
+{
+  "headers": { },
+  "collections": [
+    "PartIngestion"
+  ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "name": "PartIngestion",
+  "description": "Part Ingestion Step",
+  "sourceFormat": "csv",
+  "separator": ";",
+  "targetFormat": "json",
+  "sourceName": "PLM",
+  "sourceType": "",
+  "outputURIPrefix": "/source/plm/entity/",
+  "additionalCollections": [ ],
+  "targetDatabase": "data-hub-STAGING",
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "stepDefinitionName": "default-ingestion",
+  "stepDefinitionType": "ingestion",
+  "stepId": "PartIngestion-ingestion",
+  "inputFilePath": "data/part",
+  "lastUpdated": "2022-11-11T09:10:14.607626+01:00"
+}

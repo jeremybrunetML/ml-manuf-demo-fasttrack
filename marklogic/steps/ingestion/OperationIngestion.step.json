@@ -1,0 +1,26 @@
+{
+  "headers": { },
+  "collections": [
+    "OperationIngestion"
+  ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "name": "OperationIngestion",
+  "description": "Operation Ingestion Step",
+  "sourceFormat": "csv",
+  "separator": ";",
+  "targetFormat": "json",
+  "sourceName": "MES",
+  "sourceType": "",
+  "outputURIPrefix": "/source/mes/entity/operation/",
+  "additionalCollections": [ ],
+  "targetDatabase": "data-hub-STAGING",
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "stepDefinitionName": "default-ingestion",
+  "stepDefinitionType": "ingestion",
+  "stepId": "OperationIngestion-ingestion",
+  "inputFilePath": "data/operation",
+  "lastUpdated": "2022-11-11T09:10:14.575722+01:00"
+}

@@ -1,0 +1,11 @@
+﻿IDPI;PieceNom;Materiau;Photo;Description;DescriptionEN;Catégorie;Type;MasseKg;VolumeMm3
+ML-625-2B;Fixations pour matériau composite;Métal;ML-625-2B.png;Description of ML-625-2B;Description EN of ML-625-2B;MLB;Fixation;0.5;0.01
+MF-225-8B;Système de palier ;Aluminium;MF-225-8B.png;Description of MF-225-8B;Description of MF-225-8B;MFB;Structure;0.1;0.04
+MZ-225-17B;Tige avec palier;Métal;MZ-225-17B.png;Description of MZ-225-17B;Description of MZ-225-17B;MZB;Composant;0.2;0.05
+MF-225-9B;Ecrou à sertir sans rivet;Aluminium;MF-225-9B.png;Description of MF-225-8B;Description of MF-225-8B;MFB;Composant;0.5;0.01
+MZ-425-17B;Ecrou d'ancrage;Composite;MZ-425-17B.png;Description of MZ-425-17B;Description of MZ-425-17B;MZB;Composant;0.7;0.09
+ML-825-17B;Vis à crochet;Métal;ML-825-17B.png;Description of ML-825-17B;Description of ML-825-17B;MLB;Composant;1.5;1.01
+MZ-325-17B;Actuator housing;Métal;MZ-325-17B.png;Description of MZ-325-17B;Description of MZ-325-17B;MZB;Fixation;0.2;0.01
+MH-225-17B;Frein filet ;Composite;MH-225-17B.png;Description of MH-225-17B;Description of MH-225-17B;MHB;Fixation;0.4;0.06
+MH-342-15B;Contrefiche basse;Métal;MH-342-15B.png;La jambe de train d'atterrissage ou contrefiche principale est la partie mécanique qui relie le fuselage de l'avion à la roue.Suivant les modèles de train d'atterrissage cette jambe peut être fixe ou mobile. Suivant les types d'avions la jambe peut être construit en bois ou en métal.;The landing gear leg or main strut is the mechanical part which connects the fuselage of the aircraft to the wheel. Depending on the landing gear models, this leg can be fixed or mobile. Depending on the type of aircraft, the leg can be constructed of wood or metal.;MHB;Structure;2.5;1.5
+MH-341-15B;Contrefiche haute;Métal;MH-341-15B.png;La jambe de train d'atterrissage ou contrefiche principale est la partie mécanique qui relie le fuselage de l'avion à la roue.Suivant les modèles de train d'atterrissage cette jambe peut être fixe ou mobile. Suivant les types d'avions la jambe peut être construit en bois ou en métal.;The landing gear leg or main strut is the mechanical part which connects the fuselage of the aircraft to the wheel. Depending on the landing gear models, this leg can be fixed or mobile. Depending on the type of aircraft, the leg can be constructed of wood or metal.;MHB;Structure;4.8;2.1

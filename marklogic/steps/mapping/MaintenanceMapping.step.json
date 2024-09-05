@@ -1,0 +1,58 @@
+{
+  "collections": [
+    "MaintenanceMapping",
+    "Maintenance"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "MaintenanceMapping",
+  "targetEntityType": "http://example.org/Maintenance-1.0.0/Maintenance",
+  "description": "",
+  "collection": [
+    "MaintenanceIngestion"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['MaintenanceIngestion'])",
+  "targetDatabase": "data-hub-FINAL",
+  "headers": { },
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "data-hub-STAGING",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "MaintenanceMapping-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2022-11-11T09:10:13.717327+01:00",
+  "uriExpression": "$URI",
+  "properties": {
+    "Material": {
+      "sourcedFrom": "Material"
+    },
+    "MaterialGroup": {
+      "sourcedFrom": "MaterialGroup"
+    },
+    "IDPI": {
+      "sourcedFrom": "IDPI"
+    },
+    "DateIncident": {
+      "sourcedFrom": "DateIncident"
+    },
+    "Cause": {
+      "sourcedFrom": "Cause"
+    },
+    "DateMaintenance": {
+      "sourcedFrom": "parseDate(DateMaintenance,\"DD/MM/YYYY\")"
+    },
+    "Action": {
+      "sourcedFrom": "Action"
+    }
+  },
+  "namespaces": { },
+  "relatedEntityMappings": [ ]
+}

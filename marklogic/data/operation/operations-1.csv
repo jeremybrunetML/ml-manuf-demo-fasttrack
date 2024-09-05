@@ -1,0 +1,7 @@
+﻿OperationName;IDP;Type;IDPI;Site;OperateurAssigne ;NombreInterventions;TempsGlobalInterventionNecessaireSemaine;DisponibiliteS1;DisponibiliteS2;DisponibiliteS3;DisponibiliteS4;DisponibiliteS5;DisponibiliteS6;DisponibiliteS7;DisponibiliteS8;NetPricePerU
+Contre fiche;5;Usinage;MH-342-15B;Toulouse;Pukka Fanny;4;3;Non ;Non;Oui;Oui;Oui;Oui;Non;Oui;70
+Contre fiche;4;Usinage;MH-342-15B;Etat-Unis;Paul Pierre;4;3;Oui ;Oui;Non;Non;Oui;Oui;Oui;Non;80
+Contre fiche;9;Usinage;MH-342-15B;Etat-Unis;Mitchel Paul;4;3;Oui ;Non;Oui;Non;Oui;Oui;Non;Oui;90
+Contre fiche;8;Usinage;MH-342-15B;Munich;Weiz Noa;4;3;Non ;Oui;Oui;Oui;Oui;Oui;Oui;Non;77
+Contre fiche;7;Usinage;MH-342-15B;Lille;Poth Nicolas;4;3;Oui ;Oui ;Oui;Non;Non;Oui;Oui;Oui;82
+Contre fiche;6;Usinage;MH-342-15B;Munich;Fred Pierre;4;3;Non ;Non;Oui;Oui;Non;Non;Oui;Oui;80

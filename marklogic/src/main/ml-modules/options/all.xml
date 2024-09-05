@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options xmlns="http://marklogic.com/appservices/search">
+
+    <additional-query>
+        <cts:collection-query xmlns:cts="http://marklogic.com/cts">
+            <cts:uri>Part</cts:uri>
+        </cts:collection-query>
+    </additional-query>
+
+    <!-- Full-text search options -->
+    <term apply="term">
+        <empty apply="all-results"/>
+        <!--
+      Below some example options for full-text searches. Note that MarkLogic will
+      toggle options automatically depending on caps, wildcards etc.
+      See Usage Notes of http://docs.marklogic.com/cts:word-query for details.
+      Also note that forcing stemmed searches will disable wildcarded searches.
+    -->
+        <!--
+    <term-option>punctuation-insensitive</term-option>
+    <term-option>stemmed</term-option>
+    -->
+    </term>
+
+
+    <!-- Default grammer -->
+    <grammar>
+        <quotation>"</quotation>
+        <implicit>
+            <cts:and-query strength="20"
+                xmlns:cts="http://marklogic.com/cts"/>
+        </implicit>
+        <starter strength="30" apply="grouping" delimiter=")">(</starter>
+        <starter strength="40" apply="prefix" element="cts:not-query">-</starter>
+        <joiner strength="10" apply="infix" element="cts:or-query" tokenize="word">OR</joiner>
+        <joiner strength="20" apply="infix" element="cts:and-query" tokenize="word">AND</joiner>
+        <joiner strength="30" apply="infix" element="cts:near-query" tokenize="word">NEAR</joiner>
+        <joiner strength="30" apply="near2" consume="2" element="cts:near-query">NEAR/</joiner>
+        <joiner strength="50" apply="constraint">:</joiner>
+        <joiner strength="50" apply="constraint" compare="LT" tokenize="word">LT</joiner>
+        <joiner strength="50" apply="constraint" compare="LE" tokenize="word">LE</joiner>
+        <joiner strength="50" apply="constraint" compare="GT" tokenize="word">GT</joiner>
+        <joiner strength="50" apply="constraint" compare="GE" tokenize="word">GE</joiner>
+        <joiner strength="50" apply="constraint" compare="NE" tokenize="word">NE</joiner>
+    </grammar>
+
+
+    <!-- Default sort order. You can also associate states with sort orders to allow switching sort orders -->
+    <sort-order direction="descending">
+        <score/>
+    </sort-order>
+
+    <!-- <transform-results apply="snippet">
+<preferred-elements>
+            <json-property>body</json-property>
+            <json-property>content</json-property>
+        </preferred-elements>
+        <max-matches>1</max-matches>
+        <max-snippet-chars>150</max-snippet-chars>
+        <per-match-tokens>20</per-match-tokens>
+</transform-results> -->
+
+    <!-- This controls the snippet size toggle -->
+    <!-- <operator name="results">
+        <state name="compact">
+            <transform-results apply="snippet">
+                <preferred-elements>
+                    <element ns="" name="body"/>
+                </preferred-elements>
+                <max-matches>1</max-matches>
+                <max-snippet-chars>150</max-snippet-chars>
+                <per-match-tokens>20</per-match-tokens>
+            </transform-results>
+        </state>
+        <state name="detailed">
+            <transform-results apply="snippet">
+                <preferred-elements>
+                    <element ns="" name="body"/>
+                </preferred-elements>
+                <max-matches>2</max-matches>
+                <max-snippet-chars>400</max-snippet-chars>
+                <per-match-tokens>30</per-match-tokens>
+            </transform-results>
+        </state>
+    </operator> -->
+
+
+    <operator name="sort">
+        <state name="score">
+            <sort-order>
+                <score/>
+            </sort-order>
+        </state>
+    </operator>
+
+
+    <!-- <constraint name="CurrentStatusRef">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/attachments//Submission/StatusHistory/CurrentStatusRef</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="EnterpriseName">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/attachments//Submission//ShortApplication/Applicants/Applicant/Organisation/Name</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="Acronym">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/attachments//Submission//ShortApplication//Acronym</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint> -->
+
+
+    <!-- <constraint name="NatureContrat">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <element ns="" name="CdNatCtr" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="StatutContrat">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <element ns="" name="CdSttCtr" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="NatureContentieux">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <element ns="" name="codnatcont" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="CodePhaseRecouvrement">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <element ns="" name="codphaserecouv" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="CodeStatutMouvement">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <element ns="" name="codstatmouv" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint> -->
+
+
+    <!-- <constraint name="from">
+        <range type="xs:string" collation="http://marklogic.com/collation/codepoint" facet="false">
+            <path-index>/envelope/instance/Email/from/Person/email</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="to">
+        <range type="xs:string" collation="http://marklogic.com/collation/codepoint" facet="false">
+            <path-index>/envelope/instance/Email/to</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint> -->
+
+    <constraint name="Materiau">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/instance/Part/Materiau</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="Type">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/instance/Part/partType</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint>
+
+    <constraint name="Categorie">
+        <range type="xs:string" collation="http://marklogic.com/collation/" facet="true">
+            <path-index>/envelope/instance/Part/partCategory</path-index>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=15</facet-option>
+        </range>
+    </constraint>
+
+    <!-- <constraint name="senderDomain">
+        <range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
+            <element ns="" name="senderDomain" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=10</facet-option>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="dateEmail">
+        <range type="xs:dateTime" facet="false">
+            <path-index>/envelope/instance/Email/date</path-index>
+            <computed-bucket ge="P0D" lt="P1D" anchor="start-of-day" name="Aujourd'hui">Aujourd'hui</computed-bucket>
+            <computed-bucket ge="-P1D" lt="P0D" anchor="start-of-day" name="Hier">Hier</computed-bucket>
+            <computed-bucket ge="-P7D" lt="P0D" anchor="start-of-day" name="les 7 derniers jours">les 7 derniers jours
+            </computed-bucket>
+            <computed-bucket ge="-P30D" lt="P0D" anchor="start-of-day" name="Le mois dernier">Le mois dernier</computed-bucket>
+            <computed-bucket ge="-P90D" lt="P0D" anchor="start-of-day" name="Les 3 dernier mois">Les 3 dernier mois
+            </computed-bucket>
+            <computed-bucket ge="-P180D" lt="P0D" anchor="start-of-day" name="Les 6 dernier mois">Les 6 dernier mois
+            </computed-bucket>
+            <computed-bucket ge="-P365D" lt="P0D" anchor="start-of-day" name="Il y a un an">Il y a un an</computed-bucket>
+            <computed-bucket ge="-P730D" lt="P0D" anchor="start-of-day" name="Il y a 2 ans">Il y a 2 ans</computed-bucket>
+            <computed-bucket ge="-P1095D" lt="P0D" anchor="start-of-day" name="Il y a 3 ans">Il y a 3 ans</computed-bucket>
+            <computed-bucket ge="-P30000D" lt="P0D" anchor="start-of-day" name="Plus de 3 ans">Plus de 3 ans</computed-bucket>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="date">
+        <range type="xs:dateTime" facet="false">
+            <element ns="" name="date" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>item-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=25</facet-option>
+        </range>
+    </constraint> -->
+
+
+    <!-- <constraint name="year">
+        <range type="xs:string" facet="false" collation="http://marklogic.com/collation/codepoint">
+            <element ns="" name="year" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>frequency-order</facet-option>
+            <facet-option>descending</facet-option>
+            <facet-option>limit=25</facet-option>
+        </range>
+    </constraint> -->
+
+    <!-- <constraint name="hasAttachements">
+        <range type="xs:string" facet="true" collation="http://marklogic.com/collation/codepoint">
+            <element ns="" name="hasAttachements" xmlns:es="http://marklogic.com/entity-services"/>
+            <facet-option>limit=25</facet-option>
+        </range>
+    </constraint> -->
+
+    <values name="uris">
+        <uri/>
+    </values>
+    <!--Change to 'filtered' to exclude false-positives in certain searches-->
+    <search-option>unfiltered</search-option>
+
+    <!--Change or remove this additional-query to broaden search beyond entity instance documents-->
+    <!--To return facets, change this option to 'true' and edit constraints-->
+    <return-facets>true</return-facets>
+    <!--To return snippets, comment out or remove this option-->
+    <!-- <transform-results apply="empty-snippet"/> -->
+
+    <default-suggestion-source>
+        <range>
+            <field name="suggestion_field" collation="http://marklogic.com/collation/"/>
+        </range>
+    </default-suggestion-source>
+
+
+    <extract-document-data selected="include">
+        <extract-path>//(Part)</extract-path>
+        <extract-path>//(Fournisseur)</extract-path>
+        <extract-path>//(People)</extract-path>
+        <extract-path>//(Operation)</extract-path>
+        <extract-path>//(Maintenance)</extract-path>
+    </extract-document-data>
+
+
+
+    <result-decorator apply="decorator" ns="http://marklogic.com/demo/decolibsearch" at="/lib/searhPageDecorator.xqy" />
+</options>

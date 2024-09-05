@@ -1,0 +1,26 @@
+{
+  "headers": { },
+  "collections": [
+    "MaintenanceIngestion"
+  ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "name": "MaintenanceIngestion",
+  "description": "Maintenance Ingestion Step",
+  "sourceFormat": "csv",
+  "separator": ";",
+  "targetFormat": "json",
+  "sourceName": "MAINTENANCE",
+  "sourceType": "",
+  "outputURIPrefix": "/source/maintenance/entity/maintenance/",
+  "additionalCollections": [ ],
+  "targetDatabase": "data-hub-STAGING",
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "stepDefinitionName": "default-ingestion",
+  "stepDefinitionType": "ingestion",
+  "stepId": "MaintenanceIngestion-ingestion",
+  "inputFilePath": "data/maintenance",
+  "lastUpdated": "2022-11-11T09:10:14.593373+01:00"
+}

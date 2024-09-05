@@ -1,0 +1,22 @@
+version: '3.9'
+name: manuf-demo-fasttrack
+services:
+  manuf-cgi-fasttrack:
+    image: marklogicdb/marklogic-db:11.1.0-centos-1.1.1
+    domainname: .
+    ports:
+      - 7997-8004:7997-8004
+      - 8006-8020:8006-8020
+    container_name: "manuf-cgi-fasttrack.local"
+    environment:
+      - MARKLOGIC_INIT=true
+      - MARKLOGIC_ADMIN_USERNAME=admin
+      - MARKLOGIC_ADMIN_PASSWORD=admin
+      - TZ=Europe/Amsterdam
+    volumes:
+      - ./logs/manuf-cgi-fasttrack.local:/var/opt/MarkLogic/Logs
+    networks:
+      - external_net
+
+networks:
+  external_net: {}

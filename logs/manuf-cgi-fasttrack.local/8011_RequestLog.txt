@@ -1,0 +1,1 @@
+{"time":"2024-09-05T08:13:58+02:00", "url":"/v1/documents?uri=/api/users/admin.json", "user":"admin", "elapsedTime":1.325307, "requests":2, "valueCacheMisses":1, "regexpCacheMisses":2, "fsProgramCacheMisses":2, "fsMainModuleSequenceCacheMisses":2, "fsLibraryModuleCacheHits":236, "fsLibraryModuleCacheMisses":241, "compileTime":1.262263, "runTime":0.000982}

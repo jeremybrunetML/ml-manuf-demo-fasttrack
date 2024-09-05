@@ -1,0 +1,13 @@
+{
+  "name": "OperationFlow",
+  "steps": {
+    "1": {
+      "stepId": "OperationIngestion-ingestion"
+    },
+    "2": {
+      "stepId": "OperationMapping-mapping"
+    }
+  },
+  "description": "Operation Flow",
+  "lastUpdated": "2022-11-11T09:10:13.665704+01:00"
+}

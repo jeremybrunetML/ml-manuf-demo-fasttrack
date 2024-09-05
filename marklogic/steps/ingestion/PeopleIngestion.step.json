@@ -1,0 +1,26 @@
+{
+  "headers": { },
+  "collections": [
+    "PeopleIngestion"
+  ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "name": "PeopleIngestion",
+  "description": "People Ingestion Step",
+  "sourceFormat": "csv",
+  "separator": ";",
+  "targetFormat": "json",
+  "sourceName": "SIRH",
+  "sourceType": "",
+  "outputURIPrefix": "/source/sirh/entity/people/",
+  "additionalCollections": [ ],
+  "targetDatabase": "data-hub-STAGING",
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "stepDefinitionName": "default-ingestion",
+  "stepDefinitionType": "ingestion",
+  "stepId": "PeopleIngestion-ingestion",
+  "inputFilePath": "data/people",
+  "lastUpdated": "2022-11-11T09:10:14.529901+01:00"
+}

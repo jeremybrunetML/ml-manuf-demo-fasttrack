@@ -1,0 +1,57 @@
+{
+  "collections": [
+    "PeopleMapping",
+    "People"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "PeopleMapping",
+  "targetEntityType": "http://example.org/People-1.0.0/People",
+  "description": "People Mapping",
+  "collection": [
+    "PeopleIngestion"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['PeopleIngestion'])",
+  "targetDatabase": "data-hub-FINAL",
+  "headers": { },
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "data-hub-STAGING",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "PeopleMapping-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2022-11-11T09:10:14.279918+01:00",
+  "uriExpression": "$URI",
+  "properties": {
+    "IDP": {
+      "sourcedFrom": "IDP"
+    },
+    "Prenom": {
+      "sourcedFrom": "Prenom"
+    },
+    "Poste": {
+      "sourcedFrom": "Poste"
+    },
+    "Site": {
+      "sourcedFrom": "Site"
+    },
+    "Competences": {
+      "sourcedFrom": "Competences"
+    },
+    "TJM": {
+      "sourcedFrom": "TJM"
+    },
+    "nom": {
+      "sourcedFrom": "Nom"
+    }
+  },
+  "namespaces": { }
+}

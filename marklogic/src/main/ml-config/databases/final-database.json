@@ -1,0 +1,67 @@
+{
+  "database-name": "%%mlFinalDbName%%",
+  "schema-database": "%%mlFinalSchemasDbName%%",
+  "triggers-database": "%%mlFinalTriggersDbName%%",
+  "triple-index": true,
+  "collection-lexicon": true,
+  "uri-lexicon": true,
+  "range-path-index": [
+    {
+      "scalar-type": "string",
+      "path-expression": "/envelope/instance/Part/Materiau",
+      "collation": "http://marklogic.com/collation/",
+      "range-value-positions": false,
+      "invalid-values": "ignore"
+    },
+    {
+      "scalar-type": "string",
+      "path-expression": "/envelope/instance/Part/partType",
+      "collation": "http://marklogic.com/collation/",
+      "range-value-positions": false,
+      "invalid-values": "ignore"
+    },
+    {
+      "scalar-type": "string",
+      "path-expression": "/envelope/instance/Part/partCategory",
+      "collation": "http://marklogic.com/collation/",
+      "range-value-positions": false,
+      "invalid-values": "ignore"
+    }
+  ],
+  "field": [
+    {
+      "field-name": "suggestion_field",
+      "field-path": [
+        {
+          "path": "/envelope/instance/Part/Materiau",
+          "weight": 1
+        },
+        {
+          "path": "/envelope/instance/Part/PieceNom",
+          "weight": 1
+        },
+        {
+          "path": "/envelope/instance/Part/IDPI",
+          "weight": 1
+        }
+      ],
+      "field-value-searches": true,
+      "field-value-positions": true,
+      "word-lexicon": [
+        "http://marklogic.com/collation/"
+      ],
+      "included-elements": null,
+      "excluded-elements": null,
+      "tokenizer-overrides": null
+    }
+  ],
+  "range-field-index": [
+    {
+      "scalar-type": "string",
+      "collation": "http://marklogic.com/collation/",
+      "field-name": "suggestion_field",
+      "range-value-positions": true,
+      "invalid-values": "ignore"
+    }
+  ]
+}

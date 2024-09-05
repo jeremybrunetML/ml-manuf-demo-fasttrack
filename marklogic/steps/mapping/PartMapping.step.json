@@ -1,0 +1,66 @@
+{
+  "collections": [
+    "PartMapping",
+    "Part"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "PartMapping",
+  "targetEntityType": "http://example.org/Part-1.0.0/Part",
+  "description": "Part Mapping",
+  "collection": [
+    "PartIngestion"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['PartIngestion'])",
+  "targetDatabase": "data-hub-FINAL",
+  "headers": { },
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "data-hub-STAGING",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "PartMapping-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2022-11-11T09:10:14.464219+01:00",
+  "uriExpression": "$URI",
+  "properties": {
+    "IDPI": {
+      "sourcedFrom": "IDPI"
+    },
+    "Materiau": {
+      "sourcedFrom": "Materiau"
+    },
+    "MasseKg": {
+      "sourcedFrom": "MasseKg"
+    },
+    "VolumeMm3": {
+      "sourcedFrom": "VolumeMm3"
+    },
+    "PieceNom": {
+      "sourcedFrom": "PieceNom"
+    },
+    "partImage": {
+      "sourcedFrom": "Photo"
+    },
+    "partDescription": {
+      "sourcedFrom": "Description"
+    },    
+    "partDescriptionEN": {
+      "sourcedFrom": "DescriptionEN"
+    },
+    "partType": {
+      "sourcedFrom": "Type"
+    },
+    "partCategory": {
+      "sourcedFrom": "Catégorie"
+    }
+  },
+  "namespaces": { }
+}

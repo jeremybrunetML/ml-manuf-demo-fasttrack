@@ -1,0 +1,10 @@
+172.18.0.1 - - [28/Jun/2024:08:57:04 +0200] "HEAD /v1/ping HTTP/1.1" 401 0 - -
+172.18.0.1 - - [28/Jun/2024:08:57:04 +0200] "HEAD /v1/ping HTTP/1.1" 401 0 - -
+172.18.0.1 - - [28/Jun/2024:08:57:04 +0200] "HEAD /v1/ping HTTP/1.1" 401 0 - -
+172.18.0.1 - - [28/Jun/2024:08:57:04 +0200] "HEAD /v1/ping HTTP/1.1" 401 0 - -
+172.18.0.1 - - [28/Jun/2024:08:57:04 +0200] "HEAD /v1/ping HTTP/1.1" 401 0 - -
+172.18.0.1 - admin [28/Jun/2024:08:57:06 +0200] "GET /jsdbg/v1/connected/data-hub-STAGING HTTP/1.1" 200 5 - -
+172.18.0.1 - admin [28/Jun/2024:08:57:06 +0200] "GET /jsdbg/v1/connected/data-hub-JOBS HTTP/1.1" 200 5 - -
+172.18.0.1 - admin [28/Jun/2024:08:57:06 +0200] "GET /jsdbg/v1/connected/TaskServer HTTP/1.1" 200 5 - -
+172.18.0.1 - admin [28/Jun/2024:08:57:08 +0200] "GET /manage/v3?resource-type=database,server&include-properties=false&format=json HTTP/1.1" 200 1701 - -
+172.18.0.1 - admin [28/Jun/2024:08:57:08 +0200] "GET /manage/v3?resource-type=database,server&include-properties=false&format=json HTTP/1.1" 200 1701 - -

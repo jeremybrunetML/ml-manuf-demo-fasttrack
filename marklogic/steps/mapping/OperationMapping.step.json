@@ -1,0 +1,87 @@
+{
+  "collections": [
+    "OperationMapping",
+    "Operation"
+  ],
+  "additionalCollections": [ ],
+  "permissions": "data-hub-common,read,data-hub-common,update",
+  "batchSize": 100,
+  "validateEntity": "doNotValidate",
+  "targetFormat": "json",
+  "attachSourceDocument": false,
+  "sourceRecordScope": "instanceOnly",
+  "name": "OperationMapping",
+  "targetEntityType": "http://example.org/Operation-1.0.0/Operation",
+  "description": "Operation Mapping",
+  "collection": [
+    "OperationIngestion"
+  ],
+  "selectedSource": "collection",
+  "sourceQuery": "cts.collectionQuery(['OperationIngestion'])",
+  "targetDatabase": "data-hub-FINAL",
+  "headers": { },
+  "interceptors": [ ],
+  "provenanceGranularityLevel": "off",
+  "customHook": { },
+  "sourceDatabase": "data-hub-STAGING",
+  "stepDefinitionName": "entity-services-mapping",
+  "stepDefinitionType": "mapping",
+  "stepId": "OperationMapping-mapping",
+  "acceptsBatch": true,
+  "lastUpdated": "2023-01-04T10:51:19.473722+01:00",
+  "uriExpression": "$URI",
+  "properties": {
+    "OperationName": {
+      "sourcedFrom": "OperationName"
+    },
+    "IDP": {
+      "sourcedFrom": "IDP"
+    },
+    "Type": {
+      "sourcedFrom": "Type"
+    },
+    "IDPI": {
+      "sourcedFrom": "IDPI"
+    },
+    "Site": {
+      "sourcedFrom": "Site"
+    },
+    "OperateurAssigne": {
+      "sourcedFrom": "OperateurAssigne"
+    },
+    "NombreInterventions": {
+      "sourcedFrom": "NombreInterventions"
+    },
+    "TempsGlobalInterventionNecessaireSemaine": {
+      "sourcedFrom": "TempsGlobalInterventionNecessaireSemaine"
+    },
+    "DisponibiliteS1": {
+      "sourcedFrom": "DisponibiliteS1"
+    },
+    "DisponibiliteS2": {
+      "sourcedFrom": "DisponibiliteS2"
+    },
+    "DisponibiliteS3": {
+      "sourcedFrom": "DisponibiliteS3"
+    },
+    "DisponibiliteS4": {
+      "sourcedFrom": "DisponibiliteS4"
+    },
+    "DisponibiliteS5": {
+      "sourcedFrom": "DisponibiliteS5"
+    },
+    "DisponibiliteS6": {
+      "sourcedFrom": "DisponibiliteS6"
+    },
+    "DisponibiliteS7": {
+      "sourcedFrom": "DisponibiliteS7"
+    },
+    "DisponibiliteS8": {
+      "sourcedFrom": "DisponibiliteS8"
+    },
+    "NetPricePerU": {
+      "sourcedFrom": "NetPricePerU"
+    }
+  },
+  "namespaces": { }
+}
