@@ -135,7 +135,7 @@ function Home() {
             <Container fluid>
               <div className={"text-center"}>
                 <SearchBox
-                  menuThemeColor="dark"
+                  menuThemeColor="light"
                   buttonThemeColor="default"
                   placeholder="Enter query (🦾)"
                   className="ms-auto me-auto my-4"

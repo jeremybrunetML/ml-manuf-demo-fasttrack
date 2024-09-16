@@ -1042,3 +1042,803 @@
 2024-09-16 14:47:21.674 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
 2024-09-16 14:47:21.674 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
 2024-09-16 14:47:21.674 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:02:24.392 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:02:24.392 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:02:24.392 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:02:24.392 Notice:+  $doc = ()
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:02:24.392 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:02:24.392 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:02:24.392 Notice:+  $start-range = ()
+2024-09-16 15:02:24.392 Notice:+  $end-range = ()
+2024-09-16 15:02:24.392 Notice:+  $content = ()
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:02:24.392 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:02:24.392 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:02:24.392 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:02:24.392 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:02:24.392 Notice:+  $categories = "content"
+2024-09-16 15:02:24.392 Notice:+  $with-read = fn:true()
+2024-09-16 15:02:24.392 Notice:+  $timestamp = ()
+2024-09-16 15:02:24.392 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:02:24.392 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:02:24.392 Notice:+  $uri-format = "json"
+2024-09-16 15:02:24.392 Notice:+  $uri-type = "application/json"
+2024-09-16 15:02:24.392 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:02:24.392 Notice:+  $trans-name = ()
+2024-09-16 15:02:24.392 Notice:+  $trans-default = ()
+2024-09-16 15:02:24.392 Notice:+  $has-transform = fn:false()
+2024-09-16 15:02:24.392 Notice:+  $range-header = ()
+2024-09-16 15:02:24.392 Notice:+  $content = ()
+2024-09-16 15:02:24.392 Notice:+  $actual-format = ()
+2024-09-16 15:02:24.392 Notice:+  $declared-format = "json"
+2024-09-16 15:02:24.392 Notice:+  $declared-type = "application/json"
+2024-09-16 15:02:24.392 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:02:24.392 Notice:+  $accept-param = "*/*"
+2024-09-16 15:02:24.392 Notice:+  $accept-types = ()
+2024-09-16 15:02:24.392 Notice:+  $boundary = ()
+2024-09-16 15:02:24.392 Notice:+  $request-charset = ()
+2024-09-16 15:02:24.392 Notice:+  $param-format = ()
+2024-09-16 15:02:24.392 Notice:+  $metadata-format = ()
+2024-09-16 15:02:24.392 Notice:+  $metadata-type = ()
+2024-09-16 15:02:24.392 Notice:+  $binary-length = ()
+2024-09-16 15:02:24.392 Notice:+  $range-list = ()
+2024-09-16 15:02:24.392 Notice:+  $start-range = ()
+2024-09-16 15:02:24.392 Notice:+  $end-range = ()
+2024-09-16 15:02:24.392 Notice:+  $length-responder = ()
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:02:24.392 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:02:24.392 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:02:24.392 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:17:25.430 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:17:25.430 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:17:25.430 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:17:25.430 Notice:+  $doc = ()
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:17:25.430 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:17:25.430 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:17:25.430 Notice:+  $start-range = ()
+2024-09-16 15:17:25.430 Notice:+  $end-range = ()
+2024-09-16 15:17:25.430 Notice:+  $content = ()
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:17:25.430 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:17:25.430 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:17:25.430 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:17:25.430 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:17:25.430 Notice:+  $categories = "content"
+2024-09-16 15:17:25.430 Notice:+  $with-read = fn:true()
+2024-09-16 15:17:25.430 Notice:+  $timestamp = ()
+2024-09-16 15:17:25.430 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:17:25.430 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:17:25.430 Notice:+  $uri-format = "json"
+2024-09-16 15:17:25.430 Notice:+  $uri-type = "application/json"
+2024-09-16 15:17:25.430 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:17:25.430 Notice:+  $trans-name = ()
+2024-09-16 15:17:25.430 Notice:+  $trans-default = ()
+2024-09-16 15:17:25.430 Notice:+  $has-transform = fn:false()
+2024-09-16 15:17:25.430 Notice:+  $range-header = ()
+2024-09-16 15:17:25.430 Notice:+  $content = ()
+2024-09-16 15:17:25.430 Notice:+  $actual-format = ()
+2024-09-16 15:17:25.430 Notice:+  $declared-format = "json"
+2024-09-16 15:17:25.430 Notice:+  $declared-type = "application/json"
+2024-09-16 15:17:25.430 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:17:25.430 Notice:+  $accept-param = "*/*"
+2024-09-16 15:17:25.430 Notice:+  $accept-types = ()
+2024-09-16 15:17:25.430 Notice:+  $boundary = ()
+2024-09-16 15:17:25.430 Notice:+  $request-charset = ()
+2024-09-16 15:17:25.430 Notice:+  $param-format = ()
+2024-09-16 15:17:25.430 Notice:+  $metadata-format = ()
+2024-09-16 15:17:25.430 Notice:+  $metadata-type = ()
+2024-09-16 15:17:25.430 Notice:+  $binary-length = ()
+2024-09-16 15:17:25.430 Notice:+  $range-list = ()
+2024-09-16 15:17:25.430 Notice:+  $start-range = ()
+2024-09-16 15:17:25.430 Notice:+  $end-range = ()
+2024-09-16 15:17:25.430 Notice:+  $length-responder = ()
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:17:25.430 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:17:25.430 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:17:25.430 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:32:26.967 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:32:26.967 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:32:26.967 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:32:26.967 Notice:+  $doc = ()
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:32:26.967 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:32:26.967 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:32:26.967 Notice:+  $start-range = ()
+2024-09-16 15:32:26.967 Notice:+  $end-range = ()
+2024-09-16 15:32:26.967 Notice:+  $content = ()
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:32:26.967 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:32:26.967 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:32:26.967 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:32:26.967 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:32:26.967 Notice:+  $categories = "content"
+2024-09-16 15:32:26.967 Notice:+  $with-read = fn:true()
+2024-09-16 15:32:26.967 Notice:+  $timestamp = ()
+2024-09-16 15:32:26.967 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:32:26.967 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:32:26.967 Notice:+  $uri-format = "json"
+2024-09-16 15:32:26.967 Notice:+  $uri-type = "application/json"
+2024-09-16 15:32:26.967 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:32:26.967 Notice:+  $trans-name = ()
+2024-09-16 15:32:26.967 Notice:+  $trans-default = ()
+2024-09-16 15:32:26.967 Notice:+  $has-transform = fn:false()
+2024-09-16 15:32:26.967 Notice:+  $range-header = ()
+2024-09-16 15:32:26.967 Notice:+  $content = ()
+2024-09-16 15:32:26.967 Notice:+  $actual-format = ()
+2024-09-16 15:32:26.967 Notice:+  $declared-format = "json"
+2024-09-16 15:32:26.967 Notice:+  $declared-type = "application/json"
+2024-09-16 15:32:26.967 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:32:26.967 Notice:+  $accept-param = "*/*"
+2024-09-16 15:32:26.967 Notice:+  $accept-types = ()
+2024-09-16 15:32:26.967 Notice:+  $boundary = ()
+2024-09-16 15:32:26.967 Notice:+  $request-charset = ()
+2024-09-16 15:32:26.967 Notice:+  $param-format = ()
+2024-09-16 15:32:26.967 Notice:+  $metadata-format = ()
+2024-09-16 15:32:26.967 Notice:+  $metadata-type = ()
+2024-09-16 15:32:26.967 Notice:+  $binary-length = ()
+2024-09-16 15:32:26.967 Notice:+  $range-list = ()
+2024-09-16 15:32:26.967 Notice:+  $start-range = ()
+2024-09-16 15:32:26.967 Notice:+  $end-range = ()
+2024-09-16 15:32:26.967 Notice:+  $length-responder = ()
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:32:26.967 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:32:26.967 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:32:26.967 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:47:27.979 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:47:27.979 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:47:27.979 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:47:27.979 Notice:+  $doc = ()
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:47:27.979 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:47:27.979 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:47:27.979 Notice:+  $start-range = ()
+2024-09-16 15:47:27.979 Notice:+  $end-range = ()
+2024-09-16 15:47:27.979 Notice:+  $content = ()
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:47:27.979 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:47:27.979 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:47:27.979 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:47:27.979 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:47:27.979 Notice:+  $categories = "content"
+2024-09-16 15:47:27.979 Notice:+  $with-read = fn:true()
+2024-09-16 15:47:27.979 Notice:+  $timestamp = ()
+2024-09-16 15:47:27.979 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:47:27.979 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:47:27.979 Notice:+  $uri-format = "json"
+2024-09-16 15:47:27.979 Notice:+  $uri-type = "application/json"
+2024-09-16 15:47:27.979 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:47:27.979 Notice:+  $trans-name = ()
+2024-09-16 15:47:27.979 Notice:+  $trans-default = ()
+2024-09-16 15:47:27.979 Notice:+  $has-transform = fn:false()
+2024-09-16 15:47:27.979 Notice:+  $range-header = ()
+2024-09-16 15:47:27.979 Notice:+  $content = ()
+2024-09-16 15:47:27.979 Notice:+  $actual-format = ()
+2024-09-16 15:47:27.979 Notice:+  $declared-format = "json"
+2024-09-16 15:47:27.979 Notice:+  $declared-type = "application/json"
+2024-09-16 15:47:27.979 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:47:27.979 Notice:+  $accept-param = "*/*"
+2024-09-16 15:47:27.979 Notice:+  $accept-types = ()
+2024-09-16 15:47:27.979 Notice:+  $boundary = ()
+2024-09-16 15:47:27.979 Notice:+  $request-charset = ()
+2024-09-16 15:47:27.979 Notice:+  $param-format = ()
+2024-09-16 15:47:27.979 Notice:+  $metadata-format = ()
+2024-09-16 15:47:27.979 Notice:+  $metadata-type = ()
+2024-09-16 15:47:27.979 Notice:+  $binary-length = ()
+2024-09-16 15:47:27.979 Notice:+  $range-list = ()
+2024-09-16 15:47:27.979 Notice:+  $start-range = ()
+2024-09-16 15:47:27.979 Notice:+  $end-range = ()
+2024-09-16 15:47:27.979 Notice:+  $length-responder = ()
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:47:27.979 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:47:27.979 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:47:27.979 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:48:45.198 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:48:45.198 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:48:45.198 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:48:45.198 Notice:+  $doc = ()
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:48:45.198 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:48:45.198 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:48:45.198 Notice:+  $start-range = ()
+2024-09-16 15:48:45.198 Notice:+  $end-range = ()
+2024-09-16 15:48:45.198 Notice:+  $content = ()
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:48:45.198 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:48:45.198 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:48:45.198 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:48:45.198 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:48:45.198 Notice:+  $categories = "content"
+2024-09-16 15:48:45.198 Notice:+  $with-read = fn:true()
+2024-09-16 15:48:45.198 Notice:+  $timestamp = ()
+2024-09-16 15:48:45.198 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:48:45.198 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:48:45.198 Notice:+  $uri-format = "json"
+2024-09-16 15:48:45.198 Notice:+  $uri-type = "application/json"
+2024-09-16 15:48:45.198 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:48:45.198 Notice:+  $trans-name = ()
+2024-09-16 15:48:45.198 Notice:+  $trans-default = ()
+2024-09-16 15:48:45.198 Notice:+  $has-transform = fn:false()
+2024-09-16 15:48:45.198 Notice:+  $range-header = ()
+2024-09-16 15:48:45.198 Notice:+  $content = ()
+2024-09-16 15:48:45.198 Notice:+  $actual-format = ()
+2024-09-16 15:48:45.198 Notice:+  $declared-format = "json"
+2024-09-16 15:48:45.198 Notice:+  $declared-type = "application/json"
+2024-09-16 15:48:45.198 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:48:45.198 Notice:+  $accept-param = "*/*"
+2024-09-16 15:48:45.198 Notice:+  $accept-types = ()
+2024-09-16 15:48:45.198 Notice:+  $boundary = ()
+2024-09-16 15:48:45.198 Notice:+  $request-charset = ()
+2024-09-16 15:48:45.198 Notice:+  $param-format = ()
+2024-09-16 15:48:45.198 Notice:+  $metadata-format = ()
+2024-09-16 15:48:45.198 Notice:+  $metadata-type = ()
+2024-09-16 15:48:45.198 Notice:+  $binary-length = ()
+2024-09-16 15:48:45.198 Notice:+  $range-list = ()
+2024-09-16 15:48:45.198 Notice:+  $start-range = ()
+2024-09-16 15:48:45.198 Notice:+  $end-range = ()
+2024-09-16 15:48:45.198 Notice:+  $length-responder = ()
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:48:45.198 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:48:45.198 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:48:45.198 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:53:47.921 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:53:47.921 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:53:47.921 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:53:47.921 Notice:+  $doc = ()
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:53:47.921 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:53:47.921 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:53:47.921 Notice:+  $start-range = ()
+2024-09-16 15:53:47.921 Notice:+  $end-range = ()
+2024-09-16 15:53:47.921 Notice:+  $content = ()
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:53:47.921 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:53:47.921 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:53:47.921 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:53:47.921 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:53:47.921 Notice:+  $categories = "content"
+2024-09-16 15:53:47.921 Notice:+  $with-read = fn:true()
+2024-09-16 15:53:47.921 Notice:+  $timestamp = ()
+2024-09-16 15:53:47.921 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:53:47.921 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:53:47.921 Notice:+  $uri-format = "json"
+2024-09-16 15:53:47.921 Notice:+  $uri-type = "application/json"
+2024-09-16 15:53:47.921 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:53:47.921 Notice:+  $trans-name = ()
+2024-09-16 15:53:47.921 Notice:+  $trans-default = ()
+2024-09-16 15:53:47.921 Notice:+  $has-transform = fn:false()
+2024-09-16 15:53:47.921 Notice:+  $range-header = ()
+2024-09-16 15:53:47.921 Notice:+  $content = ()
+2024-09-16 15:53:47.921 Notice:+  $actual-format = ()
+2024-09-16 15:53:47.921 Notice:+  $declared-format = "json"
+2024-09-16 15:53:47.921 Notice:+  $declared-type = "application/json"
+2024-09-16 15:53:47.921 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:53:47.921 Notice:+  $accept-param = "*/*"
+2024-09-16 15:53:47.921 Notice:+  $accept-types = ()
+2024-09-16 15:53:47.921 Notice:+  $boundary = ()
+2024-09-16 15:53:47.921 Notice:+  $request-charset = ()
+2024-09-16 15:53:47.921 Notice:+  $param-format = ()
+2024-09-16 15:53:47.921 Notice:+  $metadata-format = ()
+2024-09-16 15:53:47.921 Notice:+  $metadata-type = ()
+2024-09-16 15:53:47.921 Notice:+  $binary-length = ()
+2024-09-16 15:53:47.921 Notice:+  $range-list = ()
+2024-09-16 15:53:47.921 Notice:+  $start-range = ()
+2024-09-16 15:53:47.921 Notice:+  $end-range = ()
+2024-09-16 15:53:47.921 Notice:+  $length-responder = ()
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:53:47.921 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:53:47.921 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:53:47.921 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:58:01.875 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:58:01.875 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:58:01.875 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:58:01.875 Notice:+  $doc = ()
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:58:01.875 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:58:01.875 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:58:01.875 Notice:+  $start-range = ()
+2024-09-16 15:58:01.875 Notice:+  $end-range = ()
+2024-09-16 15:58:01.875 Notice:+  $content = ()
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:58:01.875 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:58:01.875 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:58:01.875 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:58:01.875 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:58:01.875 Notice:+  $categories = "content"
+2024-09-16 15:58:01.875 Notice:+  $with-read = fn:true()
+2024-09-16 15:58:01.875 Notice:+  $timestamp = ()
+2024-09-16 15:58:01.875 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:58:01.875 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:58:01.875 Notice:+  $uri-format = "json"
+2024-09-16 15:58:01.875 Notice:+  $uri-type = "application/json"
+2024-09-16 15:58:01.875 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:58:01.875 Notice:+  $trans-name = ()
+2024-09-16 15:58:01.875 Notice:+  $trans-default = ()
+2024-09-16 15:58:01.875 Notice:+  $has-transform = fn:false()
+2024-09-16 15:58:01.875 Notice:+  $range-header = ()
+2024-09-16 15:58:01.875 Notice:+  $content = ()
+2024-09-16 15:58:01.875 Notice:+  $actual-format = ()
+2024-09-16 15:58:01.875 Notice:+  $declared-format = "json"
+2024-09-16 15:58:01.875 Notice:+  $declared-type = "application/json"
+2024-09-16 15:58:01.875 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:58:01.875 Notice:+  $accept-param = "*/*"
+2024-09-16 15:58:01.875 Notice:+  $accept-types = ()
+2024-09-16 15:58:01.875 Notice:+  $boundary = ()
+2024-09-16 15:58:01.875 Notice:+  $request-charset = ()
+2024-09-16 15:58:01.875 Notice:+  $param-format = ()
+2024-09-16 15:58:01.875 Notice:+  $metadata-format = ()
+2024-09-16 15:58:01.875 Notice:+  $metadata-type = ()
+2024-09-16 15:58:01.875 Notice:+  $binary-length = ()
+2024-09-16 15:58:01.875 Notice:+  $range-list = ()
+2024-09-16 15:58:01.875 Notice:+  $start-range = ()
+2024-09-16 15:58:01.875 Notice:+  $end-range = ()
+2024-09-16 15:58:01.875 Notice:+  $length-responder = ()
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:58:01.875 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:58:01.875 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:58:01.875 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 15:59:35.780 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 15:59:35.780 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 15:59:35.780 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:59:35.780 Notice:+  $doc = ()
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 15:59:35.780 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 15:59:35.780 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:59:35.780 Notice:+  $start-range = ()
+2024-09-16 15:59:35.780 Notice:+  $end-range = ()
+2024-09-16 15:59:35.780 Notice:+  $content = ()
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 15:59:35.780 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:59:35.780 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:59:35.780 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 15:59:35.780 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 15:59:35.780 Notice:+  $categories = "content"
+2024-09-16 15:59:35.780 Notice:+  $with-read = fn:true()
+2024-09-16 15:59:35.780 Notice:+  $timestamp = ()
+2024-09-16 15:59:35.780 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 15:59:35.780 Notice:+  $is-multipart = fn:false()
+2024-09-16 15:59:35.780 Notice:+  $uri-format = "json"
+2024-09-16 15:59:35.780 Notice:+  $uri-type = "application/json"
+2024-09-16 15:59:35.780 Notice:+  $known-uri-type = fn:true()
+2024-09-16 15:59:35.780 Notice:+  $trans-name = ()
+2024-09-16 15:59:35.780 Notice:+  $trans-default = ()
+2024-09-16 15:59:35.780 Notice:+  $has-transform = fn:false()
+2024-09-16 15:59:35.780 Notice:+  $range-header = ()
+2024-09-16 15:59:35.780 Notice:+  $content = ()
+2024-09-16 15:59:35.780 Notice:+  $actual-format = ()
+2024-09-16 15:59:35.780 Notice:+  $declared-format = "json"
+2024-09-16 15:59:35.780 Notice:+  $declared-type = "application/json"
+2024-09-16 15:59:35.780 Notice:+  $overridable-type = fn:false()
+2024-09-16 15:59:35.780 Notice:+  $accept-param = "*/*"
+2024-09-16 15:59:35.780 Notice:+  $accept-types = ()
+2024-09-16 15:59:35.780 Notice:+  $boundary = ()
+2024-09-16 15:59:35.780 Notice:+  $request-charset = ()
+2024-09-16 15:59:35.780 Notice:+  $param-format = ()
+2024-09-16 15:59:35.780 Notice:+  $metadata-format = ()
+2024-09-16 15:59:35.780 Notice:+  $metadata-type = ()
+2024-09-16 15:59:35.780 Notice:+  $binary-length = ()
+2024-09-16 15:59:35.780 Notice:+  $range-list = ()
+2024-09-16 15:59:35.780 Notice:+  $start-range = ()
+2024-09-16 15:59:35.780 Notice:+  $end-range = ()
+2024-09-16 15:59:35.780 Notice:+  $length-responder = ()
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 15:59:35.780 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 15:59:35.780 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 15:59:35.780 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 16:00:28.792 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 16:00:28.792 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 16:00:28.792 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:00:28.792 Notice:+  $doc = ()
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 16:00:28.792 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 16:00:28.792 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:00:28.792 Notice:+  $start-range = ()
+2024-09-16 16:00:28.792 Notice:+  $end-range = ()
+2024-09-16 16:00:28.792 Notice:+  $content = ()
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 16:00:28.792 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:00:28.792 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:00:28.792 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:00:28.792 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:00:28.792 Notice:+  $categories = "content"
+2024-09-16 16:00:28.792 Notice:+  $with-read = fn:true()
+2024-09-16 16:00:28.792 Notice:+  $timestamp = ()
+2024-09-16 16:00:28.792 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 16:00:28.792 Notice:+  $is-multipart = fn:false()
+2024-09-16 16:00:28.792 Notice:+  $uri-format = "json"
+2024-09-16 16:00:28.792 Notice:+  $uri-type = "application/json"
+2024-09-16 16:00:28.792 Notice:+  $known-uri-type = fn:true()
+2024-09-16 16:00:28.792 Notice:+  $trans-name = ()
+2024-09-16 16:00:28.792 Notice:+  $trans-default = ()
+2024-09-16 16:00:28.792 Notice:+  $has-transform = fn:false()
+2024-09-16 16:00:28.792 Notice:+  $range-header = ()
+2024-09-16 16:00:28.792 Notice:+  $content = ()
+2024-09-16 16:00:28.792 Notice:+  $actual-format = ()
+2024-09-16 16:00:28.792 Notice:+  $declared-format = "json"
+2024-09-16 16:00:28.792 Notice:+  $declared-type = "application/json"
+2024-09-16 16:00:28.792 Notice:+  $overridable-type = fn:false()
+2024-09-16 16:00:28.792 Notice:+  $accept-param = "*/*"
+2024-09-16 16:00:28.792 Notice:+  $accept-types = ()
+2024-09-16 16:00:28.792 Notice:+  $boundary = ()
+2024-09-16 16:00:28.792 Notice:+  $request-charset = ()
+2024-09-16 16:00:28.792 Notice:+  $param-format = ()
+2024-09-16 16:00:28.792 Notice:+  $metadata-format = ()
+2024-09-16 16:00:28.792 Notice:+  $metadata-type = ()
+2024-09-16 16:00:28.792 Notice:+  $binary-length = ()
+2024-09-16 16:00:28.792 Notice:+  $range-list = ()
+2024-09-16 16:00:28.792 Notice:+  $start-range = ()
+2024-09-16 16:00:28.792 Notice:+  $end-range = ()
+2024-09-16 16:00:28.792 Notice:+  $length-responder = ()
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 16:00:28.792 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 16:00:28.792 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:00:28.792 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 16:20:25.081 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 16:20:25.081 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 16:20:25.081 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:20:25.081 Notice:+  $doc = ()
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 16:20:25.081 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 16:20:25.081 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:20:25.081 Notice:+  $start-range = ()
+2024-09-16 16:20:25.081 Notice:+  $end-range = ()
+2024-09-16 16:20:25.081 Notice:+  $content = ()
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 16:20:25.081 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:20:25.081 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:20:25.081 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:20:25.081 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:20:25.081 Notice:+  $categories = "content"
+2024-09-16 16:20:25.081 Notice:+  $with-read = fn:true()
+2024-09-16 16:20:25.081 Notice:+  $timestamp = ()
+2024-09-16 16:20:25.081 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 16:20:25.081 Notice:+  $is-multipart = fn:false()
+2024-09-16 16:20:25.081 Notice:+  $uri-format = "json"
+2024-09-16 16:20:25.081 Notice:+  $uri-type = "application/json"
+2024-09-16 16:20:25.081 Notice:+  $known-uri-type = fn:true()
+2024-09-16 16:20:25.081 Notice:+  $trans-name = ()
+2024-09-16 16:20:25.081 Notice:+  $trans-default = ()
+2024-09-16 16:20:25.081 Notice:+  $has-transform = fn:false()
+2024-09-16 16:20:25.081 Notice:+  $range-header = ()
+2024-09-16 16:20:25.081 Notice:+  $content = ()
+2024-09-16 16:20:25.081 Notice:+  $actual-format = ()
+2024-09-16 16:20:25.081 Notice:+  $declared-format = "json"
+2024-09-16 16:20:25.081 Notice:+  $declared-type = "application/json"
+2024-09-16 16:20:25.081 Notice:+  $overridable-type = fn:false()
+2024-09-16 16:20:25.081 Notice:+  $accept-param = "*/*"
+2024-09-16 16:20:25.081 Notice:+  $accept-types = ()
+2024-09-16 16:20:25.081 Notice:+  $boundary = ()
+2024-09-16 16:20:25.081 Notice:+  $request-charset = ()
+2024-09-16 16:20:25.081 Notice:+  $param-format = ()
+2024-09-16 16:20:25.081 Notice:+  $metadata-format = ()
+2024-09-16 16:20:25.081 Notice:+  $metadata-type = ()
+2024-09-16 16:20:25.081 Notice:+  $binary-length = ()
+2024-09-16 16:20:25.081 Notice:+  $range-list = ()
+2024-09-16 16:20:25.081 Notice:+  $start-range = ()
+2024-09-16 16:20:25.081 Notice:+  $end-range = ()
+2024-09-16 16:20:25.081 Notice:+  $length-responder = ()
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 16:20:25.081 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 16:20:25.081 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:20:25.081 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 16:35:27.052 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 16:35:27.052 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 16:35:27.052 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:35:27.052 Notice:+  $doc = ()
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 16:35:27.052 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 16:35:27.052 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:35:27.052 Notice:+  $start-range = ()
+2024-09-16 16:35:27.052 Notice:+  $end-range = ()
+2024-09-16 16:35:27.052 Notice:+  $content = ()
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 16:35:27.052 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:35:27.052 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:35:27.052 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:35:27.052 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:35:27.052 Notice:+  $categories = "content"
+2024-09-16 16:35:27.052 Notice:+  $with-read = fn:true()
+2024-09-16 16:35:27.052 Notice:+  $timestamp = ()
+2024-09-16 16:35:27.052 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 16:35:27.052 Notice:+  $is-multipart = fn:false()
+2024-09-16 16:35:27.052 Notice:+  $uri-format = "json"
+2024-09-16 16:35:27.052 Notice:+  $uri-type = "application/json"
+2024-09-16 16:35:27.052 Notice:+  $known-uri-type = fn:true()
+2024-09-16 16:35:27.052 Notice:+  $trans-name = ()
+2024-09-16 16:35:27.052 Notice:+  $trans-default = ()
+2024-09-16 16:35:27.052 Notice:+  $has-transform = fn:false()
+2024-09-16 16:35:27.052 Notice:+  $range-header = ()
+2024-09-16 16:35:27.052 Notice:+  $content = ()
+2024-09-16 16:35:27.052 Notice:+  $actual-format = ()
+2024-09-16 16:35:27.052 Notice:+  $declared-format = "json"
+2024-09-16 16:35:27.052 Notice:+  $declared-type = "application/json"
+2024-09-16 16:35:27.052 Notice:+  $overridable-type = fn:false()
+2024-09-16 16:35:27.052 Notice:+  $accept-param = "*/*"
+2024-09-16 16:35:27.052 Notice:+  $accept-types = ()
+2024-09-16 16:35:27.052 Notice:+  $boundary = ()
+2024-09-16 16:35:27.052 Notice:+  $request-charset = ()
+2024-09-16 16:35:27.052 Notice:+  $param-format = ()
+2024-09-16 16:35:27.052 Notice:+  $metadata-format = ()
+2024-09-16 16:35:27.052 Notice:+  $metadata-type = ()
+2024-09-16 16:35:27.052 Notice:+  $binary-length = ()
+2024-09-16 16:35:27.052 Notice:+  $range-list = ()
+2024-09-16 16:35:27.052 Notice:+  $start-range = ()
+2024-09-16 16:35:27.052 Notice:+  $end-range = ()
+2024-09-16 16:35:27.052 Notice:+  $length-responder = ()
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 16:35:27.052 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 16:35:27.052 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:35:27.052 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 16:50:14.734 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 16:50:14.734 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 16:50:14.734 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:50:14.734 Notice:+  $doc = ()
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 16:50:14.734 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 16:50:14.734 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:50:14.734 Notice:+  $start-range = ()
+2024-09-16 16:50:14.734 Notice:+  $end-range = ()
+2024-09-16 16:50:14.734 Notice:+  $content = ()
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 16:50:14.734 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:50:14.734 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:50:14.734 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 16:50:14.734 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 16:50:14.734 Notice:+  $categories = "content"
+2024-09-16 16:50:14.734 Notice:+  $with-read = fn:true()
+2024-09-16 16:50:14.734 Notice:+  $timestamp = ()
+2024-09-16 16:50:14.734 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 16:50:14.734 Notice:+  $is-multipart = fn:false()
+2024-09-16 16:50:14.734 Notice:+  $uri-format = "json"
+2024-09-16 16:50:14.734 Notice:+  $uri-type = "application/json"
+2024-09-16 16:50:14.734 Notice:+  $known-uri-type = fn:true()
+2024-09-16 16:50:14.734 Notice:+  $trans-name = ()
+2024-09-16 16:50:14.734 Notice:+  $trans-default = ()
+2024-09-16 16:50:14.734 Notice:+  $has-transform = fn:false()
+2024-09-16 16:50:14.734 Notice:+  $range-header = ()
+2024-09-16 16:50:14.734 Notice:+  $content = ()
+2024-09-16 16:50:14.734 Notice:+  $actual-format = ()
+2024-09-16 16:50:14.734 Notice:+  $declared-format = "json"
+2024-09-16 16:50:14.734 Notice:+  $declared-type = "application/json"
+2024-09-16 16:50:14.734 Notice:+  $overridable-type = fn:false()
+2024-09-16 16:50:14.734 Notice:+  $accept-param = "*/*"
+2024-09-16 16:50:14.734 Notice:+  $accept-types = ()
+2024-09-16 16:50:14.734 Notice:+  $boundary = ()
+2024-09-16 16:50:14.734 Notice:+  $request-charset = ()
+2024-09-16 16:50:14.734 Notice:+  $param-format = ()
+2024-09-16 16:50:14.734 Notice:+  $metadata-format = ()
+2024-09-16 16:50:14.734 Notice:+  $metadata-type = ()
+2024-09-16 16:50:14.734 Notice:+  $binary-length = ()
+2024-09-16 16:50:14.734 Notice:+  $range-list = ()
+2024-09-16 16:50:14.734 Notice:+  $start-range = ()
+2024-09-16 16:50:14.734 Notice:+  $end-range = ()
+2024-09-16 16:50:14.734 Notice:+  $length-responder = ()
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 16:50:14.734 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 16:50:14.734 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 16:50:14.734 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 17:00:13.970 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 17:00:13.970 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 17:00:13.970 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:00:13.970 Notice:+  $doc = ()
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 17:00:13.970 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 17:00:13.970 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:00:13.970 Notice:+  $start-range = ()
+2024-09-16 17:00:13.970 Notice:+  $end-range = ()
+2024-09-16 17:00:13.970 Notice:+  $content = ()
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 17:00:13.970 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:00:13.970 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:00:13.970 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:00:13.970 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:00:13.970 Notice:+  $categories = "content"
+2024-09-16 17:00:13.970 Notice:+  $with-read = fn:true()
+2024-09-16 17:00:13.970 Notice:+  $timestamp = ()
+2024-09-16 17:00:13.970 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 17:00:13.970 Notice:+  $is-multipart = fn:false()
+2024-09-16 17:00:13.970 Notice:+  $uri-format = "json"
+2024-09-16 17:00:13.970 Notice:+  $uri-type = "application/json"
+2024-09-16 17:00:13.970 Notice:+  $known-uri-type = fn:true()
+2024-09-16 17:00:13.970 Notice:+  $trans-name = ()
+2024-09-16 17:00:13.970 Notice:+  $trans-default = ()
+2024-09-16 17:00:13.970 Notice:+  $has-transform = fn:false()
+2024-09-16 17:00:13.970 Notice:+  $range-header = ()
+2024-09-16 17:00:13.970 Notice:+  $content = ()
+2024-09-16 17:00:13.970 Notice:+  $actual-format = ()
+2024-09-16 17:00:13.970 Notice:+  $declared-format = "json"
+2024-09-16 17:00:13.970 Notice:+  $declared-type = "application/json"
+2024-09-16 17:00:13.970 Notice:+  $overridable-type = fn:false()
+2024-09-16 17:00:13.970 Notice:+  $accept-param = "*/*"
+2024-09-16 17:00:13.970 Notice:+  $accept-types = ()
+2024-09-16 17:00:13.970 Notice:+  $boundary = ()
+2024-09-16 17:00:13.970 Notice:+  $request-charset = ()
+2024-09-16 17:00:13.970 Notice:+  $param-format = ()
+2024-09-16 17:00:13.970 Notice:+  $metadata-format = ()
+2024-09-16 17:00:13.970 Notice:+  $metadata-type = ()
+2024-09-16 17:00:13.970 Notice:+  $binary-length = ()
+2024-09-16 17:00:13.970 Notice:+  $range-list = ()
+2024-09-16 17:00:13.970 Notice:+  $start-range = ()
+2024-09-16 17:00:13.970 Notice:+  $end-range = ()
+2024-09-16 17:00:13.970 Notice:+  $length-responder = ()
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 17:00:13.970 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 17:00:13.970 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:00:13.970 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 17:01:59.062 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 17:01:59.062 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 17:01:59.062 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:01:59.062 Notice:+  $doc = ()
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 17:01:59.062 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 17:01:59.062 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:01:59.062 Notice:+  $start-range = ()
+2024-09-16 17:01:59.062 Notice:+  $end-range = ()
+2024-09-16 17:01:59.062 Notice:+  $content = ()
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 17:01:59.062 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:01:59.062 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:01:59.062 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:01:59.062 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:01:59.062 Notice:+  $categories = "content"
+2024-09-16 17:01:59.062 Notice:+  $with-read = fn:true()
+2024-09-16 17:01:59.062 Notice:+  $timestamp = ()
+2024-09-16 17:01:59.062 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 17:01:59.062 Notice:+  $is-multipart = fn:false()
+2024-09-16 17:01:59.062 Notice:+  $uri-format = "json"
+2024-09-16 17:01:59.062 Notice:+  $uri-type = "application/json"
+2024-09-16 17:01:59.062 Notice:+  $known-uri-type = fn:true()
+2024-09-16 17:01:59.062 Notice:+  $trans-name = ()
+2024-09-16 17:01:59.062 Notice:+  $trans-default = ()
+2024-09-16 17:01:59.062 Notice:+  $has-transform = fn:false()
+2024-09-16 17:01:59.062 Notice:+  $range-header = ()
+2024-09-16 17:01:59.062 Notice:+  $content = ()
+2024-09-16 17:01:59.062 Notice:+  $actual-format = ()
+2024-09-16 17:01:59.062 Notice:+  $declared-format = "json"
+2024-09-16 17:01:59.062 Notice:+  $declared-type = "application/json"
+2024-09-16 17:01:59.062 Notice:+  $overridable-type = fn:false()
+2024-09-16 17:01:59.062 Notice:+  $accept-param = "*/*"
+2024-09-16 17:01:59.062 Notice:+  $accept-types = ()
+2024-09-16 17:01:59.062 Notice:+  $boundary = ()
+2024-09-16 17:01:59.062 Notice:+  $request-charset = ()
+2024-09-16 17:01:59.062 Notice:+  $param-format = ()
+2024-09-16 17:01:59.062 Notice:+  $metadata-format = ()
+2024-09-16 17:01:59.062 Notice:+  $metadata-type = ()
+2024-09-16 17:01:59.062 Notice:+  $binary-length = ()
+2024-09-16 17:01:59.062 Notice:+  $range-list = ()
+2024-09-16 17:01:59.062 Notice:+  $start-range = ()
+2024-09-16 17:01:59.062 Notice:+  $end-range = ()
+2024-09-16 17:01:59.062 Notice:+  $length-responder = ()
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 17:01:59.062 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 17:01:59.062 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:01:59.062 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 17:02:58.659 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 17:02:58.659 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 17:02:58.659 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:02:58.659 Notice:+  $doc = ()
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 17:02:58.659 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 17:02:58.659 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:02:58.659 Notice:+  $start-range = ()
+2024-09-16 17:02:58.659 Notice:+  $end-range = ()
+2024-09-16 17:02:58.659 Notice:+  $content = ()
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 17:02:58.659 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:02:58.659 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:02:58.659 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:02:58.659 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:02:58.659 Notice:+  $categories = "content"
+2024-09-16 17:02:58.659 Notice:+  $with-read = fn:true()
+2024-09-16 17:02:58.659 Notice:+  $timestamp = ()
+2024-09-16 17:02:58.659 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 17:02:58.659 Notice:+  $is-multipart = fn:false()
+2024-09-16 17:02:58.659 Notice:+  $uri-format = "json"
+2024-09-16 17:02:58.659 Notice:+  $uri-type = "application/json"
+2024-09-16 17:02:58.659 Notice:+  $known-uri-type = fn:true()
+2024-09-16 17:02:58.659 Notice:+  $trans-name = ()
+2024-09-16 17:02:58.659 Notice:+  $trans-default = ()
+2024-09-16 17:02:58.659 Notice:+  $has-transform = fn:false()
+2024-09-16 17:02:58.659 Notice:+  $range-header = ()
+2024-09-16 17:02:58.659 Notice:+  $content = ()
+2024-09-16 17:02:58.659 Notice:+  $actual-format = ()
+2024-09-16 17:02:58.659 Notice:+  $declared-format = "json"
+2024-09-16 17:02:58.659 Notice:+  $declared-type = "application/json"
+2024-09-16 17:02:58.659 Notice:+  $overridable-type = fn:false()
+2024-09-16 17:02:58.659 Notice:+  $accept-param = "*/*"
+2024-09-16 17:02:58.659 Notice:+  $accept-types = ()
+2024-09-16 17:02:58.659 Notice:+  $boundary = ()
+2024-09-16 17:02:58.659 Notice:+  $request-charset = ()
+2024-09-16 17:02:58.659 Notice:+  $param-format = ()
+2024-09-16 17:02:58.659 Notice:+  $metadata-format = ()
+2024-09-16 17:02:58.659 Notice:+  $metadata-type = ()
+2024-09-16 17:02:58.659 Notice:+  $binary-length = ()
+2024-09-16 17:02:58.659 Notice:+  $range-list = ()
+2024-09-16 17:02:58.659 Notice:+  $start-range = ()
+2024-09-16 17:02:58.659 Notice:+  $end-range = ()
+2024-09-16 17:02:58.659 Notice:+  $length-responder = ()
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 17:02:58.659 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 17:02:58.659 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:02:58.659 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]
+2024-09-16 17:12:17.291 Notice: RESTAPI-NODOCUMENT: (err:FOER0000) Resource or document does not exist:  category: content message: /api/users/admin.json
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 512:13,
+2024-09-16 17:12:17.291 Notice:+in docmodqry:read-content("/api/users/admin.json") [1.0-ml]
+2024-09-16 17:12:17.291 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:12:17.291 Notice:+  $doc = ()
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 463:9,
+2024-09-16 17:12:17.291 Notice:+in docmodqry:produce-content("/api/users/admin.json", (), (), ()) [1.0-ml]
+2024-09-16 17:12:17.291 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:12:17.291 Notice:+  $start-range = ()
+2024-09-16 17:12:17.291 Notice:+  $end-range = ()
+2024-09-16 17:12:17.291 Notice:+  $content = ()
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 281:13,
+2024-09-16 17:12:17.291 Notice:+in docmodqry:get-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "/api/users/admin.json", "content", fn:true(), (), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:12:17.291 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:12:17.291 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2024-09-16 17:12:17.291 Notice:+  $uri = "/api/users/admin.json"
+2024-09-16 17:12:17.291 Notice:+  $categories = "content"
+2024-09-16 17:12:17.291 Notice:+  $with-read = fn:true()
+2024-09-16 17:12:17.291 Notice:+  $timestamp = ()
+2024-09-16 17:12:17.291 Notice:+  $env = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)
+2024-09-16 17:12:17.291 Notice:+  $is-multipart = fn:false()
+2024-09-16 17:12:17.291 Notice:+  $uri-format = "json"
+2024-09-16 17:12:17.291 Notice:+  $uri-type = "application/json"
+2024-09-16 17:12:17.291 Notice:+  $known-uri-type = fn:true()
+2024-09-16 17:12:17.291 Notice:+  $trans-name = ()
+2024-09-16 17:12:17.291 Notice:+  $trans-default = ()
+2024-09-16 17:12:17.291 Notice:+  $has-transform = fn:false()
+2024-09-16 17:12:17.291 Notice:+  $range-header = ()
+2024-09-16 17:12:17.291 Notice:+  $content = ()
+2024-09-16 17:12:17.291 Notice:+  $actual-format = ()
+2024-09-16 17:12:17.291 Notice:+  $declared-format = "json"
+2024-09-16 17:12:17.291 Notice:+  $declared-type = "application/json"
+2024-09-16 17:12:17.291 Notice:+  $overridable-type = fn:false()
+2024-09-16 17:12:17.291 Notice:+  $accept-param = "*/*"
+2024-09-16 17:12:17.291 Notice:+  $accept-types = ()
+2024-09-16 17:12:17.291 Notice:+  $boundary = ()
+2024-09-16 17:12:17.291 Notice:+  $request-charset = ()
+2024-09-16 17:12:17.291 Notice:+  $param-format = ()
+2024-09-16 17:12:17.291 Notice:+  $metadata-format = ()
+2024-09-16 17:12:17.291 Notice:+  $metadata-type = ()
+2024-09-16 17:12:17.291 Notice:+  $binary-length = ()
+2024-09-16 17:12:17.291 Notice:+  $range-list = ()
+2024-09-16 17:12:17.291 Notice:+  $start-range = ()
+2024-09-16 17:12:17.291 Notice:+  $end-range = ()
+2024-09-16 17:12:17.291 Notice:+  $length-responder = ()
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 161:13,
+2024-09-16 17:12:17.291 Notice:+in docmodqry:get-conditional-content(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), "content", fn:true(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/models/document-model-query.xqy, at 79:13,
+2024-09-16 17:12:17.291 Notice:+in docmodqry:get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>...function...)) [1.0-ml]
+2024-09-16 17:12:17.291 Notice:+in /MarkLogic/rest-api/endpoints/document-item-query.xqy, at 130:12 [1.0-ml]

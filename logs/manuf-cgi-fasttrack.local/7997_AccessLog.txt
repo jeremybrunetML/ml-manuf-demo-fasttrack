@@ -2,3 +2,6 @@
 172.18.0.2 - - [16/Sep/2024:10:11:19 +0200] "GET /LATEST/healthcheck HTTP/1.1" 200 50 - "curl/7.29.0"
 ::1 - - [16/Sep/2024:10:45:15 +0200] "GET / HTTP/1.1" 200 38 - "curl/7.29.0"
 172.18.0.2 - - [16/Sep/2024:10:45:15 +0200] "GET /LATEST/healthcheck HTTP/1.1" 200 50 - "curl/7.29.0"
+::1 - - [16/Sep/2024:14:59:24 +0200] "GET / HTTP/1.1" 200 38 - "curl/7.29.0"
+172.18.0.2 - - [16/Sep/2024:14:59:24 +0200] "GET /LATEST/healthcheck HTTP/1.1" 503 52 - "curl/7.29.0"
+172.18.0.2 - - [16/Sep/2024:14:59:29 +0200] "GET /LATEST/healthcheck HTTP/1.1" 200 50 - "curl/7.29.0"
