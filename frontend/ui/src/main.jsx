@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import { MLProvider } from "ml-fasttrack";
+import { MarkLogicProvider } from "ml-fasttrack";
 import { BrowserRouter as Router } from "react-router-dom";
 import ThemeProvider from "./utils/ThemeContext";
 import App from "./App";
@@ -17,7 +17,7 @@ const host = process.env.REACT_APP_HOST || "localhost";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
-      <MLProvider
+      <MarkLogicProvider
         scheme="http"
         host={host}
         port="8076"
@@ -31,7 +31,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <App />
           </ThemeProvider>
         </Router>
-      </MLProvider>
+      </MarkLogicProvider>
     </Provider>
   </React.StrictMode>
 );

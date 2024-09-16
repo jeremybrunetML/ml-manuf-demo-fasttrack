@@ -1,2 +1,0 @@
-2024-03-15 11:02:56.429 Info: MANAGE-INVALIDPAYLOAD: (err:FOER0000) Payload has errors in structure, content-type or values. CPF-DOMAINNOTFOUND: (err:FOER0000) Processing domain not found: sample-domain
-2024-03-15 11:02:56.429 Info: 291:13:/MarkLogic/manage/models/alert-config-model.xqy

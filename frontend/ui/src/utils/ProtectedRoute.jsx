@@ -11,7 +11,7 @@ export const ProtectedRoute = ({ children }) => {
   if (!userInfo || (userInfo && !userInfo.authenticated)) {
     // user is not authenticated
 
-    dispatch(logout());
+    dispatch(() =>logout());
 
     return <Navigate to="/login" />;
   }

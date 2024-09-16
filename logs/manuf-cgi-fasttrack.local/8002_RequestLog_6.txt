@@ -1,1 +1,0 @@
-{"time":"2024-03-14T10:18:06+01:00", "url":"/manage/v2/databases", "user":"admin", "elapsedTime":1.70419, "requests":1, "valueCacheHits":5622, "valueCacheMisses":350567, "regexpCacheHits":5333, "regexpCacheMisses":12, "fsProgramCacheMisses":1, "fsMainModuleSequenceCacheMisses":1, "fsLibraryModuleCacheMisses":229, "compileTime":0.823137, "runTime":0.842213}

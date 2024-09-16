@@ -5,14 +5,9 @@ import {
   ResultsConfig,
   WindowCard,
   EntityRecord,
-  MLContext,
+  MarkLogicContext,
   DataGrid,
   Timeline,
-  NumberRangeFacet,
-  StringFacet,
-  DateRangePicker,
-  BucketRangeFacet,
-  SelectedFacets,
   CommentBox,
   CommentList,
 } from "ml-fasttrack";
@@ -25,7 +20,6 @@ import Nav from "react-bootstrap/Nav";
 import Sidebar from "../partials/Sidebar";
 import Header from "../partials/Header";
 import searchBox from "../config/SearchBox.config";
-import { selectedFacetConfig } from "../config/SelectedFacet.config";
 import { ResultsSnippetConfig } from "../config/ResultsSnippet.config";
 import { entityDataGridConfigTemplate } from "../config/DataGrid.config";
 import resultsConfig from "../config/ResultsList.config";
@@ -41,18 +35,14 @@ function Home() {
 
   const [currentRangeValue, setCurrentRangeValue] = useState([]);
 
-  const [valueDateFacet, setValueDateFacet] = useState({ start: new Date(1980, 1, 1), end: new Date(2020, 12, 31) });
-  const [rangeFacetValue, setRangeFacetValue] = useState([]);
-  const [resetNumberFacet, setResetNumberFacet] = useState(false);
-  const [resetStringFacet, setResetStringFacet] = useState("");
-  const [resetBucketFacet, setResetBucketFacet] = useState("");
+
   const [selectedUri, setSelectedUri] = useState('');
 
   // create a ref
   const myRef = useRef(null);
   const graphRef = useRef(null);
 
-  const context = useContext(MLContext);
+  const context = useContext(MarkLogicContext);
 
   const queryParameters = new URLSearchParams(window.location.search);
   const q = queryParameters.get("q"); // query string
@@ -112,10 +102,7 @@ function Home() {
     context.setCollections(params?.collections);
   };
 
-  const handleFacetClick = (selection) => {
-    console.log("facetClick", selection);
-    context.addStringFacetConstraint(selection);
-  };
+
 
   useEffect(() => {
     const debounceTimeout = setTimeout(() => {
@@ -128,51 +115,10 @@ function Home() {
     };
   }, [currentRangeValue]);
 
-  const handleValueRange = (selections) => {
-    setResetNumberFacet(false);
-    console.log("🚀 ~ Number Range: ", selections);
-    setCurrentRangeValue(selections);
-  };
 
-  const resetNumberRangeFacet = () => {
-    context.removeRangeFacetConstraint(currentRangeValue);
-    setCurrentRangeValue([]);
-  };
 
-  const resetDateRangeFacet = (e, value, constraint) => {
-    console.log("🚀 ~ Reset date range selection: ", e, value, constraint);
-    context.removeRangeFacetConstraint(constraint);
-    setValueDateFacet({ start: null, end: null });
 
-    if (rangeFacetValue) {
-      setRangeFacetValue([]);
-      context.removeRangeFacetConstraint(rangeFacetValue);
-    }
-  };
 
-  //To reset facets by type
-  const resetSelectedFacetsComponent = (facet, type) => {
-    if (type === "rf") {
-      //Number range facet
-      if (facet[0]?.type === "number") {
-        setResetNumberFacet(true);
-      } else {
-        //Date range facet
-        setValueDateFacet({ start: null, end: null });
-      }
-      context.removeRangeFacetConstraint(facet);
-    } else if (type === "sf") {
-      //Bucket facet
-      if (facet?.name === "salaryBucketed") {
-        setResetBucketFacet(facet?.value[0]);
-        context.removeStringFacetConstraint(facet);
-      } else {
-        //String facet
-        setResetStringFacet(facet?.value[0]);
-        context.removeStringFacetConstraint(facet);
-      }
-    }
-  };
 
   return (
     <div className="flex h-screen overflow-hidden">
@@ -208,16 +154,6 @@ function Home() {
                 />
               </div>
 
-              {
-                <SelectedFacets
-                  selectedFacetConfig={selectedFacetConfig}
-                  stringFacets={context.stringFacetConstraints}
-                  rangeFacets={context.rangeFacetConstraints}
-                  removeStringFacet={(f) => resetSelectedFacetsComponent(f, "sf")}
-                  removeRangeFacet={(f) => resetSelectedFacetsComponent(f, "rf")}
-                  separator="to"
-                ></SelectedFacets>
-              }
 
               <div ref={myRef} style={{ position: "relative" }}>
                 {context.documentResponse && (
@@ -250,12 +186,6 @@ function Home() {
                   
 
                 <div class="flex"> 
-                        <div class="flex-none m-5">
-                          {context.searchResponse?.facets?.Categorie && <StringFacet title="Categorie" name="Categorie" data={context.searchResponse?.facets?.Categorie} onSelect={handleFacetClick} reset={resetStringFacet} />}
-                          {context.searchResponse?.facets?.Materiau && <StringFacet title="Materiau" name="Materiau" data={context.searchResponse?.facets?.Materiau} onSelect={handleFacetClick} reset={resetStringFacet} />}
-                          {context.searchResponse?.facets?.Type && <StringFacet title="Type" name="Type" data={context.searchResponse?.facets?.Type} onSelect={handleFacetClick} reset={resetStringFacet} />}
-                          
-                        </div>
                         <div class="flex-1 m-5">
                       <Tab.Content>
 

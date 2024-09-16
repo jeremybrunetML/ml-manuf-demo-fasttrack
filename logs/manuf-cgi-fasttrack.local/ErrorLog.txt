@@ -1,140 +1,288 @@
-2024-09-05 08:13:16.470 Notice: Starting MarkLogic Server 11.1.0 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
-2024-09-05 08:13:16.471 Info: MarkLogic Converters not installed
-2024-09-05 08:13:16.481 Info: Host 4261937dbf60 with 32GB memory running Linux 5.15.153.1-microsoft-standard-WSL2 (CentOS Linux release 7.9.2009 (Core)) on Docker
-2024-09-05 08:13:16.488 Info: MarkLogic Server is running in docker environment
-2024-09-05 08:13:16.488 Info:+Swap space= 5242880KB and Huge pages=0
-2024-09-05 08:13:16.488 Warning: Linux swap is underprovisioned; need=32GB have=5GB
-2024-09-05 08:13:16.576 Info: License key languages: en
-2024-09-05 08:13:16.660 Info: Using icu tokenization: ta ro tr da fi hu
-2024-09-05 08:13:16.660 Info: Using bitext stemming: en en-uc
-2024-09-05 08:13:16.660 Info: Using snowball stemming: ta ro tr da fi hu
-2024-09-05 08:13:17.582 Info: Loaded schemas, rule sets, and templates
-2024-09-05 08:13:17.652 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off, auditLogEncryption=off}
-2024-09-05 08:13:17.662 Info: Native plugin cache manifest initialized
-2024-09-05 08:13:17.667 Info: TempDir: MARKLOGIC_TEMP_DIR not set. So not considered as temp-dir.
-2024-09-05 08:13:17.667 Info: TempDir: TempDir=/var/opt/MarkLogic/Temp because group config or MARKLOGIC_TEMP_DIR not set/invalid.
-2024-09-05 08:13:17.676 Info: Forest Last-Login state changed from unmounted to mounted
-2024-09-05 08:13:17.676 Info: Forest Schemas state changed from unmounted to mounted
-2024-09-05 08:13:17.676 Info: Forest App-Services state changed from unmounted to mounted
-2024-09-05 08:13:17.676 Info: Forest Triggers state changed from unmounted to mounted
-2024-09-05 08:13:17.676 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.676 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.676 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.676 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.683 Info: Forest Schemas state changed from mounted to recovering
-2024-09-05 08:13:17.684 Info: Forest Schemas state changed from recovering to open
-2024-09-05 08:13:17.685 Info: Forest Triggers state changed from mounted to recovering
-2024-09-05 08:13:17.685 Info: Forest Last-Login state changed from mounted to recovering
-2024-09-05 08:13:17.685 Info: Forest Last-Login state changed from recovering to open
-2024-09-05 08:13:17.685 Info: Forest Triggers state changed from recovering to open
-2024-09-05 08:13:17.691 Info: Forest App-Services state changed from mounted to recovering
-2024-09-05 08:13:17.702 Info: Forest App-Services state changed from recovering to open
-2024-09-05 08:13:17.710 Warning: Linux Transparent Huge Pages are enabled, diminishing performance; recommend disabling
-2024-09-05 08:13:17.710 Info: Linux Huge Pages: detected 0, recommend 5120
-2024-09-05 08:13:17.740 Info: Forest Security state changed from unmounted to mounted
-2024-09-05 08:13:17.741 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.741 Info: Forest Meters state changed from unmounted to mounted
-2024-09-05 08:13:17.741 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.743 Info: Forest data-hub-JOBS-4 state changed from unmounted to mounted
-2024-09-05 08:13:17.743 Notice: Mounted forest data-hub-JOBS-4 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-4 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.744 Info: Forest data-hub-JOBS-3 state changed from unmounted to mounted
-2024-09-05 08:13:17.744 Notice: Mounted forest data-hub-JOBS-3 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.745 Info: Forest data-hub-JOBS-2 state changed from unmounted to mounted
-2024-09-05 08:13:17.745 Info: Deleted 1 MB at 321 MB/sec /var/opt/MarkLogic/Forests/Meters/0000006a
-2024-09-05 08:13:17.745 Notice: Mounted forest data-hub-JOBS-2 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.750 Info: Forest data-hub-JOBS-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.750 Notice: Mounted forest data-hub-JOBS-1 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.753 Info: Forest data-hub-STAGING-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.753 Notice: Mounted forest data-hub-STAGING-1 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.756 Info: Forest data-hub-staging-SCHEMAS-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.758 Notice: Mounted forest data-hub-staging-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.759 Info: Forest data-hub-STAGING-3 state changed from unmounted to mounted
-2024-09-05 08:13:17.759 Notice: Mounted forest data-hub-STAGING-3 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.759 Info: Forest data-hub-STAGING-2 state changed from unmounted to mounted
-2024-09-05 08:13:17.759 Info: Forest Modules state changed from unmounted to mounted
-2024-09-05 08:13:17.760 Notice: Mounted forest data-hub-STAGING-2 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.760 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.765 Info: Forest Modules state changed from mounted to recovering
-2024-09-05 08:13:17.791 Info: Forest Modules state changed from recovering to open
-2024-09-05 08:13:17.806 Info: Forest Security state changed from mounted to recovering
-2024-09-05 08:13:17.808 Info: Forest data-hub-staging-SCHEMAS-1 state changed from mounted to recovering
-2024-09-05 08:13:17.809 Info: Forest data-hub-JOBS-4 state changed from mounted to recovering
-2024-09-05 08:13:17.812 Info: Forest data-hub-JOBS-1 state changed from mounted to recovering
-2024-09-05 08:13:17.812 Info: Forest data-hub-JOBS-4 state changed from recovering to open
-2024-09-05 08:13:17.814 Info: Forest data-hub-JOBS-1 state changed from recovering to open
-2024-09-05 08:13:17.814 Info: Forest data-hub-JOBS-2 state changed from mounted to recovering
-2024-09-05 08:13:17.815 Info: Forest Security state changed from recovering to open
-2024-09-05 08:13:17.815 Info: Forest data-hub-JOBS-2 state changed from recovering to open
-2024-09-05 08:13:17.816 Info: Forest data-hub-STAGING-1 state changed from mounted to recovering
-2024-09-05 08:13:17.817 Info: Forest data-hub-STAGING-2 state changed from mounted to recovering
-2024-09-05 08:13:17.817 Info: Forest data-hub-staging-SCHEMAS-1 state changed from recovering to open
-2024-09-05 08:13:17.821 Info: Forest data-hub-STAGING-2 state changed from recovering to open
-2024-09-05 08:13:17.821 Info: Forest data-hub-STAGING-1 state changed from recovering to open
-2024-09-05 08:13:17.822 Info: Forest data-hub-MODULES-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.822 Info: Forest data-hub-STAGING-3 state changed from mounted to recovering
-2024-09-05 08:13:17.822 Notice: Mounted forest data-hub-MODULES-1 locally on /var/opt/MarkLogic/Forests/data-hub-MODULES-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.823 Info: Forest data-hub-final-TRIGGERS-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.824 Notice: Mounted forest data-hub-final-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.824 Info: Forest data-hub-FINAL-3 state changed from unmounted to mounted
-2024-09-05 08:13:17.825 Notice: Mounted forest data-hub-FINAL-3 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.825 Info: Forest data-hub-FINAL-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.825 Notice: Mounted forest data-hub-FINAL-1 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.826 Info: Forest data-hub-FINAL-2 state changed from unmounted to mounted
-2024-09-05 08:13:17.826 Notice: Mounted forest data-hub-FINAL-2 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.828 Info: Forest Fab state changed from unmounted to mounted
-2024-09-05 08:13:17.828 Info: Forest data-hub-STAGING-3 state changed from recovering to open
-2024-09-05 08:13:17.828 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.829 Info: Forest data-hub-final-SCHEMAS-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.829 Notice: Mounted forest data-hub-final-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.830 Info: Forest Documents state changed from unmounted to mounted
-2024-09-05 08:13:17.830 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.833 Info: Forest Fab state changed from mounted to recovering
-2024-09-05 08:13:17.833 Info: Forest Extensions state changed from unmounted to mounted
-2024-09-05 08:13:17.833 Info: Forest Fab state changed from recovering to open
-2024-09-05 08:13:17.834 Info: Forest data-hub-MODULES-1 state changed from mounted to recovering
-2024-09-05 08:13:17.834 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.835 Info: Forest Documents state changed from mounted to recovering
-2024-09-05 08:13:17.835 Info: Forest Documents state changed from recovering to open
-2024-09-05 08:13:17.835 Info: Forest data-hub-staging-TRIGGERS-1 state changed from unmounted to mounted
-2024-09-05 08:13:17.836 Notice: Mounted forest data-hub-staging-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
-2024-09-05 08:13:17.837 Info: Forest data-hub-final-TRIGGERS-1 state changed from mounted to recovering
-2024-09-05 08:13:17.838 Info: Forest Extensions state changed from mounted to recovering
-2024-09-05 08:13:17.838 Info: Forest Meters state changed from mounted to recovering
-2024-09-05 08:13:17.841 Info: Forest data-hub-JOBS-3 state changed from mounted to recovering
-2024-09-05 08:13:17.872 Info: Forest data-hub-final-TRIGGERS-1 state changed from recovering to open
-2024-09-05 08:13:17.872 Info: Forest Extensions state changed from recovering to open
-2024-09-05 08:13:17.872 Info: Forest data-hub-JOBS-3 state changed from recovering to open
-2024-09-05 08:13:17.879 Info: Forest data-hub-final-SCHEMAS-1 state changed from mounted to recovering
-2024-09-05 08:13:17.882 Info: Forest data-hub-MODULES-1 state changed from recovering to open
-2024-09-05 08:13:17.883 Info: Forest data-hub-staging-TRIGGERS-1 state changed from mounted to recovering
-2024-09-05 08:13:17.888 Info: Forest data-hub-staging-TRIGGERS-1 state changed from recovering to open
-2024-09-05 08:13:17.889 Info: Forest data-hub-final-SCHEMAS-1 state changed from recovering to open
-2024-09-05 08:13:17.892 Info: Forest data-hub-FINAL-3 state changed from mounted to recovering
-2024-09-05 08:13:17.894 Info: Forest data-hub-FINAL-2 state changed from mounted to recovering
-2024-09-05 08:13:17.895 Info: Forest data-hub-FINAL-1 state changed from mounted to recovering
-2024-09-05 08:13:17.898 Info: Forest data-hub-FINAL-3 state changed from recovering to open
-2024-09-05 08:13:17.899 Info: Forest data-hub-FINAL-2 state changed from recovering to open
-2024-09-05 08:13:17.900 Info: Forest data-hub-FINAL-1 state changed from recovering to open
-2024-09-05 08:13:18.067 Info: Database data-hub-final-SCHEMAS is online with 1 forest
-2024-09-05 08:13:18.068 Info: Database data-hub-JOBS is online with 4 forests
-2024-09-05 08:13:18.069 Info: Database Extensions is online with 1 forest
-2024-09-05 08:13:18.070 Info: Database Security is online with 1 forest
-2024-09-05 08:13:18.071 Info: Database data-hub-STAGING is online with 3 forests
-2024-09-05 08:13:18.072 Info: Database Triggers is online with 1 forest
-2024-09-05 08:13:18.076 Info: Database data-hub-staging-TRIGGERS is online with 1 forest
-2024-09-05 08:13:18.078 Info: Database data-hub-MODULES is online with 1 forest
-2024-09-05 08:13:18.079 Info: Database Schemas is online with 1 forest
-2024-09-05 08:13:18.080 Info: Database Documents is online with 1 forest
-2024-09-05 08:13:18.083 Info: Database Modules is online with 1 forest
-2024-09-05 08:13:18.086 Info: Database data-hub-FINAL is online with 3 forests
-2024-09-05 08:13:18.088 Info: Database App-Services is online with 1 forest
-2024-09-05 08:13:18.089 Info: Database data-hub-final-TRIGGERS is online with 1 forest
-2024-09-05 08:13:18.090 Info: Database Fab is online with 1 forest
-2024-09-05 08:13:18.091 Info: Database data-hub-staging-SCHEMAS is online with 1 forest
-2024-09-05 08:13:18.095 Info: Database Last-Login is online with 1 forest
-2024-09-05 08:13:18.497 Info: Forest Meters state changed from recovering to open
-2024-09-05 08:13:18.691 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000005b to /var/opt/MarkLogic/Forests/App-Services/0000005c, timestamp=17255161979004020
-2024-09-05 08:13:18.735 Info: Merged 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000005c
-2024-09-05 08:13:19.096 Info: Database Meters is online with 1 forest
-2024-09-05 08:13:22.222 Info: Deleted 1 MB at 101 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000005b
-2024-09-05 08:18:00.171 Info: Memory 2% phys=32102 size=1749(5%) rss=928(2%) anon=1398(4%) file=9(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 10:11:14.766 Notice: Starting MarkLogic Server 11.1.0 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
+2024-09-16 10:11:14.767 Info: MarkLogic Converters not installed
+2024-09-16 10:11:14.783 Info: Host 4261937dbf60 with 32GB memory running Linux 5.15.153.1-microsoft-standard-WSL2 (CentOS Linux release 7.9.2009 (Core)) on Docker
+2024-09-16 10:11:14.794 Info: MarkLogic Server is running in docker environment
+2024-09-16 10:11:14.794 Info:+Swap space= 5242880KB and Huge pages=0
+2024-09-16 10:11:14.794 Warning: Linux swap is underprovisioned; need=32GB have=5GB
+2024-09-16 10:11:14.930 Info: License key languages: en
+2024-09-16 10:11:15.018 Info: Using icu tokenization: ta ro tr da fi hu
+2024-09-16 10:11:15.018 Info: Using bitext stemming: en en-uc
+2024-09-16 10:11:15.018 Info: Using snowball stemming: ta ro tr da fi hu
+2024-09-16 10:11:16.125 Info: Loaded schemas, rule sets, and templates
+2024-09-16 10:11:16.190 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off, auditLogEncryption=off}
+2024-09-16 10:11:16.199 Info: Native plugin cache manifest initialized
+2024-09-16 10:11:16.202 Info: TempDir: MARKLOGIC_TEMP_DIR not set. So not considered as temp-dir.
+2024-09-16 10:11:16.202 Info: TempDir: TempDir=/var/opt/MarkLogic/Temp because group config or MARKLOGIC_TEMP_DIR not set/invalid.
+2024-09-16 10:11:16.207 Info: Forest Schemas state changed from unmounted to mounted
+2024-09-16 10:11:16.207 Info: Forest Last-Login state changed from unmounted to mounted
+2024-09-16 10:11:16.207 Info: Forest Triggers state changed from unmounted to mounted
+2024-09-16 10:11:16.207 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.207 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.207 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.210 Info: Forest App-Services state changed from unmounted to mounted
+2024-09-16 10:11:16.210 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.211 Info: Forest Security state changed from unmounted to mounted
+2024-09-16 10:11:16.211 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.213 Info: Forest Schemas state changed from mounted to recovering
+2024-09-16 10:11:16.213 Info: Forest Meters state changed from unmounted to mounted
+2024-09-16 10:11:16.213 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.214 Info: Forest Triggers state changed from mounted to recovering
+2024-09-16 10:11:16.214 Info: Forest Schemas state changed from recovering to open
+2024-09-16 10:11:16.214 Info: Forest Last-Login state changed from mounted to recovering
+2024-09-16 10:11:16.215 Info: Forest Triggers state changed from recovering to open
+2024-09-16 10:11:16.215 Info: Forest data-hub-JOBS-4 state changed from unmounted to mounted
+2024-09-16 10:11:16.215 Notice: Mounted forest data-hub-JOBS-4 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-4 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.216 Info: Forest Last-Login state changed from recovering to open
+2024-09-16 10:11:16.217 Info: Forest data-hub-JOBS-3 state changed from unmounted to mounted
+2024-09-16 10:11:16.217 Notice: Mounted forest data-hub-JOBS-3 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-3 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.221 Info: Forest data-hub-JOBS-2 state changed from unmounted to mounted
+2024-09-16 10:11:16.221 Notice: Mounted forest data-hub-JOBS-2 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-2 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.225 Info: Forest data-hub-STAGING-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.225 Info: Forest data-hub-JOBS-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.225 Notice: Mounted forest data-hub-JOBS-1 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.226 Notice: Mounted forest data-hub-STAGING-1 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.226 Info: Forest data-hub-staging-SCHEMAS-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.227 Info: Forest App-Services state changed from mounted to recovering
+2024-09-16 10:11:16.227 Notice: Mounted forest data-hub-staging-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.227 Info: Forest data-hub-STAGING-2 state changed from unmounted to mounted
+2024-09-16 10:11:16.228 Notice: Mounted forest data-hub-STAGING-2 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-2 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.231 Info: Forest Security state changed from mounted to recovering
+2024-09-16 10:11:16.269 Warning: Linux Transparent Huge Pages are enabled, diminishing performance; recommend disabling
+2024-09-16 10:11:16.273 Info: Forest Security state changed from recovering to open
+2024-09-16 10:11:16.281 Info: Forest App-Services state changed from recovering to open
+2024-09-16 10:11:16.285 Info: Forest data-hub-JOBS-2 state changed from mounted to recovering
+2024-09-16 10:11:16.287 Info: Forest data-hub-staging-SCHEMAS-1 state changed from mounted to recovering
+2024-09-16 10:11:16.287 Info: Forest data-hub-JOBS-2 state changed from recovering to open
+2024-09-16 10:11:16.288 Info: Forest data-hub-JOBS-4 state changed from mounted to recovering
+2024-09-16 10:11:16.291 Info: Forest data-hub-JOBS-4 state changed from recovering to open
+2024-09-16 10:11:16.291 Info: Forest data-hub-STAGING-2 state changed from mounted to recovering
+2024-09-16 10:11:16.291 Info: Forest data-hub-STAGING-3 state changed from unmounted to mounted
+2024-09-16 10:11:16.292 Notice: Mounted forest data-hub-STAGING-3 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-3 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.292 Info: Forest data-hub-JOBS-1 state changed from mounted to recovering
+2024-09-16 10:11:16.292 Info: Forest data-hub-STAGING-1 state changed from mounted to recovering
+2024-09-16 10:11:16.292 Info: Forest Modules state changed from unmounted to mounted
+2024-09-16 10:11:16.292 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.295 Info: Forest data-hub-JOBS-1 state changed from recovering to open
+2024-09-16 10:11:16.296 Info: Forest data-hub-staging-SCHEMAS-1 state changed from recovering to open
+2024-09-16 10:11:16.297 Info: Forest Modules state changed from mounted to recovering
+2024-09-16 10:11:16.297 Info: Forest Modules state changed from recovering to open
+2024-09-16 10:11:16.298 Info: Forest data-hub-FINAL-3 state changed from unmounted to mounted
+2024-09-16 10:11:16.299 Notice: Mounted forest data-hub-FINAL-3 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-3 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.299 Info: Forest data-hub-MODULES-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.299 Info: Forest data-hub-FINAL-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.300 Notice: Mounted forest data-hub-FINAL-1 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.300 Notice: Mounted forest data-hub-MODULES-1 locally on /var/opt/MarkLogic/Forests/data-hub-MODULES-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.300 Info: Forest data-hub-final-TRIGGERS-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.300 Notice: Mounted forest data-hub-final-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.301 Info: Forest data-hub-STAGING-1 state changed from recovering to open
+2024-09-16 10:11:16.302 Info: Forest data-hub-STAGING-2 state changed from recovering to open
+2024-09-16 10:11:16.317 Info: Forest data-hub-final-TRIGGERS-1 state changed from mounted to recovering
+2024-09-16 10:11:16.317 Info: Forest data-hub-MODULES-1 state changed from mounted to recovering
+2024-09-16 10:11:16.325 Info: Forest data-hub-JOBS-3 state changed from mounted to recovering
+2024-09-16 10:11:16.326 Info: Forest data-hub-JOBS-3 state changed from recovering to open
+2024-09-16 10:11:16.326 Info: Forest data-hub-MODULES-1 state changed from recovering to open
+2024-09-16 10:11:16.329 Info: Forest data-hub-FINAL-3 state changed from mounted to recovering
+2024-09-16 10:11:16.336 Info: Forest data-hub-FINAL-3 state changed from recovering to open
+2024-09-16 10:11:16.352 Info: Forest data-hub-final-TRIGGERS-1 state changed from recovering to open
+2024-09-16 10:11:16.354 Info: Forest data-hub-STAGING-3 state changed from mounted to recovering
+2024-09-16 10:11:16.360 Info: Forest data-hub-STAGING-3 state changed from recovering to open
+2024-09-16 10:11:16.360 Info: Forest data-hub-FINAL-1 state changed from mounted to recovering
+2024-09-16 10:11:16.362 Info: Forest Fab state changed from unmounted to mounted
+2024-09-16 10:11:16.362 Info: Forest data-hub-FINAL-2 state changed from unmounted to mounted
+2024-09-16 10:11:16.362 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.362 Notice: Mounted forest data-hub-FINAL-2 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-2 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.364 Info: Forest data-hub-final-SCHEMAS-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.364 Info: Forest Documents state changed from unmounted to mounted
+2024-09-16 10:11:16.365 Notice: Mounted forest data-hub-final-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.365 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.366 Info: Forest Extensions state changed from unmounted to mounted
+2024-09-16 10:11:16.366 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.367 Info: Forest data-hub-staging-TRIGGERS-1 state changed from unmounted to mounted
+2024-09-16 10:11:16.367 Notice: Mounted forest data-hub-staging-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1 read write (sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:11:16.367 Info: Forest Fab state changed from mounted to recovering
+2024-09-16 10:11:16.367 Info: Forest data-hub-FINAL-1 state changed from recovering to open
+2024-09-16 10:11:16.367 Info: Forest Fab state changed from recovering to open
+2024-09-16 10:11:16.369 Info: Forest Documents state changed from mounted to recovering
+2024-09-16 10:11:16.370 Info: Forest Documents state changed from recovering to open
+2024-09-16 10:11:16.371 Info: Forest Extensions state changed from mounted to recovering
+2024-09-16 10:11:16.371 Info: Forest Extensions state changed from recovering to open
+2024-09-16 10:11:16.377 Info: Forest data-hub-final-SCHEMAS-1 state changed from mounted to recovering
+2024-09-16 10:11:16.378 Info: Deleted 1 MB at 266 MB/sec /var/opt/MarkLogic/Forests/Meters/000000b2
+2024-09-16 10:11:16.379 Info: Forest data-hub-staging-TRIGGERS-1 state changed from mounted to recovering
+2024-09-16 10:11:16.382 Info: Forest data-hub-final-SCHEMAS-1 state changed from recovering to open
+2024-09-16 10:11:16.382 Info: Forest Meters state changed from mounted to recovering
+2024-09-16 10:11:16.382 Info: Forest data-hub-staging-TRIGGERS-1 state changed from recovering to open
+2024-09-16 10:11:16.389 Info: Forest data-hub-FINAL-2 state changed from mounted to recovering
+2024-09-16 10:11:16.396 Info: Forest data-hub-FINAL-2 state changed from recovering to open
+2024-09-16 10:11:16.902 Info: Forest Meters state changed from recovering to open
+2024-09-16 10:11:17.214 Info: Linux Huge Pages: detected 0, recommend 5120 to 9068
+2024-09-16 10:11:17.214 Info: Database data-hub-final-SCHEMAS is online with 1 forest
+2024-09-16 10:11:17.215 Info: Database data-hub-JOBS is online with 4 forests
+2024-09-16 10:11:17.216 Info: Database Extensions is online with 1 forest
+2024-09-16 10:11:17.218 Info: Database Security is online with 1 forest
+2024-09-16 10:11:17.219 Info: Database data-hub-STAGING is online with 3 forests
+2024-09-16 10:11:17.220 Info: Database Triggers is online with 1 forest
+2024-09-16 10:11:17.223 Info: Database data-hub-staging-TRIGGERS is online with 1 forest
+2024-09-16 10:11:17.225 Info: Database data-hub-MODULES is online with 1 forest
+2024-09-16 10:11:17.226 Info: Database Schemas is online with 1 forest
+2024-09-16 10:11:17.227 Info: Database Documents is online with 1 forest
+2024-09-16 10:11:17.234 Info: Database Modules is online with 1 forest
+2024-09-16 10:11:17.241 Info: Database data-hub-FINAL is online with 3 forests
+2024-09-16 10:11:17.243 Info: Database App-Services is online with 1 forest
+2024-09-16 10:11:17.246 Info: Database data-hub-final-TRIGGERS is online with 1 forest
+2024-09-16 10:11:17.249 Info: Database Fab is online with 1 forest
+2024-09-16 10:11:17.249 Info: Database data-hub-staging-SCHEMAS is online with 1 forest
+2024-09-16 10:11:17.250 Info: Database Meters is online with 1 forest
+2024-09-16 10:11:17.256 Info: Database Last-Login is online with 1 forest
+2024-09-16 10:16:00.231 Info: Memory 1% phys=32102 size=870(2%) rss=441(1%) anon=518(1%) file=11(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 10:45:10.841 Notice: Starting MarkLogic Server 11.1.0 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
+2024-09-16 10:45:10.842 Info: MarkLogic Converters not installed
+2024-09-16 10:45:10.854 Info: Host 4261937dbf60 with 32GB memory running Linux 5.15.153.1-microsoft-standard-WSL2 (CentOS Linux release 7.9.2009 (Core)) on Docker
+2024-09-16 10:45:10.861 Info: MarkLogic Server is running in docker environment
+2024-09-16 10:45:10.861 Info:+Swap space= 5242880KB and Huge pages=0
+2024-09-16 10:45:10.861 Warning: Linux swap is underprovisioned; need=32GB have=5GB
+2024-09-16 10:45:10.963 Info: License key languages: en
+2024-09-16 10:45:11.020 Info: Using icu tokenization: ta ro tr da fi hu
+2024-09-16 10:45:11.020 Info: Using bitext stemming: en en-uc
+2024-09-16 10:45:11.020 Info: Using snowball stemming: ta ro tr da fi hu
+2024-09-16 10:45:11.976 Info: Loaded schemas, rule sets, and templates
+2024-09-16 10:45:12.035 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off, auditLogEncryption=off}
+2024-09-16 10:45:12.045 Info: Native plugin cache manifest initialized
+2024-09-16 10:45:12.049 Info: TempDir: MARKLOGIC_TEMP_DIR not set. So not considered as temp-dir.
+2024-09-16 10:45:12.049 Info: TempDir: TempDir=/var/opt/MarkLogic/Temp because group config or MARKLOGIC_TEMP_DIR not set/invalid.
+2024-09-16 10:45:12.053 Info: Forest Schemas state changed from unmounted to mounted
+2024-09-16 10:45:12.053 Info: Forest Triggers state changed from unmounted to mounted
+2024-09-16 10:45:12.053 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.053 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.054 Info: Forest Last-Login state changed from unmounted to mounted
+2024-09-16 10:45:12.054 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.056 Info: Forest App-Services state changed from unmounted to mounted
+2024-09-16 10:45:12.056 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.058 Info: Forest Security state changed from unmounted to mounted
+2024-09-16 10:45:12.058 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.059 Info: Forest Triggers state changed from mounted to recovering
+2024-09-16 10:45:12.059 Info: Forest Schemas state changed from mounted to recovering
+2024-09-16 10:45:12.060 Info: Forest Last-Login state changed from mounted to recovering
+2024-09-16 10:45:12.060 Info: Forest Meters state changed from unmounted to mounted
+2024-09-16 10:45:12.060 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.061 Info: Forest Triggers state changed from recovering to open
+2024-09-16 10:45:12.061 Info: Forest Schemas state changed from recovering to open
+2024-09-16 10:45:12.061 Info: Forest Last-Login state changed from recovering to open
+2024-09-16 10:45:12.067 Info: Forest data-hub-JOBS-4 state changed from unmounted to mounted
+2024-09-16 10:45:12.067 Notice: Mounted forest data-hub-JOBS-4 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-4 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.067 Info: Forest data-hub-JOBS-3 state changed from unmounted to mounted
+2024-09-16 10:45:12.068 Notice: Mounted forest data-hub-JOBS-3 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.068 Info: Forest data-hub-JOBS-2 state changed from unmounted to mounted
+2024-09-16 10:45:12.069 Notice: Mounted forest data-hub-JOBS-2 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.069 Info: Forest data-hub-JOBS-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.069 Notice: Mounted forest data-hub-JOBS-1 locally on /var/opt/MarkLogic/Forests/data-hub-JOBS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.071 Info: Forest App-Services state changed from mounted to recovering
+2024-09-16 10:45:12.073 Warning: Linux Transparent Huge Pages are enabled, diminishing performance; recommend disabling
+2024-09-16 10:45:12.074 Info: Forest Security state changed from mounted to recovering
+2024-09-16 10:45:12.115 Info: Forest App-Services state changed from recovering to open
+2024-09-16 10:45:12.117 Info: Forest Security state changed from recovering to open
+2024-09-16 10:45:12.121 Info: Forest data-hub-JOBS-1 state changed from mounted to recovering
+2024-09-16 10:45:12.122 Info: Forest data-hub-JOBS-4 state changed from mounted to recovering
+2024-09-16 10:45:12.122 Info: Forest data-hub-JOBS-1 state changed from recovering to open
+2024-09-16 10:45:12.123 Info: Forest data-hub-JOBS-2 state changed from mounted to recovering
+2024-09-16 10:45:12.124 Info: Forest data-hub-JOBS-4 state changed from recovering to open
+2024-09-16 10:45:12.124 Info: Forest data-hub-JOBS-2 state changed from recovering to open
+2024-09-16 10:45:12.133 Info: Forest data-hub-staging-SCHEMAS-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.133 Notice: Mounted forest data-hub-staging-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-SCHEMAS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.135 Info: Forest data-hub-STAGING-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.135 Notice: Mounted forest data-hub-STAGING-1 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.135 Info: Forest data-hub-STAGING-2 state changed from unmounted to mounted
+2024-09-16 10:45:12.135 Notice: Mounted forest data-hub-STAGING-2 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.136 Info: Forest data-hub-STAGING-3 state changed from unmounted to mounted
+2024-09-16 10:45:12.137 Notice: Mounted forest data-hub-STAGING-3 locally on /var/opt/MarkLogic/Forests/data-hub-STAGING-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.139 Info: Forest data-hub-MODULES-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.139 Info: Forest Modules state changed from unmounted to mounted
+2024-09-16 10:45:12.139 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.139 Notice: Mounted forest data-hub-MODULES-1 locally on /var/opt/MarkLogic/Forests/data-hub-MODULES-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.141 Info: Forest data-hub-final-TRIGGERS-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.141 Notice: Mounted forest data-hub-final-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-TRIGGERS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.144 Info: Forest Modules state changed from mounted to recovering
+2024-09-16 10:45:12.144 Info: Forest data-hub-FINAL-3 state changed from unmounted to mounted
+2024-09-16 10:45:12.144 Info: Forest Modules state changed from recovering to open
+2024-09-16 10:45:12.144 Info: Forest data-hub-FINAL-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.144 Notice: Mounted forest data-hub-FINAL-1 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.144 Notice: Mounted forest data-hub-FINAL-3 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-3 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.145 Info: Forest data-hub-staging-SCHEMAS-1 state changed from mounted to recovering
+2024-09-16 10:45:12.149 Info: Forest data-hub-FINAL-2 state changed from unmounted to mounted
+2024-09-16 10:45:12.150 Notice: Mounted forest data-hub-FINAL-2 locally on /var/opt/MarkLogic/Forests/data-hub-FINAL-2 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.151 Info: Forest data-hub-staging-SCHEMAS-1 state changed from recovering to open
+2024-09-16 10:45:12.153 Info: Forest data-hub-MODULES-1 state changed from mounted to recovering
+2024-09-16 10:45:12.154 Info: Forest data-hub-final-SCHEMAS-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.154 Info: Forest data-hub-STAGING-1 state changed from mounted to recovering
+2024-09-16 10:45:12.154 Notice: Mounted forest data-hub-final-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/data-hub-final-SCHEMAS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.154 Info: Forest Fab state changed from unmounted to mounted
+2024-09-16 10:45:12.154 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.154 Info: Forest Documents state changed from unmounted to mounted
+2024-09-16 10:45:12.155 Info: Forest data-hub-STAGING-2 state changed from mounted to recovering
+2024-09-16 10:45:12.155 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.155 Info: Forest data-hub-final-TRIGGERS-1 state changed from mounted to recovering
+2024-09-16 10:45:12.158 Info: Forest data-hub-STAGING-3 state changed from mounted to recovering
+2024-09-16 10:45:12.158 Info: Forest data-hub-JOBS-3 state changed from mounted to recovering
+2024-09-16 10:45:12.159 Info: Forest Fab state changed from mounted to recovering
+2024-09-16 10:45:12.159 Info: Forest Documents state changed from mounted to recovering
+2024-09-16 10:45:12.209 Info: Forest Documents state changed from recovering to open
+2024-09-16 10:45:12.209 Info: Forest Fab state changed from recovering to open
+2024-09-16 10:45:12.210 Info: Forest data-hub-JOBS-3 state changed from recovering to open
+2024-09-16 10:45:12.211 Info: Forest data-hub-final-TRIGGERS-1 state changed from recovering to open
+2024-09-16 10:45:12.213 Info: Forest data-hub-MODULES-1 state changed from recovering to open
+2024-09-16 10:45:12.213 Info: Forest data-hub-STAGING-1 state changed from recovering to open
+2024-09-16 10:45:12.214 Info: Forest data-hub-STAGING-2 state changed from recovering to open
+2024-09-16 10:45:12.214 Info: Forest Extensions state changed from unmounted to mounted
+2024-09-16 10:45:12.214 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.215 Info: Forest data-hub-STAGING-3 state changed from recovering to open
+2024-09-16 10:45:12.215 Info: Forest data-hub-staging-TRIGGERS-1 state changed from unmounted to mounted
+2024-09-16 10:45:12.215 Notice: Mounted forest data-hub-staging-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/data-hub-staging-TRIGGERS-1 read write (sde ext4 rw,relatime,discard,errors=remount-ro,data=ordered)
+2024-09-16 10:45:12.217 Info: Deleted 1 MB at 541 MB/sec /var/opt/MarkLogic/Forests/Meters/000000b5
+2024-09-16 10:45:12.217 Info: Forest data-hub-final-SCHEMAS-1 state changed from mounted to recovering
+2024-09-16 10:45:12.219 Info: Forest Extensions state changed from mounted to recovering
+2024-09-16 10:45:12.219 Info: Forest Extensions state changed from recovering to open
+2024-09-16 10:45:12.221 Info: Forest Meters state changed from mounted to recovering
+2024-09-16 10:45:12.222 Info: Forest data-hub-final-SCHEMAS-1 state changed from recovering to open
+2024-09-16 10:45:12.223 Info: Forest data-hub-FINAL-3 state changed from mounted to recovering
+2024-09-16 10:45:12.224 Info: Forest data-hub-FINAL-1 state changed from mounted to recovering
+2024-09-16 10:45:12.225 Info: Forest data-hub-staging-TRIGGERS-1 state changed from mounted to recovering
+2024-09-16 10:45:12.227 Info: Forest data-hub-FINAL-2 state changed from mounted to recovering
+2024-09-16 10:45:12.231 Info: Forest data-hub-staging-TRIGGERS-1 state changed from recovering to open
+2024-09-16 10:45:12.233 Info: Forest data-hub-FINAL-3 state changed from recovering to open
+2024-09-16 10:45:12.233 Info: Forest data-hub-FINAL-1 state changed from recovering to open
+2024-09-16 10:45:12.236 Info: Forest data-hub-FINAL-2 state changed from recovering to open
+2024-09-16 10:45:12.701 Info: Forest Meters state changed from recovering to open
+2024-09-16 10:45:13.029 Info: Linux Huge Pages: detected 0, recommend 5120 to 9068
+2024-09-16 10:45:13.029 Info: Database data-hub-final-SCHEMAS is online with 1 forest
+2024-09-16 10:45:13.030 Info: Database data-hub-JOBS is online with 4 forests
+2024-09-16 10:45:13.031 Info: Database Extensions is online with 1 forest
+2024-09-16 10:45:13.032 Info: Database Security is online with 1 forest
+2024-09-16 10:45:13.033 Info: Database data-hub-STAGING is online with 3 forests
+2024-09-16 10:45:13.035 Info: Database Triggers is online with 1 forest
+2024-09-16 10:45:13.040 Info: Database data-hub-staging-TRIGGERS is online with 1 forest
+2024-09-16 10:45:13.042 Info: Database data-hub-MODULES is online with 1 forest
+2024-09-16 10:45:13.043 Info: Database Schemas is online with 1 forest
+2024-09-16 10:45:13.046 Info: Database Documents is online with 1 forest
+2024-09-16 10:45:13.048 Info: Database Modules is online with 1 forest
+2024-09-16 10:45:13.050 Info: Database data-hub-FINAL is online with 3 forests
+2024-09-16 10:45:13.053 Info: Database App-Services is online with 1 forest
+2024-09-16 10:45:13.059 Info: Database Fab is online with 1 forest
+2024-09-16 10:45:13.060 Info: Database data-hub-final-TRIGGERS is online with 1 forest
+2024-09-16 10:45:13.060 Info: Database data-hub-staging-SCHEMAS is online with 1 forest
+2024-09-16 10:45:13.062 Info: Database Meters is online with 1 forest
+2024-09-16 10:45:13.065 Info: Database Last-Login is online with 1 forest
+2024-09-16 10:45:13.581 Info: Merging 77 MB from /var/opt/MarkLogic/Forests/Meters/000000ab to /var/opt/MarkLogic/Forests/Meters/000000b7, timestamp=17264757127013980
+2024-09-16 10:45:16.028 Info: Merged 71 MB in 2 sec at 29 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000b7
+2024-09-16 10:45:19.118 Info: Deleted 145 MB at 10681 MB/sec /var/opt/MarkLogic/Forests/Meters/000000ab
+2024-09-16 10:50:00.158 Info: Memory 2% phys=32102 size=1485(4%) rss=784(2%) anon=1134(3%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 11:12:12.096 Info: Uploaded 2 records, 1 MB of Usage Data to Telemetry in 1 sec
+2024-09-16 11:20:00.215 Info: Memory 3% phys=32102 size=2130(6%) rss=1235(3%) anon=1776(5%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 11:50:00.034 Info: Memory 4% phys=32102 size=2873(8%) rss=1578(4%) anon=2519(7%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 12:02:35.853 Warning: Hung 275 sec
+2024-09-16 12:02:36.111 Warning: Canary thread sleep was 275642 ms
+2024-09-16 14:07:32.437 Error: PerfMeterTask::run: SVC-EXTIME: Time limit exceeded
+2024-09-16 14:07:33.185 Warning: Canary thread sleep was 7497073 ms
+2024-09-16 14:07:33.305 Warning: Hung 7497 sec
+2024-09-16 14:07:34.219 Info: Memory 4% phys=32102 size=2859(8%) rss=1467(4%) anon=2505(7%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 14:23:00.158 Info: Memory 7% phys=32102 size=4520(14%) rss=2457(7%) anon=4166(12%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
+2024-09-16 14:53:00.202 Info: Memory 6% phys=32102 size=3792(11%) rss=1967(6%) anon=3438(10%) file=10(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
