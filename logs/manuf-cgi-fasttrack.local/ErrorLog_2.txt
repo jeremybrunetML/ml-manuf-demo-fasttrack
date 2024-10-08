@@ -1,65 +1,24 @@
-2024-09-11 00:10:08.846 Warning: Hung 8987 sec
-2024-09-11 00:10:09.205 Info: Memory 10% phys=32102 size=6657(20%) rss=3328(10%) anon=6303(19%) file=10(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 00:10:09.355 Warning: Canary thread sleep was 8987838 ms
-2024-09-11 00:10:30.145 Warning: Canary thread sleep was 16788 ms
-2024-09-11 02:59:03.531 Warning: Hung 9995 sec
-2024-09-11 02:59:03.581 Warning: Canary thread sleep was 9995419 ms
-2024-09-11 02:59:04.153 Info: Memory 10% phys=32102 size=6584(20%) rss=3297(10%) anon=6230(19%) file=10(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 08:39:50.958 Warning: Hung 20446 sec
-2024-09-11 08:39:51.208 Info: Memory 10% phys=32102 size=6613(20%) rss=3315(10%) anon=6259(19%) file=10(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 08:39:51.367 Warning: Canary thread sleep was 20446785 ms
-2024-09-11 09:10:00.022 Info: Memory 10% phys=32102 size=6695(20%) rss=3360(10%) anon=6341(19%) file=10(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 09:40:00.233 Info: Memory 10% phys=32102 size=6770(21%) rss=3393(10%) anon=6416(19%) file=10(0%) forest=484(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 11:10:34.018 Info: Saving /var/opt/MarkLogic/Forests/Meters/000000aa
-2024-09-11 11:10:34.025 Warning: Slow background cluster.background.clusters, 4114 sec
-2024-09-11 11:10:34.025 Warning: Slow background cluster.background.hosts.AssignmentManager.Schemas, 4114 sec
-2024-09-11 11:10:34.315 Info: Saved 10 MB at 34 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000aa
-2024-09-11 11:10:34.543 Warning: Hung 4115 sec
-2024-09-11 11:10:34.568 Warning: Canary thread sleep was 4115408 ms
-2024-09-11 11:10:35.300 Info: Memory 10% phys=32102 size=6613(20%) rss=3304(10%) anon=6259(19%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 11:11:32.481 Warning: Hung 54 sec
-2024-09-11 11:11:33.041 Warning: Canary thread sleep was 54471 ms
-2024-09-11 11:41:00.200 Info: Memory 10% phys=32102 size=6808(21%) rss=3398(10%) anon=6454(20%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 13:13:09.315 Warning: Hung 5164 sec
-2024-09-11 13:13:09.548 Warning: Canary thread sleep was 5164200 ms
-2024-09-11 13:13:10.211 Info: Memory 10% phys=32102 size=6806(21%) rss=3401(10%) anon=6452(20%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 13:13:54.157 Warning: Hung 41 sec
-2024-09-11 13:13:54.558 Warning: Canary thread sleep was 41009 ms
-2024-09-11 13:44:00.103 Info: Memory 11% phys=32102 size=7114(22%) rss=3533(11%) anon=6760(21%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 14:14:00.108 Info: Memory 11% phys=32102 size=7201(22%) rss=3587(11%) anon=6847(21%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 15:04:02.772 Warning: Hung 1827 sec
-2024-09-11 15:04:02.803 Warning: Canary thread sleep was 1827582 ms
-2024-09-11 15:04:03.122 Info: Memory 11% phys=32102 size=7232(22%) rss=3599(11%) anon=6878(21%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 15:05:07.902 Warning: Canary thread sleep was 65098 ms
-2024-09-11 15:05:08.248 Warning: Hung 65 sec
-2024-09-11 15:12:07.999 Warning: Hung 357 sec
-2024-09-11 15:12:08.669 Warning: Canary thread sleep was 357756 ms
-2024-09-11 15:35:00.082 Info: Memory 11% phys=32102 size=7304(22%) rss=3637(11%) anon=6950(21%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 16:05:00.196 Info: Memory 11% phys=32102 size=7389(23%) rss=3681(11%) anon=7035(21%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 16:35:00.179 Info: Memory 11% phys=32102 size=7490(23%) rss=3733(11%) anon=7136(22%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 17:05:00.014 Info: Memory 11% phys=32102 size=7630(23%) rss=3797(11%) anon=7276(22%) file=11(0%) forest=485(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 17:07:00.235 Info: Saving /var/opt/MarkLogic/Forests/Meters/000000ac
-2024-09-11 17:07:01.188 Info: Saved 24 MB in 1 sec at 25 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000ac
-2024-09-11 17:35:00.037 Info: Memory 10% phys=32102 size=7011(21%) rss=3510(10%) anon=6656(20%) file=12(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 18:45:11.992 Warning: Hung 3749 sec
-2024-09-11 18:45:12.243 Info: Memory 10% phys=32102 size=7019(21%) rss=3512(10%) anon=6664(20%) file=12(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 18:45:12.747 Warning: Canary thread sleep was 3749788 ms
-2024-09-11 20:45:12.881 Warning: Slow background cluster.background.clusters, 7199 sec
-2024-09-11 20:45:12.881 Warning: Slow background cluster.background.hosts.AssignmentManager.data-hub-FINAL-2, 7199 sec
-2024-09-11 20:45:12.909 Info: Saving /var/opt/MarkLogic/Forests/Meters/000000ad
-2024-09-11 20:45:13.018 Warning: Canary thread sleep was 7200271 ms
-2024-09-11 20:45:13.151 Info: Saved 4 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000ad
-2024-09-11 20:45:13.156 Info: Merging 26 MB from /var/opt/MarkLogic/Forests/Meters/000000ac, /var/opt/MarkLogic/Forests/Meters/000000aa, and /var/opt/MarkLogic/Forests/Meters/000000ad to /var/opt/MarkLogic/Forests/Meters/000000ae, timestamp=17260725123901120
-2024-09-11 20:45:13.378 Warning: Hung 7200 sec
-2024-09-11 20:45:14.124 Info: Memory 10% phys=32102 size=6949(21%) rss=3473(10%) anon=6591(20%) file=14(0%) forest=489(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 20:45:14.200 Info: Merged 24 MB in 1 sec at 23 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000ae
-2024-09-11 21:45:36.422 Info: Saving /var/opt/MarkLogic/Forests/Meters/000000af
-2024-09-11 21:45:36.559 Info: Saved 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000af
-2024-09-11 21:45:36.736 Warning: Canary thread sleep was 3622718 ms
-2024-09-11 21:45:36.956 Warning: Hung 3622 sec
-2024-09-11 21:45:37.293 Info: Memory 10% phys=32102 size=6924(21%) rss=3452(10%) anon=6569(20%) file=11(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
-2024-09-11 21:45:38.082 Info: Deleted 10 MB at 2458 MB/sec /var/opt/MarkLogic/Forests/Meters/000000aa
-2024-09-11 21:45:38.089 Info: Deleted 24 MB at 3702 MB/sec /var/opt/MarkLogic/Forests/Meters/000000ac
-2024-09-11 21:45:38.093 Info: Deleted 4 MB at 939 MB/sec /var/opt/MarkLogic/Forests/Meters/000000ad
-2024-09-11 21:46:33.183 Warning: Canary thread sleep was 54446 ms
-2024-09-11 21:46:33.616 Warning: Hung 54 sec
+2024-09-12 00:43:36.019 Info: Saving /var/opt/MarkLogic/Forests/Meters/000000b0
+2024-09-12 00:43:36.166 Info: Saved 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000b0
+2024-09-12 00:43:36.171 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Meters/000000af and /var/opt/MarkLogic/Forests/Meters/000000b0 to /var/opt/MarkLogic/Forests/Meters/000000b1, timestamp=17260834802804720
+2024-09-12 00:43:36.286 Warning: Canary thread sleep was 10522250 ms
+2024-09-12 00:43:36.393 Warning: Hung 10522 sec
+2024-09-12 00:43:36.438 Info: Merged 1 MB at 4 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000b1
+2024-09-12 00:43:37.163 Info: Memory 10% phys=32102 size=6929(21%) rss=3458(10%) anon=6575(20%) file=11(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
+2024-09-12 00:43:37.773 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/000000b1 to /var/opt/MarkLogic/Forests/Meters/000000b3, timestamp=17260840802804720
+2024-09-12 00:43:37.948 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000b3
+2024-09-12 00:43:39.032 Info: Deleted 1 MB at 274 MB/sec /var/opt/MarkLogic/Forests/Meters/000000af
+2024-09-12 00:43:39.036 Info: Deleted 1 MB at 278 MB/sec /var/opt/MarkLogic/Forests/Meters/000000b0
+2024-09-12 00:43:39.039 Info: Deleted 1 MB at 309 MB/sec /var/opt/MarkLogic/Forests/Meters/000000b1
+2024-09-12 00:44:09.625 Warning: Canary thread sleep was 29338 ms
+2024-09-12 00:44:10.373 Warning: Hung 29 sec
+2024-09-12 02:59:58.080 Warning: Hung 8032 sec
+2024-09-12 02:59:58.501 Warning: Canary thread sleep was 8031855 ms
+2024-09-12 02:59:59.086 Info: Memory 10% phys=32102 size=6943(21%) rss=3470(10%) anon=6589(20%) file=11(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
+2024-09-12 02:59:59.679 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/000000b3 to /var/opt/MarkLogic/Forests/Meters/000000b4, timestamp=17260947601104150
+2024-09-12 02:59:59.821 Info: Merged 1 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/Meters/000000b4
+2024-09-12 08:09:07.135 Warning: Hung 18548 sec
+2024-09-12 08:09:07.594 Warning: Canary thread sleep was 18548092 ms
+2024-09-12 08:09:08.192 Info: Memory 10% phys=32102 size=6974(21%) rss=3491(10%) anon=6620(20%) file=11(0%) forest=486(1%) cache=10240(31%) registry=1(0%)
+2024-09-12 08:09:10.127 Info: Deleted 1 MB at 362 MB/sec /var/opt/MarkLogic/Forests/Meters/000000b3
+2024-09-12 08:13:41.063 Info: Uploaded 1 records, 1 MB of Usage Data to Telemetry in 1 sec

@@ -18,6 +18,7 @@ import {
   CommentList,
 } from "ml-fasttrack";
 import { selectedFacetConfig } from "../config/SelectedFacet.config";
+import "../css/k-expander-override.css"
 
 import SidebarLinkGroup from "./SidebarLinkGroup";
 
@@ -184,10 +185,6 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                 {context.searchResponse?.facets?.Categorie && (
                   <StringFacet
                   className={'rounded-md'}
-                    containerStyle={{
-                      width: "200px",
-                      'borderRadius': "25px",
-                    }}
                     title="Categorie"
                     name="Categorie"
                     data={context.searchResponse?.facets?.Categorie}
@@ -197,10 +194,6 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                 )}
                 {context.searchResponse?.facets?.Materiau && (
                   <StringFacet
-                    containerStyle={{
-                      width: "200px",
-                      'border-radius': "25px",
-                    }}
                     title="Materiau"
                     name="Materiau"
                     data={context.searchResponse?.facets?.Materiau}
@@ -210,9 +203,6 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                 )}
                 {context.searchResponse?.facets?.Type && (
                   <StringFacet
-                    containerStyle={{
-                      width: "200px",
-                    }}
                     title="Type"
                     name="Type"
                     data={context.searchResponse?.facets?.Type}
